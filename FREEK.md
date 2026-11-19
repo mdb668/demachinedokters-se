@@ -71,7 +71,18 @@ Alle Zweedse teksten zijn concepten, geschreven door AI. Bovenaan elke Zweedse p
 - De Nederlandse cases (Coca-Cola, Altrex enz.) staan er met toestemming van Mike op.
 - Gebruik geen lange gedachtestreepjes. Elke maandag controleert een automatische check de site; technische verbeteringen komen als voorstel (pull request) binnen.
 
-## 6. Live gaan
+## 6. Werken met je eigen Claude
+
+Je kunt de site ook laten aanpassen door je eigen Claude (Claude Code op claude.ai).
+
+1. Zorg eerst dat stap 1 klaar is: je GitHub-account bestaat en je hebt de uitnodiging van Mike geaccepteerd.
+2. Ga naar https://claude.ai/connect-github en koppel je GitHub-account. GitHub vraagt dan of de Claude-app toegang mag krijgen. Kies de repository `mdb668/demachinedokters-se`. Zie je die niet, vraag Mike dan om op zijn account bij de Claude-app ook jouw toegang toe te staan.
+3. Open Claude Code op https://claude.ai/code, start een nieuwe sessie en kies de repository `mdb668/demachinedokters-se`.
+4. Vertel Claude wat je wilt, bijvoorbeeld: "Vul mijn telefoonnummer +46 … in bij de contactgegevens, in beide talen."
+
+Claude leest automatisch `CLAUDE.md` in deze repository. Daarin staan de afspraken: niet live zetten, niets verzinnen, de preview-schakelaar alleen in overleg met Mike. Vraag Claude om zijn wijzigingen als pull request aan te bieden, dan kun je ze eerst bekijken.
+
+## 7. Live gaan
 
 Dat doet Mike, of jij in overleg met Mike, als alle gele `[TODO]`-teksten weg zijn en de Zweedse teksten zijn nagekeken. De stappen staan in [LIVEGANG.md](LIVEGANG.md): de preview-schakelaar uitzetten, het domein demachinedokters.se koppelen en de pagina's aanmelden bij Google.
 
