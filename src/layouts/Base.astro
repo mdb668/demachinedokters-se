@@ -26,7 +26,9 @@ const site = await siteOf(lang);
 const ui = await uiOf(lang);
 const pageTitle = title ?? site.seoTitle;
 const pageDesc = metaDescription(description ?? site.seoDescription);
-const canonical = abs(logicalPath(Astro.url.pathname));
+const here = logicalPath(Astro.url.pathname);
+// De 404-pagina wordt op elke onbekende URL getoond; die krijgt dus geen eigen canonical of og:url.
+const canonical = here === '/404/' || here === '/404.html/' ? undefined : abs(here);
 const ogImage = abs(image ?? site.ogImage ?? '/images/fotos/hero-poster.jpg');
 // Preview: niets mag in zoekmachines komen. Live: alleen pagina's die zelf noindex vragen.
 const blockIndex = PREVIEW || noindex;
@@ -52,7 +54,7 @@ const ld = [orgLd, ...(jsonLd ? (Array.isArray(jsonLd) ? jsonLd : [jsonLd]) : []
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>{pageTitle}</title>
     <meta name="description" content={pageDesc} />
-    <link rel="canonical" href={canonical} />
+    {canonical && <link rel="canonical" href={canonical} />}
     <link rel="icon" href="/favicon.png" type="image/png" />
     <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
     {blockIndex && <meta name="robots" content="noindex, nofollow" />}
@@ -64,7 +66,7 @@ const ld = [orgLd, ...(jsonLd ? (Array.isArray(jsonLd) ? jsonLd : [jsonLd]) : []
     <meta property="og:locale" content={lang === 'sv' ? 'sv_SE' : 'en_GB'} />
     <meta property="og:title" content={pageTitle} />
     <meta property="og:description" content={pageDesc} />
-    <meta property="og:url" content={canonical} />
+    {canonical && <meta property="og:url" content={canonical} />}
     <meta property="og:image" content={ogImage} />
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="theme-color" content="#074c82" />

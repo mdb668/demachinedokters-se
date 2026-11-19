@@ -25,6 +25,10 @@ faq:
     answer: "We work on an hourly basis. We discuss the rate in the first conversation."
   - question: "Which region do you work in?"
     answer: "We work for manufacturers in central Sweden (Örebro, Värmland and Västmanland counties)."
+relatedCases:
+  - "vulproces-voedingsproducent"
+  - "toeleverancier-unilever"
+  - "mens-en-industrie"
 ---
 
 Your maintenance team is busy. There is always a new fault, so the cause of the previous one is left untouched. A cable tie here, an experienced operator who gets the machine running again there. That is how temporary fixes become the normal way of working.

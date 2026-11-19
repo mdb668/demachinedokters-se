@@ -13,6 +13,10 @@ seoDescription: "Få maskiner av olika fabrikat att samverka: PLC-program, senso
 ctaTitle: "Maskiner som inte pratar med varandra?"
 ctaText: "Berätta vilka system du vill koppla ihop, så hjälper vi dig att tänka."
 review: "sv-native-check-nodig"
+relatedCases:
+  - "toeleverancier-unilever"
+  - "mens-en-industrie"
+  - "coca-cola"
 ---
 
 Många fabriker arbetar med maskiner av olika ålder och fabrikat, och de pratar inte alltid med varandra. De Machinedokters kopplar ihop fristående maskiner till ett nätverk, så att produktionsprocesserna blir överskådligare och går snabbare. Vi integrerar modern mjukvara, sensorer och styrsystem med befintliga anläggningar.

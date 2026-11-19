@@ -3,5 +3,6 @@
   "name": "Mike",
   "role": "VD & grundare",
   "photo": "/images/team/mike.jpg",
-  "order": 1
+  "order": 10,
+  "group": "Team Nederländerna"
 }

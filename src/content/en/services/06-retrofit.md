@@ -25,6 +25,10 @@ faq:
     answer: "Yes, we are brand-independent and also work on older machines for which drawings or documentation no longer exist. Whatever we come across, we solve on the job."
   - question: "Will my machine be CE marked again after a retrofit?"
     answer: "If the modification makes that necessary, we handle the CE marking ourselves: risk assessment, technical file and declaration of conformity."
+relatedCases:
+  - "altrex"
+  - "aluminium"
+  - "verpakkingsindustrie"
 ---
 
 A twenty-year-old machine is often still perfectly sound mechanically. What becomes outdated is the control system: a PLC for which parts are no longer available, an operator panel nobody understands any more, drives that can no longer be regulated. Replacing the machine costs a fortune and a long production stop. A retrofit does not.

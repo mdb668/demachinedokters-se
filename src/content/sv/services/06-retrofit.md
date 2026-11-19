@@ -26,6 +26,10 @@ faq:
     answer: "Ja, vi är fabrikatsoberoende och arbetar även med äldre maskiner där ritningar och dokumentation saknas. Det vi stöter på löser vi under arbetets gång."
   - question: "CE-märks min maskin på nytt efter en retrofit?"
     answer: "Om ombyggnaden kräver det tar vi själva hand om CE-märkningen: riskbedömning, teknisk dokumentation och försäkran om överensstämmelse."
+relatedCases:
+  - "altrex"
+  - "aluminium"
+  - "verpakkingsindustrie"
 ---
 
 En maskin som är tjugo år gammal är ofta fortfarande helt i sin ordning mekaniskt. Det som blir föråldrat är styrningen: en PLC som det inte längre finns reservdelar till, en operatörspanel som ingen förstår längre, drivsystem som inte går att reglera. Att byta ut maskinen kostar en förmögenhet och ger ett långt produktionsstopp. Det gör inte en retrofit.

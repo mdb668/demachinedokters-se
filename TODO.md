@@ -1,5 +1,7 @@
 # Openstaande placeholders
 
+Instructie voor Freek om dit zelf in te vullen: [FREEK.md](FREEK.md).
+
 Actuele lijst per pagina: `npm run build && npm run check -- --todos`. In de preview zijn alle placeholders geel gemarkeerd.
 Invullen kan in het CMS (`/admin/`); waar het veld staat, staat erachter.
 
@@ -24,13 +26,12 @@ CMS → 🇸🇪/🇬🇧 Instellingen → Website-instellingen (in beide talen 
 - Integritetspolicy (`/integritetspolicy/`, `/en/privacy-policy/`): `[TODO: bedrijfsgegevens na afspraak MDB/Freek]` (personuppgiftsansvarig), `[TODO: rättslig grund, lagringstid och personuppgiftsbiträden …]`, `[TODO: uppdatera detta avsnitt om besöksstatistik läggs till]`, `[TODO FREEK: e-postadress]`.
 
 ## Case (`/case/`, `/en/cases/`)
-- `[TODO FREEK: case]`: er staan nog geen cases op de site.
+- De Nederlandse cases staan erop, met klantnaam (besluit Mike). WVS staat net als op de NL-site op "niet gepubliceerd".
 - `[TODO FREEK: S5-case]`: concept staat klaar in het CMS (🇸🇪/🇬🇧 Cases, "Gepubliceerd" staat uit) met een placeholder per veld.
-- `[TODO MIKE: …]`: mogen de Nederlandse referenties op de Zweedse site, met of zonder klantnaam?
 
 ## Om oss (`/om-oss/`, `/en/about/`)
 - `[TODO FREEK: kort text om etableringen i Sverige: varför, sedan när och varifrån ni utgår]`
-- `[TODO MIKE/FREEK: vilka i teamet ska visas …]`: nu alleen Mike en Freek.
+- Team: Team Sverige (Freek) en Team Nederländerna (Mike, Ewan, Ymke).
 
 ## CE-märkning (`/tjanster/ce-markning-maskinsakerhet/`, `/en/services/ce-marking-machine-safety/`)
 - `[TODO FREEK: bekräfta exakt vilka CE-tjänster som erbjuds i Sverige …]`
@@ -54,7 +55,7 @@ De Nederlandse europrijzen, levertijden en reactietijden zijn niet overgenomen.
 - Stöd till underhållsavdelningen: "minimaal zo'n 300 uur, drie dagen per week gedurende drie maanden".
 - Robotisering: specificaties van de cobot-palletiseerder en "TÜV-godkänd" zijn overgenomen van de Nederlandse site; Rokae is weggelaten.
 - Vanliga frågor 19: "10 tot 50% betere uptime"; vraag 21: partners in de metaalbewerking.
-- Homepage: de voorbeelden met Coca-Cola en cijfers zijn vervangen door algemene tekst.
+- Homepage: de voorbeelden met Coca-Cola en het voedingsbedrijf zijn overgenomen van de NL-site.
 - Hero-video en foto's komen van de Nederlandse site.
 
 ## Alle Zweedse teksten

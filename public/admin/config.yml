@@ -408,6 +408,7 @@ x-fields:
     - { name: role, label: "Functie", widget: string }
     - { name: photo, label: "Foto", widget: image, required: false }
     - { name: order, label: "Volgorde", widget: number, value_type: int }
+    - { name: group, label: "Groep (bv. Team Sverige)", widget: string, required: false, hint: "Teamleden met dezelfde groep staan samen onder één kop." }
 
   faq: &faq_fields
     - *review

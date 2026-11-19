@@ -31,6 +31,10 @@ faq:
     answer: "Ja, CE-märkningen gör vi själva. Vi genomför riskbedömningen, tar fram den tekniska dokumentationen och levererar försäkran om överensstämmelse. Då kan du ta maskinen i drift säkert och enligt de europeiska reglerna, utan att behöva anlita någon annan för det."
   - question: "Kan en ny maskin kopplas ihop med vår befintliga linje?"
     answer: "Ja. Att ansluta till befintliga linjer, transportsystem och styrsystem är en fast del av vårt arbete. I den första fasen slår vi fast vilka maskiner och komponenter vi ska ansluta till, så att den nya maskinen går i takt med det som redan står där."
+relatedCases:
+  - "stabalkmachine"
+  - "aluminium"
+  - "altrex"
 ---
 
 Vissa produkter passar inte i en maskin ur katalogen: ett avvikande format, ett ömtåligt material eller ett moment som hittills bara har gått att göra för hand. Då bygger vi maskinen själva: maskiner för hantering, palletering, bearbetning och montering. Vi konstruerar den kring din produkt och din process, så att den gör precis det som behövs och inget överflödigt.

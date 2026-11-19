@@ -2,5 +2,6 @@
   "name": "Freek",
   "role": "Co-founder, your contact in Sweden",
   "photo": "/images/team/freek.jpg",
-  "order": 2
+  "order": 1,
+  "group": "Team Sweden"
 }

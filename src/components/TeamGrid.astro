@@ -1,24 +1,37 @@
 ---
 import { coll, byOrder, type Lang } from '../lib/i18n';
 interface Props { lang: Lang }
+/** Teamleden, gegroepeerd op het veld "group" (bv. Team Sverige / Team Nederländerna), in volgorde van "order". */
 const team = (await coll(Astro.props.lang, 'team')).sort(byOrder);
+const groups: { name: string; members: any[] }[] = [];
+for (const m of team) {
+  const name = m.data.group ?? '';
+  (groups.find((g) => g.name === name) ?? groups[groups.push({ name, members: [] }) - 1]).members.push(m);
+}
 ---
-<div class="team">
-  {team.map((m) => (
-    <div class="member">
-      <div class="photo">
-        {m.data.photo ? (
-          <img src={m.data.photo} alt={`${m.data.name}, ${m.data.role}`} loading="lazy" width="300" height="400" />
-        ) : (
-          <span class="initial" aria-hidden="true">{m.data.name.charAt(0)}</span>
-        )}
-      </div>
-      <h4>{m.data.name}</h4>
-      <p>{m.data.role}</p>
+{groups.map((g) => (
+  <div class="group">
+    {g.name && <h3 class="group-title">{g.name}</h3>}
+    <div class="team">
+      {g.members.map((m) => (
+        <div class="member">
+          <div class="photo">
+            {m.data.photo ? (
+              <img src={m.data.photo} alt={`${m.data.name}, ${m.data.role}`} loading="lazy" width="300" height="400" />
+            ) : (
+              <span class="initial" aria-hidden="true">{m.data.name.charAt(0)}</span>
+            )}
+          </div>
+          <h4>{m.data.name}</h4>
+          <p>{m.data.role}</p>
+        </div>
+      ))}
     </div>
-  ))}
-</div>
+  </div>
+))}
 <style>
+  .group + .group { margin-top: 48px; }
+  .group-title { text-align: center; font-size: 1.3rem; margin-bottom: 24px; }
   .team { display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 220px)); justify-content: center; gap: 32px 24px; text-align: center; }
   .photo { aspect-ratio: 3 / 4; border-radius: 12px; overflow: hidden; background: linear-gradient(160deg, var(--blue-soft), var(--bg)); display: flex; align-items: center; justify-content: center; margin-bottom: 14px; }
   .photo img { width: 100%; height: 100%; object-fit: cover; transition: transform 0.4s; }

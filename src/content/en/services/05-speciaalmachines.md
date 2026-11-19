@@ -30,6 +30,10 @@ faq:
     answer: "Yes, we do the CE marking ourselves. We carry out the risk assessment, compile the technical file and supply the declaration of conformity. That lets you put the machine into service safely and in line with European rules, without needing a separate party."
   - question: "Can a new machine connect to our existing line?"
     answer: "Yes. Connecting to existing lines, conveyor systems and control systems is a standard part of our work. In the first phase we establish which machines and components we need to connect to, so the new machine runs in step with what is already there."
+relatedCases:
+  - "stabalkmachine"
+  - "aluminium"
+  - "altrex"
 ---
 
 Some products do not fit a machine from the catalogue: an unusual format, a fragile material, an operation that could only be done by hand until now. In that case we build the machine ourselves: machines for handling, palletising, processing and assembly. We design it around your product and your process, so it does exactly what is needed and nothing superfluous.

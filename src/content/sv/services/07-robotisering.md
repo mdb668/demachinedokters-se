@@ -31,6 +31,10 @@ faq:
     answer: "Ja, det är just det vi arbetar med. Vi passar in robotar i den linje du redan har och behåller truckvägar, manuella linjer för specialserier och den flexibilitet du behöver. Robotarmen köper vi in, allt runt omkring gör vi själva: från prototyp till leverans och driftsättning."
   - question: "Bygger ni också robotsvetslinjer?"
     answer: "Stora robotsvetslinjer bygger vi inte. Vi är starka på palletering, stapling, hantering och unika specialbyggen."
+relatedCases:
+  - "dozen-vouwen-stapelen"
+  - "aluminium"
+  - "stabalkmachine"
 ---
 
 Det är ont om personal, och repetitivt arbete är tungt, enformigt och lätt att göra fel i. Precis den sortens arbete som en robot gör bättre. Vi robotiserar moment som **palletering och stapling**, **resning och förslutning av kartonger**, **förpackning**, **hantering mellan maskiner** och delar av **monteringen**, och passar in dem i den linje du redan har.

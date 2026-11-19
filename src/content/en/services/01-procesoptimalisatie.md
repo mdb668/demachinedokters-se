@@ -12,6 +12,10 @@ seoTitle: "Process optimisation & automation | De Machinedokters"
 seoDescription: "Higher OEE from your existing production line: we analyse bottlenecks, improve machines and automate where it pays off. Practical, tailored work."
 ctaTitle: "Is your line not delivering what it should?"
 ctaText: "We look at where it gets stuck and what solving it would be worth."
+relatedCases:
+  - "coca-cola"
+  - "verpakkingsindustrie"
+  - "voedingsindustrie"
 ---
 
 De Machinedokters analyse where the process gets stuck and make the technical changes that let the whole production line perform better. We look at lead times, bottlenecks and unnecessary handling, and make sure people and machines work together better.

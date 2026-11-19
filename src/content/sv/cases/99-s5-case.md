@@ -11,6 +11,6 @@ challenge: "[TODO FREEK: utmaningen]"
 approach: "[TODO FREEK: så gjorde vi]"
 results:
   - "[TODO FREEK: resultat 1]"
-order: 1
+order: 99
 published: false
 ---

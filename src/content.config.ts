@@ -121,7 +121,7 @@ function forLang(lang: string) {
     }),
     [`team_${lang}`]: defineCollection({
       loader: glob({ pattern: '*.json', base: dir('team') }),
-      schema: z.object({ review, name: z.string(), role: z.string(), photo: img.optional(), order: z.number().default(0) }),
+      schema: z.object({ review, name: z.string(), role: z.string(), photo: img.optional(), order: z.number().default(0), group: z.string().optional() }),
     }),
     [`faq_${lang}`]: defineCollection({
       loader: glob({ pattern: '*.md', base: dir('faq') }),

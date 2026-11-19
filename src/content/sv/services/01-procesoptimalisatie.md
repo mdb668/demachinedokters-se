@@ -13,6 +13,10 @@ seoDescription: "Högre OEE (TAK) ur din befintliga produktionslinje: vi analyse
 ctaTitle: "Levererar linjen inte det den borde?"
 ctaText: "Vi tittar tillsammans med dig på var det tar stopp och vad det ger att lösa det."
 review: "sv-native-check-nodig"
+relatedCases:
+  - "coca-cola"
+  - "verpakkingsindustrie"
+  - "voedingsindustrie"
 ---
 
 De Machinedokters analyserar var processen tar stopp och gör de tekniska anpassningar som får hela produktionslinjen att prestera bättre. Vi tittar på ledtider, flaskhalsar och onödiga moment och ser till att människa och maskin samverkar bättre.

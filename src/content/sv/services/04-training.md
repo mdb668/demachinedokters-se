@@ -12,6 +12,10 @@ seoDescription: "Praktiska utbildningar för operatörer, tekniker och ingenjör
 ctaTitle: "Vill du att ditt team själva förstår linjen bättre?"
 ctaText: "Vi anpassar utbildningen efter dina maskiner och din personal."
 review: "sv-native-check-nodig"
+relatedCases:
+  - "voedingsindustrie"
+  - "altrex"
+  - "verpakkingsindustrie"
 ---
 
 En smart förändring får sitt verkliga värde först när alla kan arbeta med den. Därför ser De Machinedokters till att ditt team förstår och behärskar de nya systemen. Vi ger stöd under och efter införandet, så att övergången går smidigt och förbättringarna består. På så sätt växer också kunskapen på verkstadsgolvet.

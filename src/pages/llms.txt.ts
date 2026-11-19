@@ -1,12 +1,13 @@
 import type { APIRoute } from 'astro';
 import { PREVIEW } from '../../site.config.mjs';
-import { abs, coll, byOrder, servicePath, regionPath, siteOf, routes, isTodo } from '../lib/i18n';
+import { abs, coll, byOrder, servicePath, regionPath, casePath, siteOf, routes, isTodo } from '../lib/i18n';
 
 // Svensk sammanfattning för AI-assistenter. Byggs från innehållet, så att den alltid stämmer med sajten.
 export const GET: APIRoute = async () => {
   const site = await siteOf('sv');
   const services = (await coll('sv', 'services')).sort(byOrder);
   const regions = (await coll('sv', 'regions')).sort(byOrder);
+  const cases = (await coll('sv', 'cases', (c) => c.data.published)).sort(byOrder);
   const line = (label: string, p: string) => `- ${label}: ${abs(p)}`;
   const contact = [['Telefon', site.phone], ['E-post', site.email], ['Adress', `${site.addressLine1}, ${site.addressLine2}`], ['Organisationsnummer', site.orgNumber]]
     .filter(([, v]) => !isTodo(v)).map(([k, v]) => `- ${k}: ${v}`);
@@ -23,6 +24,9 @@ ${services.map((s) => `- ${s.data.title}: ${s.data.short}`).join('\n')}
 
 ## Verksamhetsområde
 ${regions.map((r) => `- ${r.data.name}${r.data.places ? ` (${r.data.places})` : ''}`).join('\n')}
+
+## Referenser (kunder i Nederländerna)
+${cases.map((c) => `- ${c.data.title}: ${c.data.subtitle} ${abs(casePath('sv', c))}`).join('\n')}
 
 ## Sidor
 ${line('Start', routes.home.sv)}

@@ -12,6 +12,10 @@ seoTitle: "Software and system integration | De Machinedokters"
 seoDescription: "Getting machines of different brands to work together: PLC software, sensors, dashboards and OEE insight. More from the hardware you already have."
 ctaTitle: "Machines that do not talk to each other?"
 ctaText: "Tell us which systems you want to connect and we will think it through with you."
+relatedCases:
+  - "toeleverancier-unilever"
+  - "mens-en-industrie"
+  - "coca-cola"
 ---
 
 Many factories run machines of different ages and brands, and these do not always talk to each other. De Machinedokters connect stand-alone machines into one network, so that production processes become clearer and faster. We integrate modern software, sensors and controls with existing installations.

@@ -5,7 +5,7 @@ import CtaBand from '../components/CtaBand.astro';
 import Icon from '../components/Icon.astro';
 import { renderText } from '../lib/md';
 import { render } from 'astro:content';
-import { uiOf, pageOf, path, abs, casePath, alternatesFor, type Lang } from '../lib/i18n';
+import { uiOf, pageOf, path, abs, casePath, alternatesFor, nlCaseUrl, type Lang } from '../lib/i18n';
 interface Props { lang: Lang; entry: any }
 const { lang, entry } = Astro.props;
 const ui = await uiOf(lang);
@@ -19,7 +19,7 @@ const crumbLd = { '@context': 'https://schema.org', '@type': 'BreadcrumbList', i
   { '@type': 'ListItem', position: 3, name: d.title, item: abs(here) },
 ] };
 ---
-<Base lang={lang} title={d.seoTitle || `${d.title}: ${d.subtitle}`} description={d.seoDescription || d.intro} image={d.image} jsonLd={crumbLd} alt={await alternatesFor('cases', entry, (c) => c.data.published)}>
+<Base lang={lang} title={d.seoTitle || `${d.title}: ${d.subtitle}`} description={d.seoDescription || d.intro} image={d.image} jsonLd={crumbLd} alt={await alternatesFor('cases', entry, (c) => c.data.published)} nl={nlCaseUrl(d.slug)}>
   <section class="page-hero">
     <div class="container">
       <h1>{d.title}{' '}<span class="sub">{d.subtitle}</span></h1>

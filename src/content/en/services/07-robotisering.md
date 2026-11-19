@@ -30,6 +30,10 @@ faq:
     answer: "Yes, that is exactly what we do. We fit robots into the line you already have, keeping forklift routes, manual lines for special runs and the flexibility you need. We buy in the robot arm and do everything around it ourselves: from prototype to handover and implementation."
   - question: "Do you also build robotic welding lines?"
     answer: "We do not build large robotic welding lines. Our strengths are palletising, stacking, handling and one-off custom work."
+relatedCases:
+  - "dozen-vouwen-stapelen"
+  - "aluminium"
+  - "stabalkmachine"
 ---
 
 Staff are scarce and repetitive work is heavy, dull and error-prone. Exactly the kind of work a robot does better. We automate operations such as **palletising and stacking**, **erecting and sealing boxes**, **packing**, **handling between machines** and parts of the **assembly**, and fit them into the line you already have.

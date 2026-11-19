@@ -30,6 +30,10 @@ faq:
     answer: "Yes, that usually works best. We tackle the faults together and teach your people how we find the cause, without pushing the internal organisation aside. During the analysis we specifically draw on the experience of the operators and maintenance technicians who stand next to the machine every day. Want to strengthen your maintenance team over a longer period? Read how we provide [maintenance team support](/en/services/maintenance-team-support/)."
   - question: "Which region do you work in?"
     answer: "We work for manufacturers in central Sweden (Örebro, Värmland and Västmanland counties)."
+relatedCases:
+  - "vulproces-voedingsproducent"
+  - "toeleverancier-unilever"
+  - "mens-en-industrie"
 ---
 
 When something goes wrong, we solve it so that it stays solved. With a fault analysis we find the real cause. We know both mechanics and control engineering, so we fix the fault and prevent it from coming back.

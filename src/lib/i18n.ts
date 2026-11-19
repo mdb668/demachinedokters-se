@@ -40,6 +40,7 @@ const nlServiceSlugs: Record<string, string> = {
 
 export const path = (lang: Lang, key: RouteKey) => routes[key][lang];
 export const nlUrl = (key: RouteKey) => (nlRoutes[key] ? NL_URL + nlRoutes[key] : undefined);
+export const nlCaseUrl = (slug: string) => `${NL_URL}/case-${slug}/`;
 export const nlServiceUrl = (fileKey: string) => (nlServiceSlugs[fileKey] ? `${NL_URL}/diensten/${nlServiceSlugs[fileKey]}/` : undefined);
 
 /** Submap van de site ('' op het eigen domein, '/demachinedokters-se' in de preview-build). */

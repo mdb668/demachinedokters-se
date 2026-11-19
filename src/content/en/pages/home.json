@@ -41,25 +41,25 @@
     "items": [
       {
         "title": "Inefficient production process",
-        "text": "Your machines run below capacity and output per hour is lower than it should be. We find the bottlenecks and fix them in the existing line.",
+        "text": "Your machines run below capacity and output per hour is lower than it should be. Take our customer Coca-Cola, where we optimised the can process. Thanks to our solutions the new line runs 30% faster!",
         "image": "/images/fotos/bottellijn.jpg",
         "imageAlt": "Automated production line with small empty bottles on a conveyor in a factory."
       },
       {
         "title": "High downtime and maintenance costs",
-        "text": "Unexpected breakdowns and high maintenance costs hit profit directly. Every minute of downtime is lost production. We find the root cause instead of patching things up.",
+        "text": "Unexpected breakdowns and high maintenance costs hit profit directly. Every minute of downtime is lost production. At Coca-Cola we achieved 40% fewer breakdowns.",
         "image": "/images/fotos/transportsysteem.jpg",
         "imageAlt": "Industrial conveyor system with roller tracks, yellow railings and control panels in a factory hall."
       },
       {
         "title": "Heavy dependence on staff",
-        "text": "A shortage of staff is more and more often the bottleneck of a business. De Machinedokters create smarter, more automated processes, so the line depends less on individual people.",
+        "text": "A shortage of staff is more and more often the bottleneck of a business. De Machinedokters create smarter, more automated processes. Among other things, we helped a food company automate tasks, giving it 20% faster packaging speed.",
         "image": "/images/fotos/rco-robots.jpg",
         "imageAlt": "Technician on the floor next to orange industrial robots."
       }
     ],
-    "button1Label": "See our services",
-    "button1Link": "/en/services/",
+    "button1Label": "See our cases",
+    "button1Link": "/en/cases/",
     "button2Label": "Contact",
     "button2Link": "/en/contact/"
   },

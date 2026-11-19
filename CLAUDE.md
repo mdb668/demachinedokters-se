@@ -28,7 +28,9 @@ Zet nooit `public/CNAME` en wijzig geen DNS zolang Mike daar geen opdracht voor 
 ## Inhoudsregels
 - Zweedse bestanden hebben `review: "sv-native-check-nodig"` tot een moedertaalspreker ze heeft nagekeken.
 - Niets verzinnen: geen cases, cijfers, klantnamen, reviews, certificeringen, reactietijden of prijzen die niet van Mike of Freek komen. Ontbrekende inhoud = `[TODO FREEK: …]`.
-- Niet op deze site: NEN 3140/1010, klantlogo's, Nederlandse reviews, vacatures, Reboow, Alphen of Noord-Brabant.
+- Niet op deze site: NEN 3140/1010, een klantlogowand, Nederlandse reviews, vacatures, Reboow, Alphen of Noord-Brabant.
+- De Nederlandse cases staan er wel op, met klantnaam en cijfers (besluit Mike, 19-11-2026). Teamindeling: Team Sverige (Freek), Team Nederländerna (Mike, Ewan, Ymke).
+- Instructie voor Freek: [FREEK.md](FREEK.md).
 - Nooit een gedachtestreepje gebruiken.
 
 ## Development

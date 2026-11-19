@@ -26,6 +26,10 @@ faq:
     answer: "Vi arbetar på timbasis. Timpriset går vi igenom i det första samtalet."
   - question: "I vilken region arbetar ni?"
     answer: "Vi arbetar för produktionsföretag i Mellansverige (Örebro län, Värmland och Västmanland)."
+relatedCases:
+  - "vulproces-voedingsproducent"
+  - "toeleverancier-unilever"
+  - "mens-en-industrie"
 ---
 
 Din underhållsavdelning har fullt upp. Det kommer hela tiden ett nytt fel, så orsaken till det förra blir liggande. Ett buntband här, en erfaren operatör som får igång maskinen där. Så blir tillfälliga lösningar det normala.

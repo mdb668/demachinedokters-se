@@ -42,25 +42,25 @@
     "items": [
       {
         "title": "Ineffektiv produktionsprocess",
-        "text": "Maskinerna går under sin kapacitet och outputen per timme är lägre än den borde vara. Vi letar upp flaskhalsarna och åtgärdar dem i den befintliga linjen.",
+        "text": "Maskinerna går under sin kapacitet och outputen per timme är lägre än den borde vara. Ta vår kund Coca-Cola, där vi optimerade burkprocessen. Tack vare våra lösningar går den nya linjen 30 % snabbare!",
         "image": "/images/fotos/bottellijn.jpg",
         "imageAlt": "Automatiserad produktionslinje med små tomma flaskor på ett transportband i en fabrik."
       },
       {
         "title": "Höga kostnader för stillestånd och underhåll",
-        "text": "Oväntade driftstopp och höga underhållskostnader slår direkt mot resultatet. Varje minut stillestånd är förlorad produktion. Vi tar reda på grundorsaken i stället för att lappa och laga.",
+        "text": "Oväntade driftstopp och höga underhållskostnader slår direkt mot resultatet. Varje minut stillestånd är förlorad produktion. Hos Coca-Cola har vi sett till att störningarna minskade med 40 %.",
         "image": "/images/fotos/transportsysteem.jpg",
         "imageAlt": "Industriellt transportsystem med rullbanor, gula räcken och manöverpaneler i en fabrikshall."
       },
       {
         "title": "Stort beroende av personal",
-        "text": "Bristen på personal blir allt oftare flaskhalsen i ett företag. De Machinedokters skapar smartare och mer automatiserade processer, så att linjen blir mindre beroende av enskilda personer.",
+        "text": "Bristen på personal blir allt oftare flaskhalsen i ett företag. De Machinedokters skapar smartare och mer automatiserade processer. Ett livsmedelsföretag har vi bland annat hjälpt att automatisera moment, vilket gav 20 % högre förpackningshastighet.",
         "image": "/images/fotos/rco-robots.jpg",
         "imageAlt": "Tekniker på golvet vid orangea industrirobotar."
       }
     ],
-    "button1Label": "Se våra tjänster",
-    "button1Link": "/tjanster/",
+    "button1Label": "Se våra case",
+    "button1Link": "/case/",
     "button2Label": "Kontakt",
     "button2Link": "/kontakt/"
   },

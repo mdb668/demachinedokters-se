@@ -31,6 +31,10 @@ faq:
     answer: "Ja, det fungerar oftast bäst. Vi tar oss an felen tillsammans och lär din personal hur vi hittar orsaken, utan att tränga undan den interna organisationen. I analysen hämtar vi just in erfarenheten från de operatörer och underhållstekniker som står vid maskinen varje dag. Vill du stärka din underhållsavdelning under en längre tid? Läs om vårt [stöd till underhållsavdelningen](/tjanster/stod-till-underhallsavdelningen/)."
   - question: "I vilken region arbetar ni?"
     answer: "Vi arbetar för produktionsföretag i Mellansverige (Örebro län, Värmland och Västmanland)."
+relatedCases:
+  - "vulproces-voedingsproducent"
+  - "toeleverancier-unilever"
+  - "mens-en-industrie"
 ---
 
 Går något fel löser vi det så att det inte kommer tillbaka. Med en felanalys hittar vi den verkliga orsaken. Vi kan både mekanik och styrteknik, så vi åtgärdar felet och förhindrar att det återkommer.
