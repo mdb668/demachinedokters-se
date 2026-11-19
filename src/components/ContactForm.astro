@@ -1,0 +1,73 @@
+---
+import { formTarget } from '../lib/form';
+import { siteOf, uiOf, pageOf, path, type Lang } from '../lib/i18n';
+interface Props { lang: Lang }
+const { lang } = Astro.props;
+const site = await siteOf(lang);
+const ui = await uiOf(lang);
+const f = (await pageOf(lang, 'contact')).form;
+const hasKey = !!site.formKey && !site.formKey.includes('[TODO');
+---
+{!hasKey && <p class="form-msg error show">[TODO FREEK: Web3Forms-nyckel] {ui.formMissingKey}</p>}
+<form class="form contact-form" method="POST" action={path(lang, 'contact')} data-fs={hasKey ? formTarget(site) : undefined} data-blacklist={site.formBlacklist}
+  data-ajax-form data-thanks={path(lang, 'thanks')} data-sending={ui.formSending} novalidate>
+  <input type="hidden" name="subject" value={f.mailSubject} />
+  <input type="hidden" name="from_name" value="demachinedokters.se" />
+  <input type="hidden" name="language" value={lang} />
+  <input type="text" name="botcheck" class="hp" tabindex="-1" autocomplete="off" aria-hidden="true" />
+  <div>
+    <label for="cf-name">{f.nameLabel} *</label>
+    <input id="cf-name" name="name" type="text" required autocomplete="name" />
+  </div>
+  <div>
+    <label for="cf-company">{f.companyLabel}</label>
+    <input id="cf-company" name="company" type="text" autocomplete="organization" />
+  </div>
+  <div>
+    <label for="cf-email">{f.emailLabel} *</label>
+    <input id="cf-email" name="email" type="email" required autocomplete="email" />
+  </div>
+  <div>
+    <label for="cf-phone">{f.phoneLabel}</label>
+    <input id="cf-phone" name="phone" type="tel" autocomplete="tel" />
+  </div>
+  <div>
+    <label for="cf-msg">{f.messageLabel} *</label>
+    <textarea id="cf-msg" name="message" required></textarea>
+  </div>
+  <p class="consent muted">{f.consentText} <a href={path(lang, 'privacy')}>{f.consentLinkLabel}</a>.</p>
+  <div>
+    <button class="btn btn-primary" type="submit" disabled={!hasKey}>{f.submitLabel}</button>
+  </div>
+  <div class="form-msg success" role="status"><strong>{f.successTitle}</strong><br />{f.successText}</div>
+  <div class="form-msg error" role="alert">{f.errorText}</div>
+</form>
+<script>
+  document.querySelectorAll<HTMLFormElement>('[data-ajax-form]').forEach((form) => {
+    form.addEventListener('submit', async (e) => {
+      e.preventDefault();
+      const ok = form.querySelector<HTMLElement>('.form-msg.success')!;
+      const err = form.querySelector<HTMLElement>('.form-msg.error')!;
+      ok.classList.remove('show'); err.classList.remove('show');
+      if (!form.dataset.fs) { err.classList.add('show'); return; }
+      if (!form.checkValidity()) { form.reportValidity(); return; }
+      const btn = form.querySelector<HTMLButtonElement>('button[type=submit]')!;
+      const label = btn.textContent;
+      btn.disabled = true;
+      btn.textContent = form.dataset.sending ?? '…';
+      try {
+        // Na 15 seconden geven we het op, zodat een storing bij Web3Forms direct een foutmelding geeft.
+        const res = await fetch(form.action, { method: 'POST', headers: { Accept: 'application/json' }, body: new FormData(form), signal: AbortSignal.timeout(15000) });
+        const data = await res.json().catch(() => ({}));
+        if (res.ok && data.success === true) { form.reset(); ok.classList.add('show'); window.location.href = form.dataset.thanks!; return; }
+        err.classList.add('show');
+      } catch { err.classList.add('show'); }
+      btn.disabled = false;
+      btn.textContent = label;
+    });
+  });
+</script>
+<style>
+  .consent { font-size: 0.9rem; margin: 0; }
+  button[disabled] { opacity: 0.5; cursor: not-allowed; }
+</style>

@@ -1,0 +1,27 @@
+{
+  "review": "sv-native-check-nodig",
+  "seoTitle": "Kontakt | De Machinedokters",
+  "seoDescription": "Kontakta De Machinedokters. Fyll i formuläret eller hör av dig direkt till Freek, din kontakt i Sverige.",
+  "title": "Kontakta De Machinedokters",
+  "intro": "Fyll i formuläret eller hör av dig direkt till Freek. Du får ett personligt svar.",
+  "form": {
+    "mailSubject": "Nytt meddelande via demachinedokters.se",
+    "nameLabel": "Namn",
+    "companyLabel": "Företag",
+    "emailLabel": "E-postadress",
+    "phoneLabel": "Telefonnummer",
+    "messageLabel": "Meddelande",
+    "submitLabel": "Skicka",
+    "consentText": "När du skickar formuläret behandlar vi dina uppgifter för att kunna svara dig. Läs mer i vår",
+    "consentLinkLabel": "integritetspolicy",
+    "successTitle": "Tack för ditt meddelande!",
+    "successText": "Vi har tagit emot ditt meddelande och hör av oss så snart vi kan.",
+    "errorText": "Något gick fel när meddelandet skulle skickas. Försök igen eller kontakta oss direkt."
+  },
+  "labels": {
+    "address": "Adress",
+    "phone": "Telefon",
+    "email": "E-post",
+    "hours": "Öppettider"
+  }
+}

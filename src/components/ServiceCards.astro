@@ -1,0 +1,27 @@
+---
+import Icon from './Icon.astro';
+import { coll, byOrder, servicePath, type Lang } from '../lib/i18n';
+interface Props { lang: Lang }
+const { lang } = Astro.props;
+const services = (await coll(lang, 'services')).sort(byOrder);
+---
+<div class="services">
+  {services.map((s) => (
+    <a class="card service" href={servicePath(lang, s)}>
+      <span class="icon-circle"><Icon name={s.data.icon} size={30} stroke={1.4} /></span>
+      <h3 set:html={s.data.titleHtml ?? s.data.title} />
+      <p class="tagline">{s.data.tagline}</p>
+      <p class="short">{s.data.short}</p>
+    </a>
+  ))}
+</div>
+<style>
+  .services { display: flex; flex-wrap: wrap; justify-content: center; gap: 28px; }
+  .services .service { flex: 0 1 calc(25% - 21px); min-width: 240px; }
+  @media (max-width: 980px) { .services .service { flex-basis: calc(50% - 14px); } }
+  @media (max-width: 640px) { .services .service { flex-basis: 100%; } }
+  .service { display: block; color: inherit; text-decoration: none !important; }
+  .service h3 { font-size: 1.2rem; margin: 18px 0 6px; }
+  .tagline { color: var(--blue); font-weight: 500; margin-bottom: 0.5em; }
+  .short { color: var(--muted); font-size: 0.95rem; margin: 0; }
+</style>

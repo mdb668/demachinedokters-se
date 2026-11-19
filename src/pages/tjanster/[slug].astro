@@ -1,0 +1,8 @@
+---
+import View from '../../views/Service.astro';
+import { coll, slugOf } from '../../lib/i18n';
+export async function getStaticPaths() {
+  return (await coll('sv', 'services')).map((e) => ({ params: { slug: slugOf(e) }, props: { e } }));
+}
+---
+<View lang="sv" service={Astro.props.e} />

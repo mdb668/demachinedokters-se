@@ -1,0 +1,23 @@
+---
+import Base from '../layouts/Base.astro';
+import PageHero from '../components/PageHero.astro';
+import CtaBand from '../components/CtaBand.astro';
+import { render } from 'astro:content';
+import { siteOf, entry, routes, type Lang, type RouteKey } from '../lib/i18n';
+interface Props { lang: Lang; id: 'terms' | 'privacy' }
+const { lang, id } = Astro.props;
+const site = await siteOf(lang);
+const e = await entry(lang, 'legal', id);
+const { Content } = await render(e);
+const d = e.data;
+---
+<Base lang={lang} title={`${d.title} | ${site.siteName}`} description={d.seoDescription || (d.intro ?? d.title)} alt={routes[id as RouteKey]}>
+  <PageHero title={d.title} subtitle={d.subtitle} intro={d.intro} />
+  <section class="section-sm">
+    <div class="container-narrow prose legal"><Content /></div>
+  </section>
+  <CtaBand lang={lang} />
+</Base>
+<style>
+  .legal :global(h2) { font-size: 1.35rem; }
+</style>

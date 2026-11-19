@@ -1,0 +1,20 @@
+---
+/** Toont het e-mailadres zonder het als platte tekst in de HTML te zetten,
+ *  zodat adres-harvesters het niet kunnen oogsten. Zonder JavaScript wijst de link naar de contactpagina.
+ *  Staat er nog een [TODO …]-placeholder, dan tonen we die als gewone tekst. */
+import { siteOf, path, isTodo, type Lang } from '../lib/i18n';
+interface Props { lang: Lang; address?: string; class?: string }
+const { lang, address, class: cls = '' } = Astro.props;
+const email = address ?? (await siteOf(lang)).email;
+const [user, domain] = email.split('@');
+---
+{isTodo(email) || !domain ? <span>{email}</span> : (
+  <a class={`mail-link ${cls}`.trim()} href={path(lang, 'contact')} data-mail-user={user} data-mail-domain={domain}>{user} [at] {domain}</a>
+)}
+<script>
+  document.querySelectorAll<HTMLAnchorElement>('[data-mail-user]').forEach((a) => {
+    const address = `${a.dataset.mailUser}@${a.dataset.mailDomain}`;
+    a.href = `mailto:${address}`;
+    a.textContent = address;
+  });
+</script>

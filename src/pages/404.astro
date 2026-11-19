@@ -1,0 +1,19 @@
+---
+import Base from '../layouts/Base.astro';
+import { uiOf, path } from '../lib/i18n';
+const ui = await uiOf('sv');
+const en = await uiOf('en');
+---
+<Base lang="sv" title={`${ui.notFoundTitle} | De Machinedokters`} description={ui.notFoundText} noindex>
+  <section class="page-hero">
+    <div class="container-narrow center" style="padding-bottom:60px">
+      <h1>{ui.notFoundTitle}</h1>
+      <p class="intro" style="margin-inline:auto">{ui.notFoundText}</p>
+      <div class="btn-group">
+        <a class="btn btn-primary" href={path('sv', 'home')}>{ui.backHome}</a>
+        <a class="btn btn-outline" href={path('sv', 'contact')}>{ui.contactShort}</a>
+      </div>
+      <p class="muted" style="margin-top:28px" lang="en">{en.notFoundText} <a href={path('en', 'home')}>{en.backHome}</a></p>
+    </div>
+  </section>
+</Base>

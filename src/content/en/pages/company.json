@@ -1,0 +1,15 @@
+{
+  "seoTitle": "Company details | De Machinedokters",
+  "seoDescription": "Company details for De Machinedokters in Sweden.",
+  "title": "Company details",
+  "intro": "The formal details of De Machinedokters in Sweden.",
+  "labels": {
+    "legalName": "Legal name",
+    "address": "Address",
+    "orgNumber": "Organisation number (org.nr)",
+    "vatNumber": "VAT number",
+    "fSkatt": "F-skatt (Swedish corporate tax status)",
+    "email": "Email",
+    "phone": "Phone"
+  }
+}

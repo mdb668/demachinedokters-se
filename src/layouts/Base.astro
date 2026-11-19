@@ -1,0 +1,109 @@
+---
+import '../styles/global.css';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import FormGuard from '../components/FormGuard.astro';
+import MobileContactBar from '../components/MobileContactBar.astro';
+import { metaDescription } from '../lib/slugs';
+import { siteOf, uiOf, abs, logicalPath, LANGS, DEFAULT_LANG, PREVIEW, type Lang } from '../lib/i18n';
+
+interface Props {
+  lang: Lang;
+  title?: string;
+  description?: string;
+  image?: string;
+  transparentHeader?: boolean;
+  noindex?: boolean;
+  jsonLd?: Record<string, unknown> | Record<string, unknown>[];
+  type?: 'website' | 'article';
+  /** Dezelfde pagina in de andere talen (logische paden). Leeg = geen hreflang en geen taalwissel naar die pagina. */
+  alt?: Partial<Record<Lang, string>>;
+  /** Volledige URL van de overeenkomstige pagina op de Nederlandse site. */
+  nl?: string;
+}
+const { lang, title, description, image, transparentHeader = false, noindex = false, jsonLd, type = 'website', alt = {}, nl } = Astro.props;
+const site = await siteOf(lang);
+const ui = await uiOf(lang);
+const pageTitle = title ?? site.seoTitle;
+const pageDesc = metaDescription(description ?? site.seoDescription);
+const canonical = abs(logicalPath(Astro.url.pathname));
+const ogImage = abs(image ?? site.ogImage ?? '/images/fotos/hero-poster.jpg');
+// Preview: niets mag in zoekmachines komen. Live: alleen pagina's die zelf noindex vragen.
+const blockIndex = PREVIEW || noindex;
+const hreflang = blockIndex && !PREVIEW ? [] : LANGS.filter((l) => alt[l]).map((l) => ({ code: l, href: abs(alt[l]!) }));
+
+const orgLd = {
+  '@context': 'https://schema.org',
+  '@type': 'Organization',
+  '@id': `${abs('/')}#organization`,
+  name: site.siteName,
+  url: abs('/'),
+  logo: abs(site.logoDark ?? site.logo),
+  description: site.seoDescription,
+  areaServed: ['Örebro län', 'Värmlands län', 'Västmanlands län'],
+  ...(site.socials.length ? { sameAs: site.socials.map((s: any) => s.url) } : {}),
+};
+const ld = [orgLd, ...(jsonLd ? (Array.isArray(jsonLd) ? jsonLd : [jsonLd]) : [])];
+---
+<!doctype html>
+<html lang={lang}>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{pageTitle}</title>
+    <meta name="description" content={pageDesc} />
+    <link rel="canonical" href={canonical} />
+    <link rel="icon" href="/favicon.png" type="image/png" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+    {blockIndex && <meta name="robots" content="noindex, nofollow" />}
+    {hreflang.map((h) => <link rel="alternate" hreflang={h.code} href={h.href} />)}
+    {hreflang.length > 0 && alt[DEFAULT_LANG] && <link rel="alternate" hreflang="x-default" href={abs(alt[DEFAULT_LANG]!)} />}
+    {hreflang.length > 0 && nl && <link rel="alternate" hreflang="nl-NL" href={nl} />}
+    <meta property="og:type" content={type} />
+    <meta property="og:site_name" content={site.siteName} />
+    <meta property="og:locale" content={lang === 'sv' ? 'sv_SE' : 'en_GB'} />
+    <meta property="og:title" content={pageTitle} />
+    <meta property="og:description" content={pageDesc} />
+    <meta property="og:url" content={canonical} />
+    <meta property="og:image" content={ogImage} />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="theme-color" content="#074c82" />
+    <script type="application/ld+json" set:html={JSON.stringify(ld)} />
+  </head>
+  <body>
+    <a class="skip" href="#main">{ui.skip}</a>
+    <Header lang={lang} transparent={transparentHeader} alt={alt} />
+    <main id="main">
+      <slot />
+    </main>
+    <Footer lang={lang} />
+    <FormGuard />
+    <MobileContactBar lang={lang} />
+    {PREVIEW && <div class="preview-badge" role="note">{ui.previewBadge}</div>}
+    {PREVIEW && (
+      <script is:inline>
+        // Preview: maak openstaande [TODO …]-placeholders goed zichtbaar.
+        (() => {
+          const walker = document.createTreeWalker(document.body, NodeFilter.SHOW_TEXT);
+          const nodes = [];
+          while (walker.nextNode()) if (/\[TODO[^\]]*\]/.test(walker.currentNode.nodeValue) && !walker.currentNode.parentElement.closest('script,style,mark')) nodes.push(walker.currentNode);
+          for (const n of nodes) {
+            const frag = document.createDocumentFragment();
+            n.nodeValue.split(/(\[TODO[^\]]*\])/).forEach((part) => {
+              if (/^\[TODO/.test(part)) { const m = document.createElement('mark'); m.className = 'todo'; m.textContent = part; frag.append(m); }
+              else if (part) frag.append(part);
+            });
+            n.replaceWith(frag);
+          }
+        })();
+      </script>
+    )}
+  </body>
+</html>
+<style is:global>
+  .skip { position: absolute; left: -9999px; top: 8px; background: var(--blue); color: #fff; padding: 10px 16px; border-radius: 6px; z-index: 1000; }
+  .skip:focus { left: 8px; }
+  .preview-badge { position: fixed; left: 12px; bottom: 12px; z-index: 200; background: #e8590c; color: #fff; font-size: 0.8rem; font-weight: 600; padding: 6px 12px; border-radius: 999px; box-shadow: 0 4px 14px rgba(0, 0, 0, 0.2); pointer-events: none; }
+  @media (max-width: 860px) { .preview-badge { bottom: 76px; } }
+  mark.todo { background: #fff3bf; color: #7a4b00; border: 1px dashed #e8a600; border-radius: 4px; padding: 0 4px; font-weight: 500; }
+</style>

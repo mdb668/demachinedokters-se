@@ -1,0 +1,37 @@
+---
+/** Contactblok "Din kontakt: Freek" (gegevens in Instellingen → Contactpersoon). */
+import Icon from './Icon.astro';
+import Mail from './Mail.astro';
+import { siteOf, isTodo, type Lang } from '../lib/i18n';
+interface Props { lang: Lang; compact?: boolean }
+const { lang, compact = false } = Astro.props;
+const c = (await siteOf(lang)).contactPerson;
+const tel = c?.phone && !isTodo(c.phone) ? `tel:${c.phone.replace(/[^+\d]/g, '')}` : undefined;
+---
+{c && (
+  <aside class={`contact-card ${compact ? 'compact' : ''}`}>
+    {c.photo && <img src={c.photo} alt={c.photoAlt ?? c.name} width="120" height="120" loading="lazy" />}
+    <div>
+      <p class="heading">{c.heading}</p>
+      {c.role && <p class="role">{c.role}</p>}
+      {c.text && <p class="text muted">{c.text}</p>}
+      <ul>
+        {c.phone && <li><Icon name="phone" size={18} /> {tel ? <a href={tel}>{c.phone}</a> : <span>{c.phone}</span>}</li>}
+        {c.email && <li><Icon name="mail" size={18} /> <Mail lang={lang} address={c.email} /></li>}
+      </ul>
+    </div>
+  </aside>
+)}
+<style>
+  .contact-card { display: flex; gap: 22px; align-items: center; background: #fff; border: 1px solid var(--border); border-left: 4px solid var(--green); border-radius: var(--radius); padding: 22px 24px; max-width: 720px; margin-inline: auto; text-align: left; }
+  .contact-card img { width: 104px; height: 104px; border-radius: 50%; object-fit: cover; flex: none; }
+  .heading { font-size: 1.3rem; font-weight: 500; color: var(--blue); margin: 0 0 2px; }
+  .role { font-weight: 500; margin: 0 0 6px; }
+  .text { margin: 0 0 10px; font-size: 0.97rem; }
+  ul { list-style: none; padding: 0; margin: 0; display: grid; gap: 4px; }
+  li { display: flex; align-items: center; gap: 8px; color: var(--blue); }
+  .compact { padding: 16px 18px; gap: 16px; }
+  .compact img { width: 72px; height: 72px; }
+  .compact .heading { font-size: 1.1rem; }
+  @media (max-width: 560px) { .contact-card { flex-direction: column; align-items: flex-start; } }
+</style>

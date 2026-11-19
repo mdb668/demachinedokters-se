@@ -1,0 +1,479 @@
+# Sveltia CMS configuratie voor de Zweedse site van De Machinedokters (demachinedokters.se)
+# Inloggen: ga naar <site>/admin/ en kies "Sign in with Token" (GitHub personal access token met schrijfrechten op deze repo)
+# of "Work with Local Repository" als je lokaal werkt met `npm run dev`.
+#
+# Alle inhoud staat per taal: 🇸🇪 Zweeds (hoofdtaal, op /) en 🇬🇧 Engels (op /en/).
+# De veldlijsten staan één keer bij de Zweedse collectie (&naam) en worden bij de Engelse hergebruikt (*naam).
+# LET OP bij livegang: site_url, display_url en logo_url hieronder aanpassen naar https://demachinedokters.se
+
+backend:
+  name: github
+  repo: mdb668/demachinedokters-se
+  branch: main
+  commit_messages:
+    create: "Nieuw: {{collection}} “{{slug}}”"
+    update: "Bijgewerkt: {{collection}} “{{slug}}”"
+    delete: "Verwijderd: {{collection}} “{{slug}}”"
+    uploadMedia: "Afbeelding toegevoegd: {{path}}"
+    deleteMedia: "Afbeelding verwijderd: {{path}}"
+
+site_url: https://mdb668.github.io/demachinedokters-se
+display_url: https://mdb668.github.io/demachinedokters-se
+logo_url: https://mdb668.github.io/demachinedokters-se/images/logo-de-machinedokters-donker.png
+
+media_folder: public/images/uploads
+public_folder: /images/uploads
+
+slug:
+  encoding: ascii
+  clean_accents: true
+
+# ───────────── Herbruikbare velden ─────────────
+# (Sveltia meldt in de console dat "x-fields" onbekend is; dat is onschuldig, het is alleen een opslagplek voor de veldlijsten.)
+x-fields:
+  review: &review { name: review, label: "Controle-markering", widget: string, required: false, hint: "Staat op 'sv-native-check-nodig' zolang een Zweedse moedertaalspreker de tekst nog niet heeft nagekeken. Maak leeg als de tekst is goedgekeurd." }
+  links: &links
+    - { name: label, label: "Tekst", widget: string }
+    - { name: href, label: "Link", widget: string }
+  faqItems: &faqItems
+    - { name: question, label: "Vraag", widget: string }
+    - { name: answer, label: "Antwoord", widget: text }
+
+  site: &site_fields
+    - *review
+    - { name: siteName, label: "Naam website", widget: string }
+    - { name: logoSubtitle, label: "Ondertitel onder het logo", widget: string, required: false }
+    - { name: tagline, label: "Slogan", widget: string, required: false }
+    - { name: seoTitle, label: "SEO-titel homepage", widget: string, hint: "Titel in Google en browsertab (max. ±60 tekens)." }
+    - { name: seoDescription, label: "SEO-omschrijving homepage", widget: text }
+    - { name: logo, label: "Logo (witte letters, voor donkere achtergrond)", widget: image }
+    - { name: logoDark, label: "Logo (donkere letters, voor lichte achtergrond)", widget: image, required: false }
+    - { name: logoIcon, label: "Logo-icoon", widget: image, required: false }
+    - { name: ogImage, label: "Standaardafbeelding bij delen (social media)", widget: image, required: false }
+    - { name: phone, label: "Telefoonnummer (weergave)", widget: string }
+    - { name: phoneLink, label: "Telefoonnummer (link, bv. tel:+46701234567)", widget: string, required: false, hint: "Leeg laten zolang er nog geen nummer is; dan wordt er geen bel-knop getoond." }
+    - { name: email, label: "E-mailadres", widget: string }
+    - { name: addressLine1, label: "Adres regel 1", widget: string }
+    - { name: addressLine2, label: "Adres regel 2 (postcode plaats)", widget: string }
+    - { name: openingHours, label: "Openingstijden", widget: string }
+    - { name: legalName, label: "Juridische naam", widget: string, required: false }
+    - { name: orgNumber, label: "Organisationsnummer (org.nr)", widget: string, required: false }
+    - { name: vatNumber, label: "Btw-nummer (momsregistreringsnummer)", widget: string, required: false }
+    - { name: fSkatt, label: "F-skatt", widget: string, required: false }
+    - { name: formEmail, label: "E-mailadres waar formulieren naartoe gaan", widget: string, required: false, hint: "Ter info: het adres hangt aan de Web3Forms access key hieronder." }
+    - { name: formKey, label: "Web3Forms access key", widget: string, required: false, hint: "De key van web3forms.com. Zonder key is het formulier uitgeschakeld." }
+    - { name: formBlacklist, label: "Spamwoorden (komma-gescheiden)", widget: text, required: false }
+    - { name: ctaLabel, label: "Tekst hoofdknop", widget: string }
+    - { name: ctaLink, label: "Link hoofdknop", widget: string }
+    - { name: serviceArea, label: "Werkgebied (regel in footer en op contact)", widget: string, required: false }
+    - name: contactPerson
+      label: "Contactpersoon (blok 'Din kontakt: Freek')"
+      widget: object
+      required: false
+      fields:
+        - { name: heading, label: "Kop", widget: string }
+        - { name: name, label: "Naam", widget: string }
+        - { name: role, label: "Functie", widget: string, required: false }
+        - { name: text, label: "Korte tekst", widget: text, required: false }
+        - { name: photo, label: "Foto", widget: image, required: false }
+        - { name: photoAlt, label: "Beschrijving foto", widget: string, required: false }
+        - { name: phone, label: "Telefoonnummer", widget: string, required: false }
+        - { name: email, label: "E-mailadres", widget: string, required: false }
+    - name: socials
+      label: "Social media"
+      widget: list
+      required: false
+      fields:
+        - { name: platform, label: "Platform", widget: select, options: [linkedin, instagram, facebook, youtube, whatsapp] }
+        - { name: url, label: "Link", widget: string }
+    - { name: nav, label: "Hoofdmenu", widget: list, fields: *links }
+    - { name: footerCompany, label: "Footer: kolom bedrijf", widget: list, fields: *links }
+    - { name: footerServices, label: "Footer: kolom diensten en regio's", widget: list, fields: *links }
+    - { name: footerLegal, label: "Footer: kolom juridisch", widget: list, fields: *links }
+    - { name: footerBottom, label: "Footer: onderste regel", widget: list, fields: *links }
+    - { name: copyright, label: "Copyright-tekst", widget: string }
+    - { name: benefitsTitle, label: "Blok voordelen: titel", widget: string }
+    - name: benefits
+      label: "Blok voordelen: punten"
+      widget: list
+      fields:
+        - { name: label, label: "Tekst", widget: string }
+        - { name: icon, label: "Icoon", widget: string }
+    - { name: planTitle, label: "Blok werkwijze: titel", widget: string }
+    - name: plan
+      label: "Blok werkwijze: stappen"
+      widget: list
+      fields:
+        - { name: title, label: "Titel", widget: string }
+        - { name: text, label: "Tekst", widget: text }
+
+  ui: &ui_fields
+    - *review
+    - { name: skip, label: "Link 'ga naar inhoud'", widget: string }
+    - { name: menu, label: "Menu", widget: string }
+    - { name: mainMenu, label: "Hoofdmenu (voor schermlezers)", widget: string }
+    - { name: home, label: "Home", widget: string }
+    - { name: langSwitchLabel, label: "Taalwissel (voor schermlezers)", widget: string }
+    - { name: otherLangShort, label: "Taalwissel (knoptekst)", widget: string }
+    - { name: previewBadge, label: "Tekst previewlabel", widget: string }
+    - { name: quickContact, label: "Mobiele balk: naam", widget: string }
+    - { name: call, label: "Mobiele balk: bellen", widget: string }
+    - { name: contactShort, label: "Contact (kort)", widget: string }
+    - { name: callPrefix, label: "Bel-knop: woord voor het nummer", widget: string }
+    - { name: footerCompany, label: "Footer: kop bedrijf", widget: string }
+    - { name: footerContact, label: "Footer: kop contact", widget: string }
+    - { name: footerServices, label: "Footer: kop diensten", widget: string }
+    - { name: footerLegal, label: "Footer: kop juridisch", widget: string }
+    - { name: ctaTitle, label: "Contactblok onderaan: titel", widget: string }
+    - { name: ctaText, label: "Contactblok onderaan: tekst", widget: text }
+    - { name: breadcrumb, label: "Kruimelpad (voor schermlezers)", widget: string }
+    - { name: moreAbout, label: "Knop 'Meer over …'", widget: string }
+    - { name: casesTitle, label: "Kop cases op dienstpagina", widget: string }
+    - { name: readCase, label: "Link 'Lees de case'", widget: string }
+    - { name: faqTitle, label: "Kop veelgestelde vragen", widget: string }
+    - { name: faqAbout, label: "Kop 'Veelgestelde vragen over …'", widget: string }
+    - { name: allFaq, label: "Link naar alle vragen", widget: string }
+    - { name: otherServices, label: "Kop andere diensten", widget: string }
+    - { name: formSending, label: "Formulier: bezig met versturen", widget: string }
+    - { name: formMissingKey, label: "Formulier: melding zonder key", widget: string }
+    - { name: thanksTitle, label: "Bedankpagina: titel", widget: string }
+    - { name: thanksText, label: "Bedankpagina: tekst", widget: text }
+    - { name: backHome, label: "Knop terug naar home", widget: string }
+    - { name: notFoundTitle, label: "404: titel", widget: string }
+    - { name: notFoundText, label: "404: tekst", widget: text }
+
+  home: &home_fields
+    - *review
+    - name: hero
+      label: "Hero"
+      widget: object
+      fields:
+        - { name: kicker, label: "Regel boven de titel", widget: string, required: false }
+        - { name: title, label: "Titel", widget: string }
+        - { name: subtitle, label: "Slogan", widget: string }
+        - { name: lead, label: "Inleiding", widget: text, required: false }
+        - { name: video, label: "Video (desktop)", widget: string, required: false }
+        - { name: videoMobile, label: "Video (mobiel)", widget: string, required: false }
+        - { name: poster, label: "Stilstaand beeld", widget: image }
+    - name: intro
+      label: "Intro"
+      widget: object
+      fields:
+        - { name: line1, label: "Regel 1 (vet)", widget: text }
+        - { name: line2, label: "Regel 2", widget: text }
+        - { name: quote, label: "Handgeschreven quote", widget: string, required: false }
+        - { name: button1Label, label: "Knop 1 tekst", widget: string }
+        - { name: button1Link, label: "Knop 1 link", widget: string }
+        - { name: button2Label, label: "Knop 2 tekst", widget: string }
+        - { name: button2Link, label: "Knop 2 link", widget: string }
+    - name: difference
+      label: "Blok 'zo maken wij het verschil'"
+      widget: object
+      fields:
+        - { name: title, label: "Titel", widget: string }
+        - name: items
+          label: "Punten"
+          widget: list
+          fields:
+            - { name: title, label: "Titel", widget: string }
+            - { name: text, label: "Tekst", widget: text }
+    - name: symptoms
+      label: "Blok klachten"
+      widget: object
+      fields:
+        - { name: title, label: "Titel", widget: string }
+        - { name: intro, label: "Inleiding", widget: text }
+        - { name: quote, label: "Handgeschreven quote", widget: string, required: false }
+        - name: items
+          label: "Klachten"
+          widget: list
+          fields:
+            - { name: title, label: "Titel", widget: string }
+            - { name: text, label: "Tekst", widget: text }
+            - { name: image, label: "Afbeelding", widget: image }
+            - { name: imageAlt, label: "Beschrijving afbeelding", widget: string, required: false }
+        - { name: button1Label, label: "Knop 1 tekst", widget: string, required: false }
+        - { name: button1Link, label: "Knop 1 link", widget: string, required: false }
+        - { name: button2Label, label: "Knop 2 tekst", widget: string, required: false }
+        - { name: button2Link, label: "Knop 2 link", widget: string, required: false }
+    - name: regions
+      label: "Blok regio's"
+      widget: object
+      fields:
+        - { name: title, label: "Titel", widget: string }
+        - { name: intro, label: "Inleiding", widget: text }
+    - name: about
+      label: "Blok over ons"
+      widget: object
+      fields:
+        - { name: title, label: "Titel", widget: string }
+        - { name: text, label: "Tekst", widget: text }
+        - { name: linkLabel, label: "Linktekst", widget: string }
+        - { name: link, label: "Link", widget: string }
+
+  servicesPage: &servicesPage_fields
+    - *review
+    - { name: seoTitle, label: "SEO-titel", widget: string }
+    - { name: seoDescription, label: "SEO-omschrijving", widget: text }
+    - { name: title, label: "Titel", widget: string }
+    - { name: subtitle, label: "Ondertitel", widget: string, required: false }
+    - { name: intro, label: "Inleiding", widget: text }
+    - { name: quote, label: "Handgeschreven quote", widget: string, required: false }
+    - { name: whyTitle, label: "Blok 'waarom wij': titel", widget: string }
+    - { name: whyText, label: "Blok 'waarom wij': tekst", widget: text }
+    - { name: button1Label, label: "Knop 1 tekst", widget: string, required: false }
+    - { name: button1Link, label: "Knop 1 link", widget: string, required: false }
+    - { name: button2Label, label: "Knop 2 tekst", widget: string, required: false }
+    - { name: button2Link, label: "Knop 2 link", widget: string, required: false }
+
+  casesPage: &casesPage_fields
+    - *review
+    - { name: seoTitle, label: "SEO-titel", widget: string }
+    - { name: seoDescription, label: "SEO-omschrijving", widget: text }
+    - { name: title, label: "Titel", widget: string }
+    - { name: subtitle, label: "Ondertitel", widget: string, required: false }
+    - { name: intro, label: "Inleiding", widget: text }
+    - { name: emptyText, label: "Tekst zolang er nog geen cases zijn", widget: text }
+    - { name: readMore, label: "Linktekst 'lees meer'", widget: string }
+    - { name: backLabel, label: "Linktekst 'terug naar cases'", widget: string }
+    - { name: challengeTitle, label: "Kop uitdaging", widget: string }
+    - { name: approachTitle, label: "Kop aanpak", widget: string }
+    - { name: resultTitle, label: "Kop resultaat", widget: string }
+    - { name: ctaTitle, label: "Contactblok: titel", widget: string }
+    - { name: ctaText, label: "Contactblok: tekst", widget: text }
+    - { name: button1Label, label: "Knop 1 tekst", widget: string, required: false }
+    - { name: button1Link, label: "Knop 1 link", widget: string, required: false }
+    - { name: button2Label, label: "Knop 2 tekst", widget: string, required: false }
+    - { name: button2Link, label: "Knop 2 link", widget: string, required: false }
+
+  faqPage: &faqPage_fields
+    - *review
+    - { name: seoTitle, label: "SEO-titel", widget: string }
+    - { name: seoDescription, label: "SEO-omschrijving", widget: text }
+    - { name: title, label: "Titel", widget: string }
+    - { name: subtitle, label: "Ondertitel", widget: string, required: false }
+    - { name: intro, label: "Inleiding", widget: text }
+    - { name: notFoundTitle, label: "Kop 'vraag niet gevonden'", widget: string }
+    - { name: notFoundButtonLabel, label: "Knoptekst", widget: string }
+    - { name: notFoundButtonLink, label: "Knoplink", widget: string }
+    - { name: quote, label: "Handgeschreven quote", widget: string, required: false }
+
+  aboutPage: &aboutPage_fields
+    - *review
+    - { name: seoTitle, label: "SEO-titel", widget: string }
+    - { name: seoDescription, label: "SEO-omschrijving", widget: text }
+    - { name: title, label: "Titel", widget: string }
+    - { name: subtitle, label: "Ondertitel", widget: string, required: false }
+    - { name: intro, label: "Inleiding", widget: text }
+    - { name: quote, label: "Handgeschreven quote", widget: string, required: false }
+    - { name: story, label: "Verhaal", widget: text, hint: "Lege regel = nieuwe alinea." }
+    - { name: valuesTitle, label: "Kernwoorden: titel", widget: string }
+    - name: values
+      label: "Kernwoorden"
+      widget: list
+      fields:
+        - { name: title, label: "Titel", widget: string }
+        - { name: text, label: "Tekst", widget: text }
+    - { name: teamTitle, label: "Team: titel", widget: string }
+    - { name: teamIntro, label: "Team: inleiding", widget: text, required: false }
+    - { name: button1Label, label: "Knop 1 tekst", widget: string, required: false }
+    - { name: button1Link, label: "Knop 1 link", widget: string, required: false }
+    - { name: button2Label, label: "Knop 2 tekst", widget: string, required: false }
+    - { name: button2Link, label: "Knop 2 link", widget: string, required: false }
+
+  contactPage: &contactPage_fields
+    - *review
+    - { name: seoTitle, label: "SEO-titel", widget: string }
+    - { name: seoDescription, label: "SEO-omschrijving", widget: text }
+    - { name: title, label: "Titel", widget: string }
+    - { name: intro, label: "Inleiding", widget: text }
+    - name: form
+      label: "Formulier"
+      widget: object
+      fields:
+        - { name: mailSubject, label: "Onderwerp van de e-mail die binnenkomt", widget: string }
+        - { name: nameLabel, label: "Veld naam", widget: string }
+        - { name: companyLabel, label: "Veld bedrijf", widget: string }
+        - { name: emailLabel, label: "Veld e-mail", widget: string }
+        - { name: phoneLabel, label: "Veld telefoon", widget: string }
+        - { name: messageLabel, label: "Veld bericht", widget: string }
+        - { name: submitLabel, label: "Knop versturen", widget: string }
+        - { name: consentText, label: "Privacyregel onder het formulier", widget: text }
+        - { name: consentLinkLabel, label: "Linktekst privacybeleid", widget: string }
+        - { name: successTitle, label: "Melding gelukt: titel", widget: string }
+        - { name: successText, label: "Melding gelukt: tekst", widget: text }
+        - { name: errorText, label: "Melding mislukt", widget: text }
+    - name: labels
+      label: "Kopjes contactgegevens"
+      widget: object
+      fields:
+        - { name: address, label: "Adres", widget: string }
+        - { name: phone, label: "Telefoon", widget: string }
+        - { name: email, label: "E-mail", widget: string }
+        - { name: hours, label: "Openingstijden", widget: string }
+
+  regionsPage: &regionsPage_fields
+    - *review
+    - { name: seoTitle, label: "SEO-titel", widget: string }
+    - { name: seoDescription, label: "SEO-omschrijving", widget: text }
+    - { name: title, label: "Titel", widget: string }
+    - { name: subtitle, label: "Ondertitel", widget: string, required: false }
+    - { name: intro, label: "Inleiding", widget: text }
+    - { name: placesLabel, label: "Label voor plaatsen", widget: string }
+    - { name: servicesTitle, label: "Kop 'Onze diensten in …'", widget: string }
+    - { name: otherTitle, label: "Kop andere regio's", widget: string }
+
+  companyPage: &companyPage_fields
+    - *review
+    - { name: seoTitle, label: "SEO-titel", widget: string }
+    - { name: seoDescription, label: "SEO-omschrijving", widget: text }
+    - { name: title, label: "Titel", widget: string }
+    - { name: intro, label: "Inleiding", widget: text }
+    - name: labels
+      label: "Labels"
+      widget: object
+      fields:
+        - { name: legalName, label: "Juridische naam", widget: string }
+        - { name: address, label: "Adres", widget: string }
+        - { name: orgNumber, label: "Org.nr", widget: string }
+        - { name: vatNumber, label: "Btw-nummer", widget: string }
+        - { name: fSkatt, label: "F-skatt", widget: string }
+        - { name: email, label: "E-mail", widget: string }
+        - { name: phone, label: "Telefoon", widget: string }
+
+  service: &service_fields
+    - *review
+    - { name: title, label: "Titel", widget: string }
+    - { name: titleHtml, label: "Titel op de kaart (met <br> voor een regelafbreking)", widget: string, required: false }
+    - { name: h1, label: "Kop bovenaan de pagina (h1)", widget: string, required: false }
+    - { name: tagline, label: "Korte slogan", widget: string }
+    - { name: short, label: "Korte omschrijving", widget: text }
+    - { name: icon, label: "Icoon", widget: select, options: [gauge, wrench, code, people, gear, retrofit, robot-arm, shield, factory, robot, process, alert] }
+    - { name: image, label: "Afbeelding", widget: image, required: false }
+    - { name: imageAlt, label: "Beschrijving afbeelding", widget: string, required: false }
+    - { name: order, label: "Volgorde", widget: number, value_type: int }
+    - { name: slug, label: "URL-naam", widget: string, hint: "Niet wijzigen na livegang: dan verandert het webadres." }
+    - { name: seoTitle, label: "SEO-titel", widget: string, required: false }
+    - { name: seoDescription, label: "SEO-omschrijving", widget: text, required: false }
+    - { name: ctaTitle, label: "Contactblok: titel", widget: string, required: false }
+    - { name: ctaText, label: "Contactblok: tekst", widget: text, required: false }
+    - { name: faq, label: "Veelgestelde vragen bij deze dienst", widget: list, required: false, fields: *faqItems }
+    - { name: body, label: "Tekst", widget: markdown }
+
+  case: &case_fields
+    - *review
+    - { name: published, label: "Gepubliceerd", widget: boolean, default: false, hint: "Uit = concept, niet zichtbaar op de site." }
+    - { name: title, label: "Titel", widget: string }
+    - { name: slug, label: "URL-naam", widget: string }
+    - { name: subtitle, label: "Ondertitel", widget: string }
+    - { name: intro, label: "Inleiding", widget: text }
+    - { name: summary, label: "Samenvatting (overzichtspagina)", widget: text }
+    - { name: image, label: "Afbeelding", widget: image, required: false }
+    - { name: imageAlt, label: "Beschrijving afbeelding", widget: string, required: false }
+    - { name: imageIsLogo, label: "Afbeelding is een logo", widget: boolean, default: false, required: false }
+    - name: stats
+      label: "Kerncijfers (max. 3)"
+      widget: list
+      max: 3
+      required: false
+      fields:
+        - { name: value, label: "Waarde", widget: string }
+        - { name: label, label: "Omschrijving", widget: string }
+        - { name: icon, label: "Icoon", widget: string }
+    - { name: challenge, label: "Uitdaging", widget: text }
+    - { name: approach, label: "Aanpak", widget: text }
+    - { name: results, label: "Resultaten", widget: list, field: { name: result, label: "Resultaat", widget: string } }
+    - { name: closing, label: "Afsluitende zin", widget: string, required: false }
+    - { name: seoTitle, label: "SEO-titel", widget: string, required: false }
+    - { name: seoDescription, label: "SEO-omschrijving", widget: text, required: false }
+    - { name: order, label: "Volgorde", widget: number, value_type: int }
+    - { name: body, label: "Extra tekst", widget: markdown, required: false }
+
+  region: &region_fields
+    - *review
+    - { name: title, label: "Titel", widget: string }
+    - { name: slug, label: "URL-naam", widget: string, hint: "Niet wijzigen na livegang." }
+    - { name: name, label: "Naam regio", widget: string }
+    - { name: h1, label: "Kop bovenaan de pagina (h1)", widget: string, required: false }
+    - { name: intro, label: "Inleiding", widget: text }
+    - { name: places, label: "Plaatsen in de regio", widget: string, required: false }
+    - { name: seoTitle, label: "SEO-titel", widget: string, required: false }
+    - { name: seoDescription, label: "SEO-omschrijving", widget: text, required: false }
+    - { name: order, label: "Volgorde", widget: number, value_type: int }
+    - { name: body, label: "Tekst", widget: markdown }
+
+  team: &team_fields
+    - *review
+    - { name: name, label: "Naam", widget: string }
+    - { name: role, label: "Functie", widget: string }
+    - { name: photo, label: "Foto", widget: image, required: false }
+    - { name: order, label: "Volgorde", widget: number, value_type: int }
+
+  faq: &faq_fields
+    - *review
+    - { name: question, label: "Vraag", widget: string }
+    - { name: order, label: "Volgorde", widget: number, value_type: int }
+    - { name: body, label: "Antwoord", widget: markdown }
+
+  legal: &legal_fields
+    - *review
+    - { name: title, label: "Titel", widget: string }
+    - { name: subtitle, label: "Ondertitel", widget: string, required: false }
+    - { name: intro, label: "Inleiding", widget: text, required: false }
+    - { name: seoDescription, label: "SEO-omschrijving", widget: text, required: false }
+    - { name: body, label: "Tekst", widget: markdown }
+
+collections:
+  # ═════════════ 🇸🇪 ZWEEDS (hoofdtaal) ═════════════
+  - name: sv_instellingen
+    label: "🇸🇪 Instellingen"
+    description: "Zweeds: contactgegevens, menu, footer, knoppen en kleine teksten."
+    editor: { preview: false }
+    files:
+      - { name: site, label: "Website-instellingen", file: src/content/sv/settings/site.json, fields: *site_fields }
+      - { name: ui, label: "Kleine teksten (knoppen, meldingen)", file: src/content/sv/pages/ui.json, fields: *ui_fields }
+  - name: sv_paginas
+    label: "🇸🇪 Pagina's"
+    editor: { preview: false }
+    files:
+      - { name: home, label: "Home", file: src/content/sv/pages/home.json, fields: *home_fields }
+      - { name: services, label: "Tjänster (overzicht)", file: src/content/sv/pages/services.json, fields: *servicesPage_fields }
+      - { name: cases, label: "Case (overzicht)", file: src/content/sv/pages/cases.json, fields: *casesPage_fields }
+      - { name: regions, label: "Verksamhetsområde (overzicht)", file: src/content/sv/pages/regions.json, fields: *regionsPage_fields }
+      - { name: faq, label: "Vanliga frågor (pagina)", file: src/content/sv/pages/faq.json, fields: *faqPage_fields }
+      - { name: about, label: "Om oss", file: src/content/sv/pages/about.json, fields: *aboutPage_fields }
+      - { name: contact, label: "Kontakt", file: src/content/sv/pages/contact.json, fields: *contactPage_fields }
+      - { name: company, label: "Företagsuppgifter", file: src/content/sv/pages/company.json, fields: *companyPage_fields }
+  - { name: sv_services, label: "🇸🇪 Diensten", label_singular: "Dienst", folder: src/content/sv/services, create: true, slug: "{{fields.order}}-{{title}}", summary: "{{order}}. {{title}}", sortable_fields: [order, title], editor: { preview: false }, fields: *service_fields }
+  - { name: sv_regions, label: "🇸🇪 Regio's", label_singular: "Regio", folder: src/content/sv/regions, create: true, summary: "{{name}}", sortable_fields: [order], editor: { preview: false }, fields: *region_fields }
+  - { name: sv_cases, label: "🇸🇪 Cases", label_singular: "Case", folder: src/content/sv/cases, create: true, summary: "{{title}}", sortable_fields: [order], editor: { preview: false }, fields: *case_fields }
+  - { name: sv_faq, label: "🇸🇪 Veelgestelde vragen", label_singular: "Vraag", folder: src/content/sv/faq, create: true, slug: "{{fields.order}}", summary: "{{order}}. {{question}}", sortable_fields: [order], editor: { preview: false }, fields: *faq_fields }
+  - { name: sv_team, label: "🇸🇪 Team", label_singular: "Teamlid", identifier_field: name, folder: src/content/sv/team, extension: json, format: json, create: true, summary: "{{name}}", sortable_fields: [order], editor: { preview: false }, fields: *team_fields }
+  - { name: sv_legal, label: "🇸🇪 Juridische pagina's", folder: src/content/sv/legal, create: false, delete: false, summary: "{{title}}", editor: { preview: false }, fields: *legal_fields }
+
+  # ═════════════ 🇬🇧 ENGELS (/en/) ═════════════
+  - name: en_instellingen
+    label: "🇬🇧 Instellingen"
+    description: "Engels: contactgegevens, menu, footer, knoppen en kleine teksten."
+    editor: { preview: false }
+    files:
+      - { name: site, label: "Website-instellingen", file: src/content/en/settings/site.json, fields: *site_fields }
+      - { name: ui, label: "Kleine teksten (knoppen, meldingen)", file: src/content/en/pages/ui.json, fields: *ui_fields }
+  - name: en_paginas
+    label: "🇬🇧 Pagina's"
+    editor: { preview: false }
+    files:
+      - { name: home, label: "Home", file: src/content/en/pages/home.json, fields: *home_fields }
+      - { name: services, label: "Services (overzicht)", file: src/content/en/pages/services.json, fields: *servicesPage_fields }
+      - { name: cases, label: "Cases (overzicht)", file: src/content/en/pages/cases.json, fields: *casesPage_fields }
+      - { name: regions, label: "Service area (overzicht)", file: src/content/en/pages/regions.json, fields: *regionsPage_fields }
+      - { name: faq, label: "FAQ (pagina)", file: src/content/en/pages/faq.json, fields: *faqPage_fields }
+      - { name: about, label: "About", file: src/content/en/pages/about.json, fields: *aboutPage_fields }
+      - { name: contact, label: "Contact", file: src/content/en/pages/contact.json, fields: *contactPage_fields }
+      - { name: company, label: "Company details", file: src/content/en/pages/company.json, fields: *companyPage_fields }
+  - { name: en_services, label: "🇬🇧 Diensten", label_singular: "Dienst", folder: src/content/en/services, create: true, slug: "{{fields.order}}-{{title}}", summary: "{{order}}. {{title}}", sortable_fields: [order, title], editor: { preview: false }, fields: *service_fields }
+  - { name: en_regions, label: "🇬🇧 Regio's", label_singular: "Regio", folder: src/content/en/regions, create: true, summary: "{{name}}", sortable_fields: [order], editor: { preview: false }, fields: *region_fields }
+  - { name: en_cases, label: "🇬🇧 Cases", label_singular: "Case", folder: src/content/en/cases, create: true, summary: "{{title}}", sortable_fields: [order], editor: { preview: false }, fields: *case_fields }
+  - { name: en_faq, label: "🇬🇧 Veelgestelde vragen", label_singular: "Vraag", folder: src/content/en/faq, create: true, slug: "{{fields.order}}", summary: "{{order}}. {{question}}", sortable_fields: [order], editor: { preview: false }, fields: *faq_fields }
+  - { name: en_team, label: "🇬🇧 Team", label_singular: "Teamlid", identifier_field: name, folder: src/content/en/team, extension: json, format: json, create: true, summary: "{{name}}", sortable_fields: [order], editor: { preview: false }, fields: *team_fields }
+  - { name: en_legal, label: "🇬🇧 Juridische pagina's", folder: src/content/en/legal, create: false, delete: false, summary: "{{title}}", editor: { preview: false }, fields: *legal_fields }

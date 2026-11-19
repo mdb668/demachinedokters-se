@@ -1,0 +1,32 @@
+---
+import Base from '../layouts/Base.astro';
+import PageHero from '../components/PageHero.astro';
+import FaqList from '../components/FaqList.astro';
+import Quote from '../components/Quote.astro';
+import CtaBand from '../components/CtaBand.astro';
+import { pageOf, coll, byOrder, routes, nlUrl, type Lang } from '../lib/i18n';
+interface Props { lang: Lang }
+const { lang } = Astro.props;
+const p = await pageOf(lang, 'faq');
+const faqs = (await coll(lang, 'faq')).sort(byOrder).filter((f) => !(f.body ?? '').includes('[TODO'));
+const ld = {
+  '@context': 'https://schema.org',
+  '@type': 'FAQPage',
+  mainEntity: faqs.map((f) => ({ '@type': 'Question', name: f.data.question, acceptedAnswer: { '@type': 'Answer', text: (f.body ?? '').trim() } })),
+};
+---
+<Base lang={lang} title={p.seoTitle} description={p.seoDescription} jsonLd={ld} alt={routes.faq} nl={nlUrl('faq')}>
+  <PageHero title={p.title} subtitle={p.subtitle} intro={p.intro} />
+  <section class="section-sm">
+    <div class="container-narrow"><FaqList lang={lang} /></div>
+  </section>
+  <section class="section-sm center">
+    <div class="container-narrow">
+      <h2>{p.notFoundTitle}</h2>
+      <a class="btn btn-outline" href={p.notFoundButtonLink}>{p.notFoundButtonLabel}</a>
+      <div class="q"><Quote text={p.quote} /></div>
+    </div>
+  </section>
+  <CtaBand lang={lang} />
+</Base>
+<style>.q { margin-top: 28px; }</style>

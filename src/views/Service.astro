@@ -1,0 +1,114 @@
+---
+import Base from '../layouts/Base.astro';
+import PageHero from '../components/PageHero.astro';
+import Benefits from '../components/Benefits.astro';
+import CtaBand from '../components/CtaBand.astro';
+import ContactCard from '../components/ContactCard.astro';
+import FaqList from '../components/FaqList.astro';
+import PageFaq from '../components/PageFaq.astro';
+import Icon from '../components/Icon.astro';
+import { render } from 'astro:content';
+import { siteOf, uiOf, pageOf, coll, byOrder, servicePath, casePath, path, abs, alternatesFor, nlServiceUrl, fileKey, type Lang } from '../lib/i18n';
+interface Props { lang: Lang; service: any }
+const { lang, service } = Astro.props;
+const site = await siteOf(lang);
+const ui = await uiOf(lang);
+const sp = await pageOf(lang, 'services');
+const d = service.data;
+const { Content } = await render(service);
+const others = (await coll(lang, 'services')).filter((s) => s.id !== service.id).sort(byOrder);
+const allCases = (await coll(lang, 'cases', (c) => c.data.published)).sort(byOrder);
+const related = d.relatedCases?.length ? allCases.filter((c) => d.relatedCases.includes(c.data.slug)) : allCases.slice(0, 3);
+const title = d.seoTitle || `${d.title} | ${site.siteName}`;
+const description = d.seoDescription || d.short;
+const here = servicePath(lang, service);
+const todoFree = (s: string) => !s.includes('[TODO');
+const faqLd = (d.faq ?? []).filter((f: any) => todoFree(f.answer));
+const ld = [
+  { '@context': 'https://schema.org', '@type': 'Service', name: d.title, serviceType: d.title, description, url: abs(here),
+    provider: { '@id': `${abs('/')}#organization` }, areaServed: ['Örebro län', 'Värmlands län', 'Västmanlands län'] },
+  { '@context': 'https://schema.org', '@type': 'BreadcrumbList', itemListElement: [
+    { '@type': 'ListItem', position: 1, name: ui.home, item: abs(path(lang, 'home')) },
+    { '@type': 'ListItem', position: 2, name: sp.title, item: abs(path(lang, 'services')) },
+    { '@type': 'ListItem', position: 3, name: d.title, item: abs(here) },
+  ] },
+  ...(faqLd.length ? [{ '@context': 'https://schema.org', '@type': 'FAQPage',
+    mainEntity: faqLd.map((f: any) => ({ '@type': 'Question', name: f.question, acceptedAnswer: { '@type': 'Answer', text: f.answer } })) }] : []),
+];
+---
+<Base lang={lang} title={title} description={description} image={d.image} jsonLd={ld} alt={await alternatesFor('services', service)} nl={nlServiceUrl(fileKey(service))}>
+  <PageHero title={d.h1 || d.title} subtitle={d.tagline} intro={d.short}>
+    <nav class="crumbs" aria-label={ui.breadcrumb}><a href={path(lang, 'home')}>{ui.home}</a> › <a href={path(lang, 'services')}>{sp.title}</a> › <span>{d.title}</span></nav>
+  </PageHero>
+
+  <section class="section-sm">
+    <div class="container detail">
+      <div class="prose text"><Content /></div>
+      <div class="side">
+        {d.image && <img src={d.image} alt={d.imageAlt ?? d.title} width="700" height="480" class="rounded shadow" loading="eager" />}
+        <ContactCard lang={lang} compact />
+      </div>
+    </div>
+  </section>
+
+  {related.length > 0 && (
+    <section class="section-sm section-bg">
+      <div class="container">
+        <h2 class="center"><span class="title-underline">{ui.casesTitle}</span></h2>
+        <div class="grid grid-3 cases">
+          {related.map((c) => (
+            <a class="card case" href={casePath(lang, c)}>
+              {c.data.image && <div class={`media ${c.data.imageIsLogo ? 'is-logo' : ''}`}><img src={c.data.image} alt={c.data.imageAlt ?? c.data.title} loading="lazy" width="400" height="260" /></div>}
+              <h3>{c.data.title}</h3>
+              <p class="muted">{c.data.subtitle}</p>
+              <span class="more">{ui.readCase} <Icon name="arrow-right" size={18} /></span>
+            </a>
+          ))}
+        </div>
+      </div>
+    </section>
+  )}
+
+  <section class="section-sm">
+    <div class="container-narrow">
+      <h2>{d.faq?.length ? `${ui.faqAbout} ${d.title.toLowerCase()}` : ui.faqTitle}</h2>
+      {d.faq?.length ? <PageFaq items={d.faq} /> : <FaqList lang={lang} limit={6} />}
+      <p class="center more-faq"><a href={path(lang, 'faq')}>{ui.allFaq} →</a></p>
+    </div>
+  </section>
+
+  <section class="section-sm section-bg">
+    <div class="container">
+      <h2 class="center"><span class="title-underline">{ui.otherServices}</span></h2>
+      <div class="grid grid-3 others">
+        {others.map((s) => (
+          <a class="card other" href={servicePath(lang, s)}>
+            <span class="icon-circle"><Icon name={s.data.icon} size={28} stroke={1.4} /></span>
+            <h3>{s.data.title}</h3>
+            <p class="muted">{s.data.tagline}</p>
+          </a>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <Benefits lang={lang} button1Label={sp.button1Label} button1Link={sp.button1Link} button2Label={sp.button2Label} button2Link={sp.button2Link} />
+  <CtaBand lang={lang} title={d.ctaTitle} text={d.ctaText} />
+</Base>
+<style>
+  .crumbs { font-size: 0.9rem; color: var(--muted); margin-top: 8px; }
+  .detail { display: grid; grid-template-columns: 1.2fr 0.8fr; gap: 48px; align-items: start; }
+  .side { display: grid; gap: 20px; position: sticky; top: 110px; }
+  .side img { width: 100%; height: auto; }
+  .text :global(p:first-child) { font-size: 1.1rem; }
+  .cases .case, .others .other { text-decoration: none !important; color: inherit; display: block; }
+  .cases .media { aspect-ratio: 3 / 2; border-radius: 10px; overflow: hidden; background: var(--bg); margin-bottom: 14px; display: flex; align-items: center; justify-content: center; }
+  .cases .media img { width: 100%; height: 100%; object-fit: cover; }
+  .cases .media.is-logo { background: #fff; border: 1px solid var(--border); padding: 20px; }
+  .cases .media.is-logo img { object-fit: contain; }
+  .cases h3, .others h3 { font-size: 1.15rem; margin-bottom: 0.3em; }
+  .others h3 { margin-top: 14px; }
+  .more { display: inline-flex; align-items: center; gap: 6px; color: var(--blue); font-weight: 500; }
+  .more-faq { margin-top: 20px; }
+  @media (max-width: 860px) { .detail { grid-template-columns: 1fr; } .side { position: static; } }
+</style>

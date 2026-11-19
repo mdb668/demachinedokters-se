@@ -1,0 +1,26 @@
+{
+  "seoTitle": "Contact | De Machinedokters",
+  "seoDescription": "Get in touch with De Machinedokters. Fill in the form or contact Freek, your contact in Sweden, directly.",
+  "title": "Contact De Machinedokters",
+  "intro": "Fill in the form or contact Freek directly. You will get a personal reply.",
+  "form": {
+    "mailSubject": "New message via demachinedokters.se (English)",
+    "nameLabel": "Name",
+    "companyLabel": "Company",
+    "emailLabel": "Email address",
+    "phoneLabel": "Phone number",
+    "messageLabel": "Message",
+    "submitLabel": "Send",
+    "consentText": "When you send this form we process your details in order to reply to you. Read more in our",
+    "consentLinkLabel": "privacy policy",
+    "successTitle": "Thank you for your message!",
+    "successText": "We have received your message and will get back to you as soon as we can.",
+    "errorText": "Something went wrong while sending. Please try again or contact us directly."
+  },
+  "labels": {
+    "address": "Address",
+    "phone": "Phone",
+    "email": "Email",
+    "hours": "Opening hours"
+  }
+}

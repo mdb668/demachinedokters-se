@@ -1,0 +1,70 @@
+---
+import Base from '../layouts/Base.astro';
+import PageHero from '../components/PageHero.astro';
+import ContactCard from '../components/ContactCard.astro';
+import CtaBand from '../components/CtaBand.astro';
+import Icon from '../components/Icon.astro';
+import { render } from 'astro:content';
+import { siteOf, uiOf, pageOf, coll, byOrder, servicePath, regionPath, path, abs, alternatesFor, type Lang } from '../lib/i18n';
+interface Props { lang: Lang; region: any }
+const { lang, region } = Astro.props;
+const site = await siteOf(lang);
+const ui = await uiOf(lang);
+const rp = await pageOf(lang, 'regions');
+const d = region.data;
+const { Content } = await render(region);
+const services = (await coll(lang, 'services')).sort(byOrder);
+const others = (await coll(lang, 'regions')).filter((r) => r.id !== region.id).sort(byOrder);
+const here = regionPath(lang, region);
+const ld = { '@context': 'https://schema.org', '@type': 'BreadcrumbList', itemListElement: [
+  { '@type': 'ListItem', position: 1, name: ui.home, item: abs(path(lang, 'home')) },
+  { '@type': 'ListItem', position: 2, name: rp.title, item: abs(path(lang, 'regions')) },
+  { '@type': 'ListItem', position: 3, name: d.name, item: abs(here) },
+] };
+---
+<Base lang={lang} title={d.seoTitle || `${d.title} | ${site.siteName}`} description={d.seoDescription || d.intro} jsonLd={ld} alt={await alternatesFor('regions', region)}>
+  <PageHero title={d.h1 || d.title} intro={d.intro}>
+    <nav class="crumbs" aria-label={ui.breadcrumb}><a href={path(lang, 'home')}>{ui.home}</a> › <a href={path(lang, 'regions')}>{rp.title}</a> › <span>{d.name}</span></nav>
+  </PageHero>
+  <section class="section-sm">
+    <div class="container detail">
+      <div class="prose">
+        <Content />
+        {d.places && <p class="places"><Icon name="pin" size={18} /> <span><strong>{rp.placesLabel}</strong> {d.places}</span></p>}
+      </div>
+      <div class="side"><ContactCard lang={lang} compact /></div>
+    </div>
+  </section>
+  <section class="section-sm section-bg">
+    <div class="container">
+      <h2 class="center"><span class="title-underline">{rp.servicesTitle} {d.name}</span></h2>
+      <div class="grid grid-3 list">
+        {services.map((s) => (
+          <a class="card item" href={servicePath(lang, s)}>
+            <span class="icon-circle"><Icon name={s.data.icon} size={28} stroke={1.4} /></span>
+            <h3>{s.data.title}</h3>
+            <p class="muted">{s.data.tagline}</p>
+          </a>
+        ))}
+      </div>
+    </div>
+  </section>
+  <section class="section-sm center">
+    <div class="container-narrow">
+      <h2>{rp.otherTitle}</h2>
+      <p class="btn-group">{others.map((r) => <a class="btn btn-outline btn-sm" href={regionPath(lang, r)}>{r.data.name}</a>)}</p>
+    </div>
+  </section>
+  <CtaBand lang={lang} />
+</Base>
+<style>
+  .crumbs { font-size: 0.9rem; color: var(--muted); margin-top: 8px; }
+  .detail { display: grid; grid-template-columns: 1.2fr 0.8fr; gap: 48px; align-items: start; }
+  .side { position: sticky; top: 110px; }
+  .places { display: flex; gap: 8px; align-items: flex-start; color: var(--muted); }
+  .places :global(svg) { flex: none; margin-top: 5px; color: var(--blue); }
+  .list { margin-top: 32px; }
+  .item { display: block; color: inherit; text-decoration: none !important; }
+  .item h3 { font-size: 1.15rem; margin: 14px 0 0.3em; }
+  @media (max-width: 860px) { .detail { grid-template-columns: 1fr; } .side { position: static; } }
+</style>

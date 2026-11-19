@@ -1,0 +1,43 @@
+---
+import Base from '../layouts/Base.astro';
+import PageHero from '../components/PageHero.astro';
+import TeamGrid from '../components/TeamGrid.astro';
+import ContactCard from '../components/ContactCard.astro';
+import Benefits from '../components/Benefits.astro';
+import CtaBand from '../components/CtaBand.astro';
+import { renderText } from '../lib/md';
+import { pageOf, routes, nlUrl, type Lang } from '../lib/i18n';
+interface Props { lang: Lang }
+const { lang } = Astro.props;
+const p = await pageOf(lang, 'about');
+---
+<Base lang={lang} title={p.seoTitle} description={p.seoDescription} alt={routes.about} nl={nlUrl('about')}>
+  <PageHero title={p.title} subtitle={p.subtitle} intro={p.intro} quote={p.quote} />
+  <section class="section-sm">
+    <div class="container-narrow prose" set:html={renderText(p.story)} />
+  </section>
+  <section class="section-sm center">
+    <div class="container">
+      <h2 class="title-underline">{p.valuesTitle}</h2>
+      <div class="grid grid-3 values">
+        {p.values.map((w: any) => (<div><h3>{w.title}</h3><p class="muted">{w.text}</p></div>))}
+      </div>
+    </div>
+  </section>
+  <section class="section section-bg">
+    <div class="container">
+      <h2 class="center"><span class="title-underline">{p.teamTitle}</span></h2>
+      {p.teamIntro && <p class="center muted team-intro">{p.teamIntro}</p>}
+      <div class="team-wrap"><TeamGrid lang={lang} /></div>
+      <div class="cc"><ContactCard lang={lang} /></div>
+    </div>
+  </section>
+  <Benefits lang={lang} button1Label={p.button1Label} button1Link={p.button1Link} button2Label={p.button2Label} button2Link={p.button2Link} />
+  <CtaBand lang={lang} />
+</Base>
+<style>
+  .values { margin-top: 32px; }
+  .team-intro { max-width: 720px; margin-inline: auto; }
+  .team-wrap { margin-top: 40px; }
+  .cc { margin-top: 48px; }
+</style>

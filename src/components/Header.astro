@@ -1,0 +1,88 @@
+---
+import Icon from './Icon.astro';
+import { siteOf, uiOf, path, logicalPath, LANGS, type Lang } from '../lib/i18n';
+interface Props { lang: Lang; transparent?: boolean; alt?: Partial<Record<Lang, string>> }
+const { lang, transparent = false, alt = {} } = Astro.props;
+const site = await siteOf(lang);
+const ui = await uiOf(lang);
+const here = logicalPath(Astro.url.pathname);
+const home = path(lang, 'home');
+const isActive = (href: string) => (href === home ? here === home : here.startsWith(href.replace(/\/?$/, '/')));
+const other = LANGS.find((l) => l !== lang)!;
+const otherHref = alt[other] ?? path(other, 'home');
+---
+<header class={`site-header ${transparent ? 'is-transparent' : ''}`} data-header>
+  <div class="container bar">
+    <a class="brand" href={home} aria-label={`${site.siteName} - ${ui.home}`}>
+      <img class="logo logo-light" src={site.logo} alt={`Logo ${site.siteName}`} width="600" height="164" />
+      <img class="logo logo-dark" src={site.logoDark ?? site.logo} alt="" width="600" height="164" />
+      {site.logoSubtitle && <span class="logo-sub">{site.logoSubtitle}</span>}
+    </a>
+    <nav class="nav" id="site-nav" aria-label={ui.mainMenu}>
+      <ul>
+        {site.nav.map((n: any) => (
+          <li><a href={n.href} class={isActive(n.href) ? 'active' : ''} aria-current={isActive(n.href) ? 'page' : undefined}>{n.label}</a></li>
+        ))}
+        <li><a class="lang" href={otherHref} hreflang={other} lang={other} aria-label={ui.langSwitchLabel}>{ui.otherLangShort}</a></li>
+      </ul>
+      <a class="btn btn-primary btn-sm cta" href={site.ctaLink}>{site.ctaLabel}</a>
+    </nav>
+    <button class="burger" type="button" aria-label={ui.menu} aria-expanded="false" aria-controls="site-nav" data-burger>
+      <Icon name="menu" size={28} class="i-open" />
+      <Icon name="close" size={28} class="i-close" />
+    </button>
+  </div>
+</header>
+<script>
+  const header = document.querySelector<HTMLElement>('[data-header]');
+  const burger = document.querySelector<HTMLButtonElement>('[data-burger]');
+  const onScroll = () => header?.classList.toggle('scrolled', window.scrollY > 24);
+  onScroll();
+  window.addEventListener('scroll', onScroll, { passive: true });
+  burger?.addEventListener('click', () => {
+    const open = header!.classList.toggle('open');
+    burger.setAttribute('aria-expanded', String(open));
+    document.body.style.overflow = open ? 'hidden' : '';
+  });
+</script>
+<style>
+  .site-header { position: fixed; top: 0; left: 0; right: 0; z-index: 100; transition: background 0.3s, box-shadow 0.3s; background: rgba(255, 255, 255, 0.98); }
+  .site-header.scrolled { box-shadow: 0 4px 24px rgba(7, 76, 130, 0.08); }
+  .bar { display: flex; align-items: center; justify-content: space-between; height: var(--header-h); gap: 24px; }
+  .brand { display: flex; flex-direction: column; align-items: flex-start; flex: none; text-decoration: none !important; }
+  .logo { height: 40px; width: auto; }
+  .logo-sub { font-size: 0.72rem; font-weight: 600; letter-spacing: 0.09em; text-transform: uppercase; color: var(--blue); margin-top: 3px; white-space: nowrap; }
+  .logo-light { display: none; }
+  .is-transparent:not(.scrolled):not(.open) { background: transparent; }
+  .is-transparent:not(.scrolled):not(.open) .logo-light { display: block; }
+  .is-transparent:not(.scrolled):not(.open) .logo-dark { display: none; }
+  .is-transparent:not(.scrolled):not(.open) .logo-sub { color: #fff; }
+  .is-transparent:not(.scrolled):not(.open) .nav a:not(.btn) { color: #fff; }
+  .is-transparent:not(.scrolled):not(.open) .burger { color: #fff; }
+  .nav { display: flex; align-items: center; gap: 28px; }
+  .nav ul { list-style: none; display: flex; align-items: center; gap: 24px; margin: 0; padding: 0; }
+  .nav a:not(.btn) { color: var(--blue); font-weight: 500; font-size: 1.02rem; text-decoration: none; position: relative; padding: 6px 0; }
+  .nav a:not(.btn)::after { content: ''; position: absolute; left: 0; right: 0; bottom: 0; height: 2px; background: var(--green); transform: scaleX(0); transition: transform 0.2s; transform-origin: left; }
+  .nav a:not(.btn):hover::after, .nav a.active::after { transform: scaleX(1); }
+  .nav a.lang { font-size: 0.85rem; font-weight: 600; letter-spacing: 0.06em; border: 1.5px solid currentColor; border-radius: 6px; padding: 3px 8px; }
+  .nav a.lang::after { display: none; }
+  .burger { display: none; background: none; border: 0; color: var(--blue); cursor: pointer; padding: 6px; }
+  /* Icon rendert een eigen <svg>; de scoped-stijl van Header bereikt die alleen via :global */
+  .burger :global(.i-close) { display: none; }
+  .open .burger :global(.i-close) { display: block; }
+  .open .burger :global(.i-open) { display: none; }
+  .site-header.open { background: #fff; }
+  @media (max-width: 1100px) {
+    .nav ul { gap: 16px; }
+    .nav a:not(.btn) { font-size: 0.95rem; }
+    .cta { display: none; }
+  }
+  @media (max-width: 860px) {
+    .burger { display: inline-flex; }
+    .nav { position: fixed; inset: var(--header-h) 0 0 0; background: #fff; flex-direction: column; justify-content: flex-start; padding: 32px 24px; gap: 24px; transform: translateX(100%); transition: transform 0.3s; overflow-y: auto; }
+    .open .nav { transform: none; }
+    .nav ul { flex-direction: column; align-items: stretch; gap: 6px; width: 100%; }
+    .nav ul a { display: block; font-size: 1.3rem !important; padding: 12px 0 !important; border: 0 !important; border-bottom: 1px solid var(--border) !important; border-radius: 0 !important; color: var(--blue) !important; }
+    .cta { display: inline-flex; width: 100%; padding: 14px; font-size: 1rem; }
+  }
+</style>

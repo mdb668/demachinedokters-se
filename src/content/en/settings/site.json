@@ -1,0 +1,175 @@
+{
+  "siteName": "De Machinedokters",
+  "logo": "/images/logo-de-machinedokters.png",
+  "logoIcon": "/images/logo-icoon.png",
+  "logoDark": "/images/logo-de-machinedokters-donker.png",
+  "ogImage": "/images/fotos/hero-poster.jpg",
+  "phoneLink": "",
+  "formKey": "",
+  "formBlacklist": "seo, backlink, backlinks, linkbuilding, link building, guest post, crypto, bitcoin, casino, viagra, forex, porn, google ranking, first page of google, web design services, website redesign, virtual assistant, outsourcing services, telegram",
+  "socials": [],
+  "logoSubtitle": "Machine service & automation",
+  "tagline": "Faster. Better. Forward.",
+  "seoTitle": "De Machinedokters | Machine service & automation in Sweden",
+  "seoDescription": "De Machinedokters make production lines more efficient: process optimisation, fault analysis, retrofit, robotics, special-purpose machines and CE marking in central Sweden.",
+  "phone": "[TODO FREEK: phone number]",
+  "email": "[TODO FREEK: email address]",
+  "addressLine1": "[TODO FREEK: street address]",
+  "addressLine2": "[TODO FREEK: postcode and town]",
+  "openingHours": "[TODO FREEK: opening hours]",
+  "legalName": "[TODO: bedrijfsgegevens na afspraak MDB/Freek]",
+  "orgNumber": "[TODO FREEK: org.nr]",
+  "vatNumber": "[TODO FREEK: VAT number]",
+  "fSkatt": "[TODO FREEK: F-skatt, approved yes/no]",
+  "formEmail": "[TODO FREEK: email address the form is sent to]",
+  "ctaLabel": "Book a no-obligation call",
+  "ctaLink": "/en/contact/",
+  "serviceArea": "Service area: Örebro, Värmland and Västmanland counties, Sweden.",
+  "contactPerson": {
+    "heading": "Your contact: Freek",
+    "name": "Freek",
+    "role": "Co-founder, De Machinedokters",
+    "text": "[TODO FREEK: two sentences about yourself and your background]",
+    "photo": "/images/team/freek.jpg",
+    "photoAlt": "Freek, your contact at De Machinedokters",
+    "phone": "[TODO FREEK: phone number]",
+    "email": "[TODO FREEK: email address]"
+  },
+  "nav": [
+    {
+      "label": "Services",
+      "href": "/en/services/"
+    },
+    {
+      "label": "CE marking",
+      "href": "/en/services/ce-marking-machine-safety/"
+    },
+    {
+      "label": "Cases",
+      "href": "/en/cases/"
+    },
+    {
+      "label": "About",
+      "href": "/en/about/"
+    },
+    {
+      "label": "Contact",
+      "href": "/en/contact/"
+    }
+  ],
+  "footerCompany": [
+    {
+      "label": "Services",
+      "href": "/en/services/"
+    },
+    {
+      "label": "Cases",
+      "href": "/en/cases/"
+    },
+    {
+      "label": "About",
+      "href": "/en/about/"
+    },
+    {
+      "label": "FAQ",
+      "href": "/en/faq/"
+    },
+    {
+      "label": "Contact",
+      "href": "/en/contact/"
+    }
+  ],
+  "footerServices": [
+    {
+      "label": "CE marking & machine safety",
+      "href": "/en/services/ce-marking-machine-safety/"
+    },
+    {
+      "label": "Retrofit",
+      "href": "/en/services/retrofit/"
+    },
+    {
+      "label": "Örebro County",
+      "href": "/en/areas/orebro-county/"
+    },
+    {
+      "label": "Värmland",
+      "href": "/en/areas/varmland/"
+    },
+    {
+      "label": "Västmanland",
+      "href": "/en/areas/vastmanland/"
+    }
+  ],
+  "footerLegal": [
+    {
+      "label": "Privacy policy",
+      "href": "/en/privacy-policy/"
+    },
+    {
+      "label": "Terms and conditions",
+      "href": "/en/terms/"
+    },
+    {
+      "label": "Company details",
+      "href": "/en/company-details/"
+    }
+  ],
+  "footerBottom": [
+    {
+      "label": "Privacy policy",
+      "href": "/en/privacy-policy/"
+    },
+    {
+      "label": "Terms",
+      "href": "/en/terms/"
+    },
+    {
+      "label": "Svenska",
+      "href": "/"
+    }
+  ],
+  "copyright": "All rights reserved.",
+  "benefitsTitle": "This is why you call in De Machinedokters:",
+  "benefits": [
+    {
+      "label": "More output per hour",
+      "icon": "gauge"
+    },
+    {
+      "label": "Less dependence on staff",
+      "icon": "user-minus"
+    },
+    {
+      "label": "Higher profit",
+      "icon": "euro"
+    },
+    {
+      "label": "Lower costs",
+      "icon": "trending-down"
+    }
+  ],
+  "planTitle": "How De Machinedokters work",
+  "plan": [
+    {
+      "title": "Analysis",
+      "text": "We analyse your situation and set concrete targets together."
+    },
+    {
+      "title": "Improvement plan",
+      "text": "You receive an improvement plan with a clearly described ROI."
+    },
+    {
+      "title": "Implementation",
+      "text": "The improvement plan is implemented on the shop floor."
+    },
+    {
+      "title": "Training",
+      "text": "Your team is trained to work with the new systems."
+    },
+    {
+      "title": "Results",
+      "text": "You get ongoing insight into the results, and we adjust where needed."
+    }
+  ]
+}

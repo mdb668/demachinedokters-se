@@ -1,0 +1,16 @@
+{
+  "review": "sv-native-check-nodig",
+  "seoTitle": "Företagsuppgifter | De Machinedokters",
+  "seoDescription": "Företagsuppgifter för De Machinedokters i Sverige.",
+  "title": "Företagsuppgifter",
+  "intro": "Här hittar du de formella uppgifterna om De Machinedokters i Sverige.",
+  "labels": {
+    "legalName": "Juridiskt namn",
+    "address": "Adress",
+    "orgNumber": "Organisationsnummer",
+    "vatNumber": "Momsregistreringsnummer",
+    "fSkatt": "F-skatt",
+    "email": "E-post",
+    "phone": "Telefon"
+  }
+}

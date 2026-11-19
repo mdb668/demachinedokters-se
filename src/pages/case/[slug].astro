@@ -1,0 +1,8 @@
+---
+import View from '../../views/Case.astro';
+import { coll, slugOf } from '../../lib/i18n';
+export async function getStaticPaths() {
+  return (await coll('sv', 'cases', (c) => c.data.published)).map((e) => ({ params: { slug: slugOf(e) }, props: { e } }));
+}
+---
+<View lang="sv" entry={Astro.props.e} />

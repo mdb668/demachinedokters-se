@@ -1,0 +1,23 @@
+---
+import Base from '../layouts/Base.astro';
+import Icon from '../components/Icon.astro';
+import { uiOf, siteOf, path, routes, type Lang } from '../lib/i18n';
+interface Props { lang: Lang }
+const { lang } = Astro.props;
+const ui = await uiOf(lang);
+const site = await siteOf(lang);
+---
+<Base lang={lang} title={`${ui.thanksTitle} | ${site.siteName}`} description={ui.thanksText} noindex alt={routes.thanks}>
+  <section class="page-hero">
+    <div class="container-narrow center thanks">
+      <span class="icon-circle lg"><Icon name="check" size={40} /></span>
+      <h1>{ui.thanksTitle}</h1>
+      <p class="intro" style="margin-inline:auto">{ui.thanksText}</p>
+      <a class="btn btn-primary" href={path(lang, 'home')}>{ui.backHome}</a>
+    </div>
+  </section>
+</Base>
+<style>
+  .thanks { padding-bottom: 60px; }
+  .thanks .icon-circle { margin-bottom: 20px; color: var(--green); border-color: var(--green); }
+</style>

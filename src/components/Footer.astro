@@ -1,0 +1,66 @@
+---
+import Icon from './Icon.astro';
+import Mail from './Mail.astro';
+import { siteOf, uiOf, path, isTodo, type Lang } from '../lib/i18n';
+interface Props { lang: Lang }
+const { lang } = Astro.props;
+const site = await siteOf(lang);
+const ui = await uiOf(lang);
+const year = new Date().getFullYear();
+---
+<footer class="site-footer">
+  <div class="container">
+    <div class="cols">
+      <div>
+        <h4>{ui.footerCompany}</h4>
+        <ul>{site.footerCompany.map((l: any) => <li><a href={l.href}>{l.label}</a></li>)}</ul>
+      </div>
+      <div>
+        <h4>{ui.footerContact}</h4>
+        <ul>
+          <li>{isTodo(site.phoneLink) ? site.phone : <a href={site.phoneLink}>{site.phone}</a>}</li>
+          <li><Mail lang={lang} /></li>
+          <li>{site.addressLine1}</li>
+          <li>{site.addressLine2}</li>
+        </ul>
+      </div>
+      <div>
+        <h4>{ui.footerServices}</h4>
+        <ul>{site.footerServices.map((l: any) => <li><a href={l.href}>{l.label}</a></li>)}</ul>
+      </div>
+      <div>
+        <h4>{ui.footerLegal}</h4>
+        <ul>{site.footerLegal.map((l: any) => <li><a href={l.href}>{l.label}</a></li>)}</ul>
+      </div>
+    </div>
+    {site.socials.length > 0 && (
+      <div class="socials">
+        {site.socials.map((s: any) => (
+          <a href={s.url} target="_blank" rel="noopener" aria-label={s.platform}><Icon name={s.platform} size={22} /></a>
+        ))}
+      </div>
+    )}
+    {site.serviceArea && <p class="area">{site.serviceArea}</p>}
+    <p class="bottom">
+      © {year} <a href={path(lang, 'home')}>{site.siteName}</a>. {site.copyright}
+      {site.footerBottom.map((l: any) => <> | <a href={l.href}>{l.label}</a></>)}
+    </p>
+  </div>
+</footer>
+<style>
+  .site-footer { background: var(--blue); color: #fff; padding: 56px 0 28px; }
+  .cols { display: grid; grid-template-columns: repeat(4, 1fr); gap: 32px; max-width: 980px; margin: 0 auto 36px; }
+  h4 { color: #fff; font-size: 1.1rem; margin-bottom: 0.9em; }
+  ul { list-style: none; padding: 0; margin: 0; font-size: 0.95rem; }
+  li { margin-bottom: 0.5em; color: rgba(255, 255, 255, 0.85); }
+  a { color: #fff; }
+  /* Mail.astro rendert de link buiten deze scope; alleen hier wit maken. */
+  .site-footer :global(.mail-link) { color: #fff; }
+  .socials { display: flex; justify-content: center; gap: 22px; margin: 0 0 20px; }
+  .socials a { color: #fff; opacity: 0.9; }
+  .socials a:hover { opacity: 1; color: var(--green); }
+  .area { text-align: center; font-size: 0.9rem; color: rgba(255, 255, 255, 0.85); margin: 0 0 10px; }
+  .bottom { text-align: center; font-size: 0.85rem; color: rgba(255, 255, 255, 0.8); margin: 0; }
+  @media (max-width: 860px) { .cols { grid-template-columns: repeat(2, 1fr); } }
+  @media (max-width: 480px) { .cols { grid-template-columns: 1fr; } }
+</style>

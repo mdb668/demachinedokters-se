@@ -1,0 +1,38 @@
+---
+import Base from '../layouts/Base.astro';
+import CtaBand from '../components/CtaBand.astro';
+import Mail from '../components/Mail.astro';
+import { siteOf, pageOf, routes, isTodo, type Lang } from '../lib/i18n';
+interface Props { lang: Lang }
+const { lang } = Astro.props;
+const site = await siteOf(lang);
+const p = await pageOf(lang, 'company');
+---
+<Base lang={lang} title={p.seoTitle} description={p.seoDescription} alt={routes.company}>
+  <section class="page-hero">
+    <div class="container">
+      <h1>{p.title}</h1>
+      <p class="intro">{p.intro}</p>
+    </div>
+  </section>
+  <section class="section-sm">
+    <div class="container-narrow">
+      <dl>
+        <dt>{p.labels.legalName}</dt><dd>{site.legalName}</dd>
+        <dt>{p.labels.address}</dt><dd>{site.addressLine1}<br />{site.addressLine2}</dd>
+        <dt>{p.labels.orgNumber}</dt><dd>{site.orgNumber}</dd>
+        <dt>{p.labels.vatNumber}</dt><dd>{site.vatNumber}</dd>
+        <dt>{p.labels.fSkatt}</dt><dd>{site.fSkatt}</dd>
+        <dt>{p.labels.email}</dt><dd><Mail lang={lang} /></dd>
+        <dt>{p.labels.phone}</dt><dd>{isTodo(site.phoneLink) ? site.phone : <a href={site.phoneLink}>{site.phone}</a>}</dd>
+      </dl>
+    </div>
+  </section>
+  <CtaBand lang={lang} />
+</Base>
+<style>
+  dl { display: grid; grid-template-columns: minmax(160px, 240px) 1fr; gap: 12px 24px; margin: 0; }
+  dt { font-weight: 500; color: var(--blue); }
+  dd { margin: 0; }
+  @media (max-width: 560px) { dl { grid-template-columns: 1fr; gap: 2px; } dd { margin-bottom: 12px; } }
+</style>

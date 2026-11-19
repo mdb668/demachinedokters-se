@@ -1,0 +1,176 @@
+{
+  "review": "sv-native-check-nodig",
+  "siteName": "De Machinedokters",
+  "logo": "/images/logo-de-machinedokters.png",
+  "logoIcon": "/images/logo-icoon.png",
+  "logoDark": "/images/logo-de-machinedokters-donker.png",
+  "ogImage": "/images/fotos/hero-poster.jpg",
+  "phoneLink": "",
+  "formKey": "",
+  "formBlacklist": "seo, backlink, backlinks, linkbuilding, link building, guest post, crypto, bitcoin, casino, viagra, forex, porn, google ranking, first page of google, web design services, website redesign, virtual assistant, outsourcing services, telegram",
+  "socials": [],
+  "logoSubtitle": "Maskinservice & automation",
+  "tagline": "Snabbare. Bättre. Framåt.",
+  "seoTitle": "De Machinedokters | Maskinservice & automation i Mellansverige",
+  "seoDescription": "De Machinedokters gör produktionslinjer effektivare: processoptimering, felanalys, retrofit, robotisering, specialmaskiner och CE-märkning i Örebro län, Värmland och Västmanland.",
+  "phone": "[TODO FREEK: telefonnummer]",
+  "email": "[TODO FREEK: e-postadress]",
+  "addressLine1": "[TODO FREEK: gatuadress]",
+  "addressLine2": "[TODO FREEK: postnummer och ort]",
+  "openingHours": "[TODO FREEK: öppettider]",
+  "legalName": "[TODO: bedrijfsgegevens na afspraak MDB/Freek]",
+  "orgNumber": "[TODO FREEK: org.nr]",
+  "vatNumber": "[TODO FREEK: momsregistreringsnummer]",
+  "fSkatt": "[TODO FREEK: F-skatt, godkänd ja/nej]",
+  "formEmail": "[TODO FREEK: e-postadress som formuläret skickas till]",
+  "ctaLabel": "Boka ett förutsättningslöst samtal",
+  "ctaLink": "/kontakt/",
+  "serviceArea": "Verksamhetsområde: Örebro län, Värmland och Västmanland.",
+  "contactPerson": {
+    "heading": "Din kontakt: Freek",
+    "name": "Freek",
+    "role": "Medgrundare, De Machinedokters",
+    "text": "[TODO FREEK: två meningar om dig själv och din bakgrund]",
+    "photo": "/images/team/freek.jpg",
+    "photoAlt": "Freek, din kontakt hos De Machinedokters",
+    "phone": "[TODO FREEK: telefonnummer]",
+    "email": "[TODO FREEK: e-postadress]"
+  },
+  "nav": [
+    {
+      "label": "Tjänster",
+      "href": "/tjanster/"
+    },
+    {
+      "label": "CE-märkning",
+      "href": "/tjanster/ce-markning-maskinsakerhet/"
+    },
+    {
+      "label": "Case",
+      "href": "/case/"
+    },
+    {
+      "label": "Om oss",
+      "href": "/om-oss/"
+    },
+    {
+      "label": "Kontakt",
+      "href": "/kontakt/"
+    }
+  ],
+  "footerCompany": [
+    {
+      "label": "Tjänster",
+      "href": "/tjanster/"
+    },
+    {
+      "label": "Case",
+      "href": "/case/"
+    },
+    {
+      "label": "Om oss",
+      "href": "/om-oss/"
+    },
+    {
+      "label": "Vanliga frågor",
+      "href": "/vanliga-fragor/"
+    },
+    {
+      "label": "Kontakt",
+      "href": "/kontakt/"
+    }
+  ],
+  "footerServices": [
+    {
+      "label": "CE-märkning & maskinsäkerhet",
+      "href": "/tjanster/ce-markning-maskinsakerhet/"
+    },
+    {
+      "label": "Retrofit",
+      "href": "/tjanster/retrofit/"
+    },
+    {
+      "label": "Örebro län",
+      "href": "/omraden/orebro-lan/"
+    },
+    {
+      "label": "Värmland",
+      "href": "/omraden/varmland/"
+    },
+    {
+      "label": "Västmanland",
+      "href": "/omraden/vastmanland/"
+    }
+  ],
+  "footerLegal": [
+    {
+      "label": "Integritetspolicy",
+      "href": "/integritetspolicy/"
+    },
+    {
+      "label": "Allmänna villkor",
+      "href": "/allmanna-villkor/"
+    },
+    {
+      "label": "Företagsuppgifter",
+      "href": "/foretagsuppgifter/"
+    }
+  ],
+  "footerBottom": [
+    {
+      "label": "Integritetspolicy",
+      "href": "/integritetspolicy/"
+    },
+    {
+      "label": "Villkor",
+      "href": "/allmanna-villkor/"
+    },
+    {
+      "label": "English",
+      "href": "/en/"
+    }
+  ],
+  "copyright": "Alla rättigheter förbehållna.",
+  "benefitsTitle": "Därför anlitar du De Machinedokters:",
+  "benefits": [
+    {
+      "label": "Mer output per timme",
+      "icon": "gauge"
+    },
+    {
+      "label": "Mindre personalberoende",
+      "icon": "user-minus"
+    },
+    {
+      "label": "Högre lönsamhet",
+      "icon": "euro"
+    },
+    {
+      "label": "Lägre kostnader",
+      "icon": "trending-down"
+    }
+  ],
+  "planTitle": "Så arbetar De Machinedokters",
+  "plan": [
+    {
+      "title": "Analys",
+      "text": "Vi analyserar din situation och sätter konkreta mål tillsammans."
+    },
+    {
+      "title": "Förbättringsplan",
+      "text": "Du får en förbättringsplan med en tydligt beskriven ROI."
+    },
+    {
+      "title": "Genomförande",
+      "text": "Förbättringsplanen genomförs ute i produktionen."
+    },
+    {
+      "title": "Utbildning",
+      "text": "Ditt team utbildas i att arbeta med de nya systemen."
+    },
+    {
+      "title": "Resultat",
+      "text": "Du får löpande insyn i resultaten, och vi justerar där det behövs."
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "hero": {
+    "video": "/video/hero.mp4",
+    "poster": "/images/fotos/hero-poster.jpg",
+    "videoMobile": "/video/hero-mobiel.mp4",
+    "title": "De Machinedokters",
+    "kicker": "Machine service & automation for manufacturing",
+    "subtitle": "Faster. Better. Forward.",
+    "lead": "Process optimisation, fault analysis, retrofit, robotics, special-purpose machines and CE marking for existing and new production lines. For factories in Örebro, Värmland and Västmanland counties."
+  },
+  "intro": {
+    "line1": "Full speed ahead for your production: why buy new machines when you can make the current ones perform better?",
+    "line2": "An optimised factory: higher OEE, less dependence on staff and higher profit.",
+    "quote": "\"Others see a problem, we see a challenge. And we solve it.\"",
+    "button1Label": "Book a no-obligation call",
+    "button1Link": "/en/contact/",
+    "button2Label": "See our services",
+    "button2Link": "/en/services/"
+  },
+  "difference": {
+    "title": "How we make the difference",
+    "items": [
+      {
+        "title": "Tailor-made engineering",
+        "text": "Every factory is different, so every process needs its own approach. De Machinedokters improve existing machines with smart technical modifications, without expensive replacement or off-the-shelf solutions.\n\nWith upgrades and smart modifications we get more capacity and reliability out of what is already on your floor."
+      },
+      {
+        "title": "Fast ROI",
+        "text": "We do not believe in long projects or thick reports. We are known for creative solutions that can be carried out quickly: practical improvements that deliver results straight away.\n\nWe do not make problems bigger than they are."
+      },
+      {
+        "title": "Personal approach",
+        "text": "We do not stand on the sidelines telling you how it should be done. We are in the factory, working with operators, technicians and managers.\n\nThat keeps lines of communication short and produces solutions that fit daily practice. Because we involve the team in the changes, the knowledge stays on the shop floor and the result lasts."
+      }
+    ]
+  },
+  "symptoms": {
+    "title": "Complaints De Machinedokters cure",
+    "intro": "Every factory has complaints now and then: machines that underperform, production lines that stop or processes that run stiffly. De Machinedokters make the right diagnosis and deliver a lasting solution. Typical complaints you call us in for:",
+    "quote": "\"Stubborn machine? Perfect. That is our speciality.\"",
+    "items": [
+      {
+        "title": "Inefficient production process",
+        "text": "Your machines run below capacity and output per hour is lower than it should be. We find the bottlenecks and fix them in the existing line.",
+        "image": "/images/fotos/bottellijn.jpg",
+        "imageAlt": "Automated production line with small empty bottles on a conveyor in a factory."
+      },
+      {
+        "title": "High downtime and maintenance costs",
+        "text": "Unexpected breakdowns and high maintenance costs hit profit directly. Every minute of downtime is lost production. We find the root cause instead of patching things up.",
+        "image": "/images/fotos/transportsysteem.jpg",
+        "imageAlt": "Industrial conveyor system with roller tracks, yellow railings and control panels in a factory hall."
+      },
+      {
+        "title": "Heavy dependence on staff",
+        "text": "A shortage of staff is more and more often the bottleneck of a business. De Machinedokters create smarter, more automated processes, so the line depends less on individual people.",
+        "image": "/images/fotos/rco-robots.jpg",
+        "imageAlt": "Technician on the floor next to orange industrial robots."
+      }
+    ],
+    "button1Label": "See our services",
+    "button1Link": "/en/services/",
+    "button2Label": "Contact",
+    "button2Link": "/en/contact/"
+  },
+  "regions": {
+    "title": "Where we work",
+    "intro": "We help manufacturing companies in central Sweden. Choose your county to read more."
+  },
+  "about": {
+    "title": "About us",
+    "text": "At De Machinedokters everything revolves around making things run better. Literally.\nWe are technical problem solvers who improve existing machines and processes with smart, durable modifications. No thick reports or standard solutions, but practical work that delivers straight away.\n\nSince 2018 we have been helping factories produce more efficiently and building special-purpose machines. That experience taught us that many machines do not need replacing. They just need the right treatment.",
+    "linkLabel": "Read more about us",
+    "link": "/en/about/"
+  }
+}
