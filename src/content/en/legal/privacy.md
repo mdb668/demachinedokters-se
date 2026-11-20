@@ -8,7 +8,7 @@ This privacy policy is a draft and will be completed before the site is publishe
 
 ## Data controller
 
-[TODO: bedrijfsgegevens na afspraak MDB/Freek]
+The data controller is Factory Freaks (sole proprietorship, Freek Broers), Swedish organisation number 910317-6179, Kärvingeborn 11, 712 95 Grythyttan, Sweden. Email: info@maskindoktorerna.se.
 
 ## What data we process
 
@@ -30,6 +30,6 @@ Under the GDPR you have the right to request access to your personal data, to ha
 
 ## Contact and complaints
 
-Contact us if you have questions about how we process your personal data: [TODO FREEK: email address]
+Contact us if you have questions about how we process your personal data: info@maskindoktorerna.se
 
 You also have the right to lodge a complaint with the Swedish supervisory authority, Integritetsskyddsmyndigheten (IMY), [imy.se](https://www.imy.se).

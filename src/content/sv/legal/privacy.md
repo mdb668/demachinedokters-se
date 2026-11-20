@@ -9,7 +9,7 @@ Den här integritetspolicyn är ett utkast och kompletteras innan sajten publice
 
 ## Personuppgiftsansvarig
 
-[TODO: bedrijfsgegevens na afspraak MDB/Freek]
+Personuppgiftsansvarig är Factory Freaks (enskild firma, Freek Broers), organisationsnummer 910317-6179, Kärvingeborn 11, 712 95 Grythyttan. E-post: info@maskindoktorerna.se.
 
 ## Vilka uppgifter vi behandlar
 
@@ -31,6 +31,6 @@ Enligt GDPR har du rätt att begära tillgång till dina personuppgifter, få de
 
 ## Kontakt och klagomål
 
-Kontakta oss om du har frågor om hur vi behandlar dina personuppgifter: [TODO FREEK: e-postadress]
+Kontakta oss om du har frågor om hur vi behandlar dina personuppgifter: info@maskindoktorerna.se
 
 Du har också rätt att lämna klagomål till tillsynsmyndigheten Integritetsskyddsmyndigheten (IMY), [imy.se](https://www.imy.se).

@@ -6,6 +6,7 @@ Actuele lijst per pagina: `npm run build && npm run check -- --todos`. In de pre
 Invullen kan in het CMS (`/admin/`); waar het veld staat, staat erachter.
 
 ## Op elke pagina (footer, contactblok, mobiele balk)
+Ingevuld 20-11-2026 (besluit Freek): telefoon, e-mail info@maskindoktorerna.se (mail nog niet actief), adres, bereikbaarheid. Bedrijfsgegevens op Factory Freaks (enskild firma), org.nr, momsnummer, F-skatt. Nog open: tekst contactpersoon.
 CMS → 🇸🇪/🇬🇧 Instellingen → Website-instellingen (in beide talen invullen)
 - `[TODO FREEK: telefonnummer]` (veld Telefoonnummer + de link `tel:+46…`)
 - `[TODO FREEK: e-postadress]`
