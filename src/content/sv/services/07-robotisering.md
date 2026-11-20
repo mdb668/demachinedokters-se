@@ -10,13 +10,13 @@ imageAlt: "Två FANUC-palleteringsrobotar i en avskärmad robotcell bredvid ett 
 order: 7
 slug: "robotisering"
 seoTitle: "Robotisering och robotautomation | De Machinedokters"
-seoDescription: "Robotar för palletering, stapling och hantering, inpassade i din befintliga linje. Fabrikatsoberoende, från prototyp till driftsättning."
+seoDescription: "Robotar för palletering, stapling och hantering, inpassade i din befintliga linje. Fabrikatsoberoende. Cobotpalleterare från cirka 460 000 kr exkl. moms."
 ctaTitle: "Repetitivt arbete som en robot kan ta över?"
 ctaText: "Vi bedömer ärligt om en robot, en cobot eller en enkel automatisering passar bäst."
 review: "sv-native-check-nodig"
 faq:
   - question: "Vad kostar en palleteringsrobot eller cobot?"
-    answer: "För stapling av kartonger levererar vi en nyckelfärdig, TÜV-godkänd cobotpalleterare. [TODO FREEK: pris för Sverige] I grundutförandet installerar vi den med en standardiserad plockposition och den kan börja köra direkt. Tillval som en rullbana eller ett anpassat gripdon tillkommer. Priset för en specialbyggd robotcell beror på hastighet, vikt och vad som behövs runt omkring. Genom att köpa robotarmen via en återförsäljare eller via vårt nätverk för renoverade robotar kan priset skilja en hel del."
+    answer: "För stapling av kartonger levererar vi en nyckelfärdig, TÜV-godkänd cobotpalleterare från cirka 460 000 kr exkl. moms. I grundutförandet installerar vi den med en standardiserad plockposition och den kan börja köra direkt. Tillval som en rullbana eller ett anpassat gripdon tillkommer. Priset för en specialbyggd robotcell beror på hastighet, vikt och vad som behövs runt omkring. Genom att köpa robotarmen via en återförsäljare eller via vårt nätverk för renoverade robotar kan priset skilja en hel del."
   - question: "Vad är leveranstiden för cobotpalleteraren?"
     answer: "[TODO FREEK: ledtid för Sverige] Det gäller den nyckelfärdiga cobotpalleteraren för kartonger i standardutförande med en standardiserad plockposition."
   - question: "Vad är en cobot?"
@@ -54,7 +54,7 @@ För stapling av kartonger levererar vi en komplett cobotpalleterare, **nyckelf�
 - Nytt staplingsmönster ställer du in på pekskärmen, **utan programmering**.
 - **9 till 20 kartonger per minut** och kartonger upp till cirka **38 kg**, beroende på utförande.
 
-Pris för nyckelfärdig installation med standardiserad plockposition: [TODO FREEK: pris för Sverige]. Tillval som en rullbana, ett dubbelt gripdon eller en anpassad inmatning tillkommer.
+Pris för nyckelfärdig installation med standardiserad plockposition: från cirka **460 000 kr** exkl. moms. Tillval som en rullbana, ett dubbelt gripdon eller en anpassad inmatning tillkommer.
 
 Leveranstid för den nyckelfärdiga palleteraren: [TODO FREEK: ledtid för Sverige]. [Skicka en förfrågan](/kontakt/).
 

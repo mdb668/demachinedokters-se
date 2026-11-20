@@ -16,7 +16,7 @@ ctaText: "Prata med oss. Vi hjälper dig att bedöma genomförbarhet, investerin
 review: "sv-native-check-nodig"
 faq:
   - question: "Vad kostar en specialmaskin?"
-    answer: "[TODO FREEK: pris för Sverige] Vad det kostar för dig beror på antalet moment, hastigheten, produktvariationen och hur mycket flexibilitet du behöver. En enkel automatisering av ett enda moment kostar betydligt mindre än en komplett linje eller flera maskiner."
+    answer: "Våra projekt ligger mellan cirka 65 000 kr och 4,5 miljoner kr exkl. moms. En enkel automatisering av ett enda moment börjar runt 65 000 kr. Vad det kostar för dig beror på antalet moment, hastigheten, produktvariationen och hur mycket flexibilitet du behöver. En enkel automatisering av ett enda moment kostar betydligt mindre än en komplett linje eller flera maskiner."
   - question: "Arbetar ni med fast pris?"
     answer: "Det beror på projektets storlek. Oftast kommer vi överens om ett fast pris."
   - question: "Hur räknar man ut om en specialmaskin betalar sig?"
@@ -41,7 +41,7 @@ Vissa produkter passar inte i en maskin ur katalogen: ett avvikande format, ett 
 
 ## Vad kostar en specialbyggd maskin?
 
-[TODO FREEK: pris för Sverige]
+Våra projekt ligger mellan **65 000 kr och 4,5 miljoner kr** exkl. moms. En enkel automatisering börjar runt 65 000 kr, en nyckelfärdig cobotpalleterare för kartonger kostar från cirka 460 000 kr.
 
 Kostnaden beror på antalet moment, hastigheten, produktvariationen och hur mycket flexibilitet du behöver. En enkel automatisering av ett enskilt moment kostar betydligt mindre än en komplett linje eller flera maskiner.
 

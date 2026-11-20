@@ -10,12 +10,12 @@ imageAlt: "Two FANUC palletising robots in a guarded robot cell next to a convey
 order: 7
 slug: "robotics"
 seoTitle: "Robotics and robot automation | De Machinedokters"
-seoDescription: "Robots for palletising, stacking and handling, fitted into your existing line. Brand-independent, from prototype to commissioning."
+seoDescription: "Robots for palletising, stacking and handling, fitted into your existing line. Brand-independent. Cobot palletiser from about SEK 460,000 excl. VAT."
 ctaTitle: "Repetitive work a robot could take over?"
 ctaText: "We look honestly at whether a robot, a cobot or simple automation is the best fit."
 faq:
   - question: "What does a palletising robot or cobot cost?"
-    answer: "For stacking boxes we supply a turnkey, TÜV-certified cobot palletiser. [TODO FREEK: price for Sweden] In the standard version we install it with a standard pick point and it can run straight away. Extras such as a roller conveyor or a modified gripper are additional. The price of a custom robot cell depends on speed, weight and what is needed around it. Buying the robot arm through a dealer or through our network for refurbished robots can make a considerable difference to the price."
+    answer: "For stacking boxes we supply a turnkey, TÜV-certified cobot palletiser from about SEK 460,000 excl. VAT. In the standard version we install it with a standard pick point and it can run straight away. Extras such as a roller conveyor or a modified gripper are additional. The price of a custom robot cell depends on speed, weight and what is needed around it. Buying the robot arm through a dealer or through our network for refurbished robots can make a considerable difference to the price."
   - question: "What is the delivery time for the cobot palletiser?"
     answer: "[TODO FREEK: lead time for Sweden] This applies to the turnkey cobot palletiser for boxes in the standard version with a standard pick point."
   - question: "What is a cobot?"
@@ -53,7 +53,7 @@ For stacking boxes we supply a complete cobot palletiser, **turnkey and TÜV-cer
 - Set a new stacking pattern on the touchscreen, **without programming**.
 - **9 to 20 boxes per minute** and boxes up to around **38 kg**, depending on the version.
 
-Price for turnkey installation with a standard pick point: [TODO FREEK: price for Sweden]. Extras such as a roller conveyor, a double gripper or a modified infeed are additional.
+Price for turnkey installation with a standard pick point: from about **SEK 460,000** excl. VAT. Extras such as a roller conveyor, a double gripper or a modified infeed are additional.
 
 Delivery time for the turnkey palletiser: [TODO FREEK: lead time for Sweden]. [Request one](/en/contact/).
 
