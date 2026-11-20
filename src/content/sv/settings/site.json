@@ -27,10 +27,10 @@
   "ctaLink": "/kontakt/",
   "serviceArea": "Verksamhetsområde: Örebro län, Värmland och Västmanland.",
   "contactPerson": {
-    "heading": "Din kontakt: Freek",
+    "heading": "Du får svar personligen av Freek",
     "name": "Freek",
     "role": "Medgrundare, De Machinedokters",
-    "text": "[TODO FREEK: två meningar om dig själv och din bakgrund]",
+    "text": "Medgrundare av De Machinedokters. Ingen telefonist, utan någon som verkligen förstår din maskin.",
     "photo": "/images/team/freek.jpg",
     "photoAlt": "Freek, din kontakt hos De Machinedokters",
     "phone": "+46 70 610 05 91",
