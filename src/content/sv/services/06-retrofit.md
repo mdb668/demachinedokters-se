@@ -17,7 +17,7 @@ faq:
   - question: "Kan jag höra av mig först eller skicka ett foto?"
     answer: "Ja, gärna. Hör av dig även om du inte vet exakt vad som är fel. Skicka gärna ett foto eller en film på maskinen, apparatskåpet eller märkskylten."
   - question: "Min gamla maskin fungerar inte längre. Kan ni laga den eller byta styrsystemet?"
-    answer: "Ja. Vi kommer först ut en dag för att reparera maskinen. Går det inte på den dagen kartlägger vi allt som behöver göras, och sedan får du en plan och en offert, till exempel för ett nytt styrsystem eller en komplett retrofit. [TODO FREEK: ledtid för Sverige]"
+    answer: "Ja. Vi kommer först ut en dag för att reparera maskinen. Går det inte på den dagen kartlägger vi allt som behöver göras, och sedan får du en plan och en offert, till exempel för ett nytt styrsystem eller en komplett retrofit. Planen och offerten får du normalt inom en vecka efter besöket."
   - question: "Måste jag betala för den första dagen?"
     answer: "Ja, reparationsdagen betalar du för. Väljer du sedan en större uppgradering eller retrofit hos oss, räknar vi av kostnaden för den dagen på offerten."
   - question: "När lönar sig retrofit jämfört med en ny maskin?"
@@ -45,6 +45,6 @@ Vi får ofta frågan: *"Min maskin fungerar inte längre, kan ni laga den eller 
 1. **Hör av dig.** Även om du inte vet vad som är fel. Ett foto eller en film på maskinen, apparatskåpet eller märkskylten räcker för att komma igång. Vi bollar idéer utan förpliktelser. [Kontakta oss](/kontakt/).
 2. **En dag på plats.** Vi kommer ut och reparerar maskinen.
 3. **Går det inte, kartlägger vi allt.** Vi går igenom vad som behöver göras.
-4. **En plan och en offert.** För en riktad reparation, ett nytt styrsystem eller en komplett retrofit. [TODO FREEK: ledtid för Sverige]
+4. **En plan och en offert.** För en riktad reparation, ett nytt styrsystem eller en komplett retrofit. Planen och offerten får du normalt inom en vecka efter besöket.
 
 Reparationsdagen betalar du för. Väljer du sedan en större uppgradering hos oss, **räknar vi av den dagen på offerten**.

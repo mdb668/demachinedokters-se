@@ -16,13 +16,15 @@ When you send the contact form we process the details you provide: name, company
 
 The form is sent through the Web3Forms service, which forwards the message to us by email.
 
-[TODO: legal basis, retention period and processors to be settled together with the company details]
+Legal basis: we process the data on the basis of our legitimate interest in answering your enquiry and, if it leads to an assignment, to perform the contract.
+
+Retention: enquiries that do not lead to an assignment are kept for no more than two years. Data that forms part of our accounts is kept for seven years, as required by the Swedish Bookkeeping Act.
+
+Processors: GitHub (hosting), Web3Forms (contact form) and Microsoft 365 (email).
 
 ## Cookies and statistics
 
 This website sets no cookies and uses no visitor statistics.
-
-[TODO: update this section if visitor statistics are added]
 
 ## Your rights
 

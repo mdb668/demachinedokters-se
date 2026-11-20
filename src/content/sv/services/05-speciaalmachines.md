@@ -22,7 +22,7 @@ faq:
   - question: "Hur räknar man ut om en specialmaskin betalar sig?"
     answer: "Oftast ställer vi investeringen mot den extra produktionen per år eller besparingen i heltidstjänster per år. Kvalitetsvinster jämfört med manuellt arbete, till exempel färre kassationer eller mindre fysisk belastning, skiljer sig mycket mellan projekt. Dem kartlägger vi från fall till fall. Då vet du i förväg var du hamnar."
   - question: "Hur lång tid tar det att bygga en specialmaskin?"
-    answer: "[TODO FREEK: ledtid för Sverige] En enkel maskin eller en anpassad befintlig maskin går fortare. Ett stort konstruktionsprojekt tar oftast längre tid. Ledtiden beror framför allt på komplexiteten och hur flexibel maskinen ska vara. Själva bygget behöver inte ta lång tid. Mest tid går åt till att ordentligt slå fast vad maskinen ska klara."
+    answer: "I genomsnitt tar det cirka sex månader från första besöket till en maskin som går. En enkel maskin eller en anpassad befintlig maskin går fortare. Ett stort konstruktionsprojekt tar oftast längre tid. Ledtiden beror framför allt på komplexiteten och hur flexibel maskinen ska vara. Själva bygget behöver inte ta lång tid. Mest tid går åt till att ordentligt slå fast vad maskinen ska klara."
   - question: "Vad är specialmaskinbygge?"
     answer: "Specialmaskinbygge innebär att konstruera och bygga maskiner som inte finns i någon katalog, utan tas fram särskilt för en produkt eller en process. Till exempel för att produkten har ett avvikande format, är ömtålig eller för att ett moment hittills bara har gått att göra för hand."
   - question: "Vad är skillnaden mellan en standardmaskin och en specialbyggd maskin?"
@@ -91,7 +91,7 @@ I ett serviceavtal (SLA, Service Level Agreement) slår vi fast vad du kan förv
 
 ## Hur lång tid tar det att bygga en maskin?
 
-[TODO FREEK: ledtid för Sverige]
+I genomsnitt tar det cirka sex månader från första besöket till en maskin som går. En enkel maskin eller en anpassad befintlig maskin går fortare. Ett stort konstruktionsprojekt tar oftast längre tid.
 
 En enkel maskin eller en anpassad befintlig maskin går fortare. Ett stort konstruktionsprojekt tar oftast längre tid.
 

@@ -23,4 +23,4 @@ Har du en maskin som krånglar, en linje som inte når sin kapacitet eller en ä
 
 Freek är din kontakt. Hör av dig med en beskrivning av maskinen eller problemet, gärna med foto eller film.
 
-[TODO FREEK: lokal förankring i Örebro län: utgångsort, vilka orter ni åker till och eventuella lokala case eller referenser]
+Vi utgår från Grythyttan i Hällefors kommun, mitt i Bergslagen, och besöker kunder i hela Örebro län, bland annat i Örebro, Karlskoga, Kumla, Lindesberg och Hallsberg.

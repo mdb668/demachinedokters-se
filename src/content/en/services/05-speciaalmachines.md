@@ -21,7 +21,7 @@ faq:
   - question: "How do you work out whether a special-purpose machine pays for itself?"
     answer: "We usually set the investment against the extra production per year or the saving in full-time staff per year. Quality gains compared with manual work, such as fewer rejects or less physical strain, vary a great deal from project to project. We map those out case by case. That way you know where you stand before you start."
   - question: "How long does it take to build a special-purpose machine?"
-    answer: "[TODO FREEK: lead time for Sweden] A simple machine or a modified existing machine can be quicker. A large engineering project usually takes longer. The lead time depends mainly on the complexity and on how flexible the machine needs to be. The build itself need not take long. Most of the time goes into properly defining what the machine has to do."
+    answer: "On average it takes about six months from the first visit to a running machine. A simple machine or a modified existing machine can be quicker. A large engineering project usually takes longer. The lead time depends mainly on the complexity and on how flexible the machine needs to be. The build itself need not take long. Most of the time goes into properly defining what the machine has to do."
   - question: "What is special-purpose machine building?"
     answer: "Special-purpose machine building is designing and building machines that do not come from a catalogue but are made specifically for one product or process. For example because the product has an unusual format, is fragile, or because an operation could only be done by hand until now."
   - question: "What is the difference between a standard machine and a custom one?"
@@ -90,7 +90,7 @@ In an SLA (Service Level Agreement) we set out what you can expect from us for m
 
 ## How long does it take to build a machine?
 
-[TODO FREEK: lead time for Sweden]
+On average it takes about six months from the first visit to a running machine. A simple machine or a modified existing machine can be quicker. A large engineering project usually takes longer.
 
 A simple machine or a modified existing machine can be quicker. A large engineering project usually takes longer.
 

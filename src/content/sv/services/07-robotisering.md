@@ -18,7 +18,7 @@ faq:
   - question: "Vad kostar en palleteringsrobot eller cobot?"
     answer: "För stapling av kartonger levererar vi en nyckelfärdig, TÜV-godkänd cobotpalleterare. [TODO FREEK: pris för Sverige] I grundutförandet installerar vi den med en standardiserad plockposition och den kan börja köra direkt. Tillval som en rullbana eller ett anpassat gripdon tillkommer. Priset för en specialbyggd robotcell beror på hastighet, vikt och vad som behövs runt omkring. Genom att köpa robotarmen via en återförsäljare eller via vårt nätverk för renoverade robotar kan priset skilja en hel del."
   - question: "Vad är leveranstiden för cobotpalleteraren?"
-    answer: "[TODO FREEK: ledtid för Sverige] Det gäller den nyckelfärdiga cobotpalleteraren för kartonger i standardutförande med en standardiserad plockposition."
+    answer: "Inom cirka två månader. Det gäller den nyckelfärdiga cobotpalleteraren för kartonger i standardutförande med en standardiserad plockposition."
   - question: "Vad är en cobot?"
     answer: "En cobot (kollaborativ robot) är en robotarm som är gjord för att arbeta nära människor: den begränsar kraft och hastighet och stannar vid kontakt. Den är kompaktare och går snabbare att programmera, men är långsammare och mindre stark än en industrirobot."
   - question: "Robot eller cobot: vad är bäst?"
@@ -26,7 +26,7 @@ faq:
   - question: "Vilka robotfabrikat arbetar ni med?"
     answer: "Vi är fabrikatsoberoende. Vi har stor erfarenhet av FANUC, ABB, KUKA och Doosan. Vi väljer det fabrikat som passar applikationen och det kunden vill ha, även mindre fabrikat."
   - question: "Hur lång tid tar ett robotprojekt?"
-    answer: "[TODO FREEK: ledtid för Sverige] Tiden räknas från att vi slår fast vad som behövs till driftsättning. En enkel applikation går fortare. En komplex cell med specialgripdon och verktyg tar längre tid."
+    answer: "Räkna med cirka sex månader. Tiden räknas från att vi slår fast vad som behövs till driftsättning. En enkel applikation går fortare. En komplex cell med specialgripdon och verktyg tar längre tid."
   - question: "Får en robot plats i vår befintliga linje?"
     answer: "Ja, det är just det vi arbetar med. Vi passar in robotar i den linje du redan har och behåller truckvägar, manuella linjer för specialserier och den flexibilitet du behöver. Robotarmen köper vi in, allt runt omkring gör vi själva: från prototyp till leverans och driftsättning."
   - question: "Bygger ni också robotsvetslinjer?"
@@ -56,7 +56,7 @@ För stapling av kartonger levererar vi en komplett cobotpalleterare, **nyckelf�
 
 Pris för nyckelfärdig installation med standardiserad plockposition: [TODO FREEK: pris för Sverige]. Tillval som en rullbana, ett dubbelt gripdon eller en anpassad inmatning tillkommer.
 
-Leveranstid för den nyckelfärdiga palleteraren: [TODO FREEK: ledtid för Sverige]. [Skicka en förfrågan](/kontakt/).
+Leveranstid för den nyckelfärdiga palleteraren: inom **cirka två månader**. [Skicka en förfrågan](/kontakt/).
 
 ## Robot eller cobot? Den största missuppfattningen
 
@@ -76,7 +76,7 @@ Vi väljer den robot som passar applikationen. Vi har stor erfarenhet av **FANUC
 4. **Leverans och driftsättning.** Vi passar in cellen i din linje, tar den i drift och utbildar dina operatörer och din underhållsavdelning.
 5. **Service.** Eftersom vi också arbetar med underhåll och felsökning finns vi kvar kring robotcellen efter leveransen.
 
-Tid för ett robotprojekt, från första samtal till driftsättning: [TODO FREEK: ledtid för Sverige].
+Tid för ett robotprojekt, från första samtal till driftsättning: **cirka sex månader**.
 
 ## Det här gör vi inte
 
