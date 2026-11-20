@@ -15,7 +15,7 @@ ctaTitle: "Got an idea for a machine?"
 ctaText: "Talk it through with us. We help you weigh up feasibility, investment and payback time."
 faq:
   - question: "What does a special-purpose machine cost?"
-    answer: "[TODO FREEK: price for Sweden] What it costs you depends on the number of operations, the speed, the product variation and how much flexibility you need. Automating a single simple operation costs far less than a complete line or several machines."
+    answer: "Our projects range from about SEK 65,000 to SEK 4.5 million excl. VAT. Automating a single simple operation starts at around SEK 65,000. What it costs you depends on the number of operations, the speed, the product variation and how much flexibility you need. Automating a single simple operation costs far less than a complete line or several machines."
   - question: "Do you work with a fixed price?"
     answer: "That depends on the size of the project. In most cases we agree a fixed price."
   - question: "How do you work out whether a special-purpose machine pays for itself?"
@@ -40,7 +40,7 @@ Some products do not fit a machine from the catalogue: an unusual format, a frag
 
 ## What does a custom-built machine cost?
 
-[TODO FREEK: price for Sweden]
+Our projects range from **SEK 65,000 to SEK 4.5 million** excl. VAT. A simple automation starts at around SEK 65,000, a turnkey cobot palletiser for boxes from about SEK 460,000.
 
 The cost depends on the number of operations, the speed, the product variation and how much flexibility you need. Automating a single simple operation costs far less than a complete line or several machines.
 

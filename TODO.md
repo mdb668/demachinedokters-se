@@ -36,16 +36,15 @@ CMS → 🇸🇪/🇬🇧 Instellingen → Website-instellingen (in beide talen 
 ## CE-märkning (`/tjanster/ce-markning-maskinsakerhet/`, `/en/services/ce-marking-machine-safety/`)
 - `[TODO FREEK: bekräfta exakt vilka CE-tjänster som erbjuds i Sverige …]`
 - `[TODO FREEK: bekräfta arbetssättet …]`
-- `[TODO FREEK: pris för Sverige]`
 
 ## Regiopagina's (`/omraden/orebro-lan/`, `/omraden/varmland/`, `/omraden/vastmanland/` en de Engelse versies)
 - `[TODO FREEK: lokal förankring i <län> …]`: uitvalsbasis, plaatsen, lokale cases of referenties.
 
 ## Diensten: prijzen en doorlooptijden
-De Nederlandse europrijzen, levertijden en reactietijden zijn niet overgenomen.
-- Specialmaskiner: `[TODO FREEK: pris för Sverige]` (2x), `[TODO FREEK: ledtid för Sverige]` (2x)
+Prijzen: NL-bedragen omgezet naar ronde SEK-bedragen (65 000 kr tot 4,5 miljoen kr; cobotpalleterare vanaf ca. 460 000 kr; CE per opdracht). Levertijden en reactietijden staan nog open.
+- Specialmaskiner: `[TODO FREEK: ledtid för Sverige]` (2x). Prijzen ingevuld: NL-bedragen omgerekend naar ronde SEK-bedragen (besluit Freek, 20-11-2026).
 - Retrofit: `[TODO FREEK: ledtid för Sverige]` (2x: FAQ en stap 4)
-- Robotisering: `[TODO FREEK: pris för Sverige]` (2x), `[TODO FREEK: ledtid för Sverige]` (4x)
+- Robotisering: `[TODO FREEK: ledtid för Sverige]` (4x). Prijs cobotpalleterare ingevuld: vanaf ca. 460 000 kr exkl. moms.
 - Vanliga frågor: vraag 3 en vraag 10 (`[TODO FREEK: ledtid för Sverige]`, reactietijd bij storing)
 
 ## Inhoudelijke punten ter bevestiging (geen placeholder, wel nakijken)
