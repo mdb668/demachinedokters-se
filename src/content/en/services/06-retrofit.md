@@ -16,7 +16,7 @@ faq:
   - question: "Can I get in touch first or send a photo?"
     answer: "Yes, please do. Get in touch even if you do not yet know exactly what is wrong. Feel free to send a photo or video of the machine, the control cabinet or the nameplate."
   - question: "My old machine has stopped working. Can you repair it or replace the controls?"
-    answer: "Yes. We first come over for one day to repair the machine. If that cannot be done within the day, we record everything that needs doing and you then receive a plan and a quotation, for example for new controls or a complete retrofit. [TODO FREEK: lead time for Sweden]"
+    answer: "Yes. We first come over for one day to repair the machine. If that cannot be done within the day, we record everything that needs doing and you then receive a plan and a quotation, for example for new controls or a complete retrofit. You normally receive the plan and quotation within a week of the visit."
   - question: "Do I have to pay for that first day?"
     answer: "Yes, you pay for the repair day. If you then choose a major upgrade or retrofit with us, we deduct the cost of that day from the quotation."
   - question: "When does a retrofit pay off compared with a new machine?"
@@ -44,6 +44,6 @@ We regularly get the question: *"My machine has stopped working, can you repair 
 1. **Just get in touch.** Even if you do not yet know what is wrong. A photo or video of the machine, the control cabinet or the nameplate is enough to get started. We think along with no obligation. [Contact us](/en/contact/).
 2. **One day on site.** We come over and repair the machine.
 3. **If that does not work, we record everything.** We map out what needs to be done.
-4. **A plan and a quotation.** For a targeted repair, new controls or a complete retrofit. [TODO FREEK: lead time for Sweden]
+4. **A plan and a quotation.** For a targeted repair, new controls or a complete retrofit. You normally receive the plan and quotation within a week of the visit.
 
 You pay for the repair day. If you then choose a major upgrade with us, **we deduct that day from the quotation**.

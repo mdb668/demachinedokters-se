@@ -60,3 +60,10 @@ Prijzen: NL-bedragen omgezet naar ronde SEK-bedragen (65 000 kr tot 4,5 miljoen 
 
 ## Alle Zweedse teksten
 Elke Zweedse pagina heeft `review: "sv-native-check-nodig"`. Laat een moedertaalspreker ze nakijken en maak het veld daarna leeg.
+
+## Ingevuld 20-11-2026 (besluit Freek, PR levertijden-en-teksten)
+- Levertijden overgenomen van NL: specialmaskiner ca. 6 maanden, cobotpalleterare ca. 2 maanden, robotproject ca. 6 maanden, retrofit plan en offerte binnen een week. Spoed: snel schakelen zonder harde belofte (FAQ 3 en 10).
+- Integritetspolicy: rechtsgrond, bewaartermijn en verwerkers ingevuld; geen cookies of statistieken.
+- CE: ook voor machines die anderen hebben gebouwd.
+- Regio's: uitvalsbasis Grythyttan, plaatsen uit het veld places.
+- Om oss: korte tekst over de start in Zweden.

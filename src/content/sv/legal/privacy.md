@@ -17,13 +17,15 @@ När du skickar kontaktformuläret behandlar vi de uppgifter du själv lämnar: 
 
 Formuläret skickas via tjänsten Web3Forms, som vidarebefordrar meddelandet till oss per e-post.
 
-[TODO: rättslig grund, lagringstid och personuppgiftsbiträden fastställs tillsammans med företagsuppgifterna]
+Rättslig grund: vi behandlar uppgifterna med stöd av vårt berättigade intresse av att besvara din förfrågan och, om det blir ett uppdrag, för att fullgöra avtalet.
+
+Lagringstid: förfrågningar som inte leder till ett uppdrag sparas i högst två år. Uppgifter som ingår i bokföringen sparas i sju år enligt bokföringslagen.
+
+Personuppgiftsbiträden: GitHub (webbhotell), Web3Forms (kontaktformulär) och Microsoft 365 (e-post).
 
 ## Cookies och statistik
 
 Den här webbplatsen sätter inga cookies och använder ingen besöksstatistik.
-
-[TODO: uppdatera detta avsnitt om besöksstatistik läggs till]
 
 ## Dina rättigheter
 

@@ -17,7 +17,7 @@ faq:
   - question: "What does a palletising robot or cobot cost?"
     answer: "For stacking boxes we supply a turnkey, TÜV-certified cobot palletiser from about SEK 460,000 excl. VAT. In the standard version we install it with a standard pick point and it can run straight away. Extras such as a roller conveyor or a modified gripper are additional. The price of a custom robot cell depends on speed, weight and what is needed around it. Buying the robot arm through a dealer or through our network for refurbished robots can make a considerable difference to the price."
   - question: "What is the delivery time for the cobot palletiser?"
-    answer: "[TODO FREEK: lead time for Sweden] This applies to the turnkey cobot palletiser for boxes in the standard version with a standard pick point."
+    answer: "Within about two months. This applies to the turnkey cobot palletiser for boxes in the standard version with a standard pick point."
   - question: "What is a cobot?"
     answer: "A cobot (collaborative robot) is a robot arm made to work close to people: it limits force and speed and stops on contact. It is more compact and quicker to program, but slower and less powerful than an industrial robot."
   - question: "Robot or cobot: which is better?"
@@ -25,7 +25,7 @@ faq:
   - question: "Which robot brands do you work with?"
     answer: "We are brand-independent. We have extensive experience with FANUC, ABB, KUKA and Doosan. We choose the brand that suits the application and what the customer wants, including smaller brands."
   - question: "How long does a robot project take?"
-    answer: "[TODO FREEK: lead time for Sweden] That runs from defining what is needed to implementation. A simple application can be quicker. A complex cell with special grippers and tooling takes longer."
+    answer: "Allow about six months. That runs from defining what is needed to implementation. A simple application can be quicker. A complex cell with special grippers and tooling takes longer."
   - question: "Can a robot fit into our existing line?"
     answer: "Yes, that is exactly what we do. We fit robots into the line you already have, keeping forklift routes, manual lines for special runs and the flexibility you need. We buy in the robot arm and do everything around it ourselves: from prototype to handover and implementation."
   - question: "Do you also build robotic welding lines?"
@@ -55,7 +55,7 @@ For stacking boxes we supply a complete cobot palletiser, **turnkey and TÜV-cer
 
 Price for turnkey installation with a standard pick point: from about **SEK 460,000** excl. VAT. Extras such as a roller conveyor, a double gripper or a modified infeed are additional.
 
-Delivery time for the turnkey palletiser: [TODO FREEK: lead time for Sweden]. [Request one](/en/contact/).
+Delivery time for the turnkey palletiser: within **about two months**. [Request one](/en/contact/).
 
 ## Robot or cobot? The biggest misconception
 
@@ -75,7 +75,7 @@ We choose the robot that suits the application. We have extensive experience wit
 4. **Handover and implementation.** Fitting it into your line, commissioning it and training your operators and maintenance team.
 5. **Service.** Because we also do maintenance and fault analysis, we stay involved with the robot cell after handover.
 
-Duration of a robot project, from first conversation to implementation: [TODO FREEK: lead time for Sweden].
+Duration of a robot project, from first conversation to implementation: **about six months**.
 
 ## What we do not do
 
