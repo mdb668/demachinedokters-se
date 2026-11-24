@@ -12,7 +12,7 @@ stats:
   - { value: "Fewer", label: "QC rejects", icon: "check" }
   - { value: "Higher", label: "Safety", icon: "shield" }
 challenge: "Assembly of household steps was largely manual. That led to longer throughput times, increased physical strain and quality losses at final inspection. Unacceptable in a product category where safety comes first.\n\nThe goal: faster production, safer work and fewer QC rejects."
-approach: "Together with the team, we reviewed the entire assembly line from a technical point of view.\n\nWe introduced automation for repetitive tasks, improved ergonomics and restructured the work sequence. Safety sensors and functional feedback mechanisms provide direct interaction between operator and machine."
+approach: "Together with the team, we reviewed the entire assembly line from a technical point of view.\n\nWe introduced automation for repetitive tasks, improved ergonomics and restructured the work sequence. Safety sensors and functional feedback give the operator direct interaction with the machine."
 results:
   - "Higher output per hour"
   - "Fewer QC rejects"

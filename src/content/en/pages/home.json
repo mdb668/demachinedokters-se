@@ -9,8 +9,8 @@
     "lead": "Process optimisation, fault analysis, retrofit, robotics, special-purpose machines and CE marking for existing and new production lines. For factories in Örebro, Värmland and Västmanland counties."
   },
   "intro": {
-    "line1": "Full speed ahead for your production: why buy new machines when you can make the current ones perform better?",
-    "line2": "An optimised factory: higher OEE, less dependence on staff and higher profit.",
+    "line1": "Why buy new machines when you can make the ones you have perform better?",
+    "line2": "The result: higher OEE, less dependence on staff and higher profit.",
     "quote": "\"Others see a problem, we see a challenge. And we solve it.\"",
     "button1Label": "Book a no-obligation call",
     "button1Link": "/en/contact/",
@@ -22,26 +22,26 @@
     "items": [
       {
         "title": "Tailor-made engineering",
-        "text": "Every factory is different, so every process needs its own approach. De Machinedokters improve existing machines with smart technical modifications, without expensive replacement or off-the-shelf solutions.\n\nWith upgrades and smart modifications we get more capacity and reliability out of what is already on your floor."
+        "text": "Every factory is different, so every process gets its own approach. We improve existing machines with technical modifications, instead of expensive replacement or off-the-shelf solutions.\n\nThose upgrades and modifications get more capacity and reliability out of the machines already on your floor."
       },
       {
         "title": "Fast ROI",
-        "text": "We do not believe in long projects or thick reports. We are known for creative solutions that can be carried out quickly: practical improvements that deliver results straight away.\n\nWe do not make problems bigger than they are."
+        "text": "We do not do long projects or thick reports. We are known for creative, practical improvements that can be carried out quickly and deliver results straight away.\n\nWe do not make problems bigger than they are."
       },
       {
         "title": "Personal approach",
-        "text": "We do not stand on the sidelines telling you how it should be done. We are in the factory, working with operators, technicians and managers.\n\nThat keeps lines of communication short and produces solutions that fit daily practice. Because we involve the team in the changes, the knowledge stays on the shop floor and the result lasts."
+        "text": "We do not advise from the sidelines. We work in the factory, alongside operators, technicians and managers.\n\nThat keeps communication short and gives solutions that fit daily practice. Because your team helps make the changes, the knowledge stays on the shop floor and the result lasts."
       }
     ]
   },
   "symptoms": {
     "title": "Complaints De Machinedokters cure",
-    "intro": "Every factory has complaints now and then: machines that underperform, production lines that stop or processes that run stiffly. De Machinedokters make the right diagnosis and deliver a lasting solution. Typical complaints you call us in for:",
+    "intro": "Every factory has complaints now and then: machines that underperform, lines that stop, processes that do not run smoothly. We make the diagnosis and fix the cause for good. Typical reasons to call us in:",
     "quote": "\"Stubborn machine? Perfect. That is our speciality.\"",
     "items": [
       {
         "title": "Inefficient production process",
-        "text": "Your machines run below capacity and output per hour is lower than it should be. Take our customer Coca-Cola, where we optimised the can process. Thanks to our solutions the new line runs 30% faster!",
+        "text": "Your machines run below capacity and output per hour is lower than it should be. At Coca-Cola we optimised the can process, and the new line now runs 30% faster.",
         "image": "/images/fotos/bottellijn.jpg",
         "imageAlt": "Automated production line with small empty bottles on a conveyor in a factory."
       },
@@ -53,7 +53,7 @@
       },
       {
         "title": "Heavy dependence on staff",
-        "text": "A shortage of staff is more and more often the bottleneck of a business. De Machinedokters create smarter, more automated processes. Among other things, we helped a food company automate tasks, giving it 20% faster packaging speed.",
+        "text": "More and more often, the shortage of staff is what holds production back. We make processes smarter and more automated. At a food company, for example, we automated tasks and packaging speed went up by 20%.",
         "image": "/images/fotos/rco-robots.jpg",
         "imageAlt": "Technician on the floor next to orange industrial robots."
       }
@@ -69,7 +69,7 @@
   },
   "about": {
     "title": "About us",
-    "text": "At De Machinedokters everything revolves around making things run better. Literally.\nWe are technical problem solvers who improve existing machines and processes with smart, durable modifications. No thick reports or standard solutions, but practical work that delivers straight away.\n\nSince 2018 we have been helping factories produce more efficiently and building special-purpose machines. That experience taught us that many machines do not need replacing. They just need the right treatment.",
+    "text": "At De Machinedokters it is all about making things run better. Literally.\nWe are technical problem solvers who improve existing machines and processes with durable modifications. Instead of thick reports or standard solutions, we do practical work that delivers results straight away.\n\nSince 2018 we have been helping factories produce more efficiently and building special-purpose machines. That experience has taught us that many machines do not need replacing. They need the right treatment.",
     "linkLabel": "Read more about us",
     "link": "/en/about/"
   }

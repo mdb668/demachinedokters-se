@@ -16,7 +16,7 @@ When you send the contact form we process the details you provide: name, company
 
 The form is sent through the Web3Forms service, which forwards the message to us by email.
 
-Legal basis: we process the data on the basis of our legitimate interest in answering your enquiry and, if it leads to an assignment, to perform the contract.
+Legal basis: we process the data on the basis of our legitimate interest in answering your enquiry and, if the enquiry leads to an assignment, in order to perform the contract.
 
 Retention: enquiries that do not lead to an assignment are kept for no more than two years. Data that forms part of our accounts is kept for seven years, as required by the Swedish Bookkeeping Act.
 

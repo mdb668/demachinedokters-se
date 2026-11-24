@@ -12,7 +12,7 @@ stats:
   - { value: "+2 h", label: "Extra production time", icon: "trending-up" }
   - { value: "Higher", label: "Line availability", icon: "activity" }
 challenge: "On several can lines in the Netherlands, a format change took three hours on average. That meant recurring production losses and needless pressure on planning. The lines had to become more flexible without compromising on reliability or quality."
-approach: "De Machinedokters mechanically redesigned the existing machines so they could be changed over faster, without adding complexity.\n\nBy simplifying critical set-up points and handling mechanical tolerances more cleverly, the number of steps required was cut considerably.\n\nThe solution fits straight onto the existing installations, with no new lines and no unnecessary electronics."
+approach: "De Machinedokters mechanically redesigned the existing machines so they could be changed over faster, without adding complexity.\n\nWe simplified critical set-up points and handled mechanical tolerances more cleverly, which cut the number of steps considerably.\n\nThe solution fits straight onto the existing installations: no new lines and no unnecessary electronics."
 results:
   - "Changeover time reduced from 3 hours to 1 hour"
   - "2 hours of extra production time per changeover"

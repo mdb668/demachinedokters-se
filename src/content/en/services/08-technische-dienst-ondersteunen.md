@@ -9,8 +9,8 @@ imageAlt: "Training in a classroom with a flip chart."
 order: 8
 slug: "maintenance-team-support"
 seoTitle: "Maintenance team support and training | De Machinedokters"
-seoDescription: "Together with your maintenance team we solve stubborn faults and train your people, so they can do it themselves afterwards. Independent of brand."
-ctaTitle: "Does your maintenance team have no time for the real cause?"
+seoDescription: "We work with your maintenance team to solve stubborn faults and train your people, so they can do it themselves afterwards. Any brand."
+ctaTitle: "No time in your maintenance team to find the real cause?"
 ctaText: "We discuss which faults you want rid of and what your maintenance team should be able to do itself afterwards."
 faq:
   - question: "How long does a programme take?"
@@ -35,7 +35,7 @@ Your maintenance team is busy. There is always a new fault, so the cause of the 
 
 ## What we do
 
-Together with your maintenance team we tackle the stubborn faults. We look for the real cause, independent of brand and across mechanics, electrics and controls, and solve it. Your people work alongside us. That way they learn how we find the cause, and can do it themselves afterwards.
+Together with your maintenance team we tackle the stubborn faults. We look for the real cause, on any brand and across mechanics, electrics and controls, and solve it. Your people work alongside us. That way they learn how we find the cause, and can do it themselves afterwards.
 
 ## How a programme works
 

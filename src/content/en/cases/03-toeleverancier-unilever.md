@@ -11,14 +11,14 @@ stats:
   - { value: "-30%", label: "Downtime", icon: "trending-down" }
   - { value: "Lower", label: "Maintenance costs", icon: "euro" }
   - { value: "<6 months", label: "Payback period", icon: "timer" }
-challenge: "A packaging manufacturer supplying Unilever was dealing with recurring breakdowns on an existing machine line. The control systems were outdated and faults came out of the blue. For a supplier to a major brand, that puts immediate pressure on delivery reliability, with rising maintenance costs as an extra bill. Replacing the line was not an option, so reliability had to improve with the existing machinery."
+challenge: "A packaging manufacturer supplying Unilever was dealing with recurring breakdowns on an existing machine line. The control systems were outdated and faults came out of the blue. For a supplier to a major brand, that puts immediate pressure on delivery reliability, and maintenance costs were rising as well. Replacing the line was not an option, so reliability had to improve with the existing machinery."
 approach: "We introduced data-driven monitoring of critical components on the line, linked to predictive analytics. This made abnormal behaviour visible before it led to lost production.\n\nOperators were actively involved and trained to interpret the signals."
 results:
   - "30% less unplanned downtime"
   - "Lower maintenance costs"
   - "Higher delivery reliability towards Unilever"
   - "Payback period under 6 months"
-closing: "No more firefighting. The organisation now manages for predictability."
+closing: "No more firefighting. The organisation now works predictably."
 seoTitle: "Unilever supplier: 30% less downtime | De Machinedokters"
 seoDescription: "Data-driven monitoring and predictive analytics on an existing line cut unplanned downtime by 30% for a packaging supplier to Unilever."
 order: 3
