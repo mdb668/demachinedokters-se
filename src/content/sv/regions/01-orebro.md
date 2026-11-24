@@ -10,7 +10,7 @@ seoDescription: "Felanalys, retrofit, robotisering, specialmaskiner och CE-märk
 order: 1
 ---
 
-Har du en maskin som krånglar, en linje som inte når sin kapacitet eller en äldre styrning som det inte längre går att få reservdelar till? De Machinedokters arbetar ute i din fabrik i Örebro län, tillsammans med operatörer, tekniker och underhållsavdelningen.
+Har du en maskin som krånglar, en linje som inte når sin kapacitet eller en äldre styrning som det inte längre finns reservdelar till? De Machinedokters kommer ut till din fabrik i Örebro län och arbetar på plats tillsammans med operatörer, tekniker och underhållsavdelningen.
 
 ## Det här hjälper vi till med
 
@@ -21,6 +21,6 @@ Har du en maskin som krånglar, en linje som inte når sin kapacitet eller en ä
 
 ## Din kontakt i Örebro län
 
-Freek är din kontakt. Hör av dig med en beskrivning av maskinen eller problemet, gärna med foto eller film.
+Hör av dig till Freek och beskriv maskinen eller problemet, gärna med foto eller film.
 
 Vi utgår från Grythyttan i Hällefors kommun, mitt i Bergslagen, och besöker kunder i hela Örebro län, bland annat i Örebro, Karlskoga, Kumla, Lindesberg och Hallsberg.
