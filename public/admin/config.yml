@@ -19,7 +19,7 @@ backend:
 
 site_url: https://maskindoktorerna.se
 display_url: https://maskindoktorerna.se
-logo_url: https://maskindoktorerna.se/images/logo-de-machinedokters-donker.png
+logo_url: https://maskindoktorerna.se/images/logo-maskindoktorerna-donker.png
 
 media_folder: public/images/uploads
 public_folder: /images/uploads
