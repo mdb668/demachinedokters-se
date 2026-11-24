@@ -1,15 +1,15 @@
-# De Machinedokters Sverige (demachinedokters.se)
+# De Machinedokters Sverige (maskindoktorerna.se)
 
 Zweedse site van De Machinedokters: Zweeds op `/`, Engels op `/en/`. Kopie van de opzet van `mdb668/demachinedokters-site` (www.demachinedokters.nl), apart onderhouden. Eigendom van MDB B.V., repo `mdb668/demachinedokters-se`.
 
-**Status: besloten preview, NIET live.** Zie [LIVEGANG.md](LIVEGANG.md) voor wat er nodig is om live te gaan en [TODO.md](TODO.md) voor alle openstaande placeholders.
+**Status: live op https://maskindoktorerna.se** (besluit Mike, 24-11-2026). Zie [LIVEGANG.md](LIVEGANG.md) voor DNS en wat na livegang nog openstaat, en [TODO.md](TODO.md) voor openstaande punten. Wat live staat is direct zichtbaar voor bezoekers en Google: geen `[TODO …]` in zichtbare tekst zetten.
 
 ## De schakelaar preview / live
 Eén waarde: `PREVIEW` in [site.config.mjs](site.config.mjs).
 - `true`: noindex op elke pagina, `robots.txt` met `Disallow: /`, oranje previewlabel, gele markering van `[TODO …]`, site in de submap `/demachinedokters-se/` op `mdb668.github.io`.
-- `false`: indexeerbaar op `https://demachinedokters.se`, AI-crawlers toegelaten, sitemap in robots.txt.
+- `false` (huidige stand): indexeerbaar op `https://maskindoktorerna.se`, AI-crawlers toegelaten, sitemap in robots.txt. Zonder Web3Forms-key wordt het contactformulier dan helemaal verborgen.
 
-Zet nooit `public/CNAME` en wijzig geen DNS zolang Mike daar geen opdracht voor geeft.
+`public/CNAME` (`maskindoktorerna.se`) niet wijzigen of verwijderen, en geen DNS wijzigen zonder opdracht van Mike.
 
 ## Stack
 - Astro, content in `src/content/<taal>/…` (Zod-schema's in `src/content.config.ts`, collecties heten `<naam>_<taal>`)
@@ -27,6 +27,7 @@ Zet nooit `public/CNAME` en wijzig geen DNS zolang Mike daar geen opdracht voor 
 
 ## Inhoudsregels
 - Zweedse bestanden hebben `review: "sv-native-check-nodig"` tot een moedertaalspreker ze heeft nagekeken.
+- De Zweedse vestiging is onderdeel van het Nederlandse moederbedrijf: veld `parentCompany` in de instellingen, getoond in de footer en op Företagsuppgifter met een link naar demachinedokters.nl.
 - Niets verzinnen: geen cases, cijfers, klantnamen, reviews, certificeringen, reactietijden of prijzen die niet van Mike of Freek komen. Ontbrekende inhoud = `[TODO FREEK: …]`.
 - Niet op deze site: NEN 3140/1010, een klantlogowand, Nederlandse reviews, vacatures, Reboow, Alphen of Noord-Brabant.
 - De Nederlandse cases staan er wel op, met klantnaam en cijfers (besluit Mike, 19-11-2026). Teamindeling: Team Sverige (Freek), Team Nederländerna (Mike, Ewan, Ymke).

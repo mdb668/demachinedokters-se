@@ -2,10 +2,9 @@
 
 Hoi Freek,
 
-De Zweedse site staat klaar als **besloten preview**:
-https://mdb668.github.io/demachinedokters-se/ (Engels: `/en/`)
+De Zweedse site staat **live** op https://maskindoktorerna.se/ (Engels: `/en/`).
 
-De site is nog niet vindbaar in Google en staat niet op demachinedokters.se. Alles wat nog van jou moet komen, is op de preview **geel gemarkeerd** met `[TODO FREEK: …]`. Deze instructie legt uit hoe je dat zelf invult.
+Wat je via het CMS opslaat, staat na een paar minuten online en is zichtbaar voor iedereen. Wat nog van jou moet komen, staat in [TODO.md](TODO.md). Deze instructie legt uit hoe je dat zelf invult.
 
 ## 1. Eenmalig: toegang regelen
 
@@ -21,10 +20,10 @@ De site is nog niet vindbaar in Google en staat niet op demachinedokters.se. All
 
 ## 2. Teksten aanpassen in het CMS
 
-1. Ga naar https://mdb668.github.io/demachinedokters-se/admin/
+1. Ga naar https://maskindoktorerna.se/admin/
 2. Kies **Sign in with Token** en plak je sleutel.
 3. Links zie je alles per taal: 🇸🇪 is de Zweedse site (de hoofdtaal), 🇬🇧 de Engelse. Vul altijd **beide talen** in.
-4. Klik na een wijziging op **Save**. De site wordt binnen ongeveer twee minuten opnieuw gebouwd; ververs daarna de preview.
+4. Klik na een wijziging op **Save**. De site wordt binnen ongeveer twee minuten opnieuw gebouwd; ververs daarna de site.
 
 ## 3. Wat er van jou nodig is
 
@@ -80,10 +79,10 @@ Je kunt de site ook laten aanpassen door je eigen Claude (Claude Code op claude.
 3. Open Claude Code op https://claude.ai/code, start een nieuwe sessie en kies de repository `mdb668/demachinedokters-se`.
 4. Vertel Claude wat je wilt, bijvoorbeeld: "Vul mijn telefoonnummer +46 … in bij de contactgegevens, in beide talen."
 
-Claude leest automatisch `CLAUDE.md` in deze repository. Daarin staan de afspraken: niet live zetten, niets verzinnen, de preview-schakelaar alleen in overleg met Mike. Vraag Claude om zijn wijzigingen als pull request aan te bieden, dan kun je ze eerst bekijken.
+Claude leest automatisch `CLAUDE.md` in deze repository. Daarin staan de afspraken: niets verzinnen, de preview-schakelaar en het domein alleen in overleg met Mike. Vraag Claude om zijn wijzigingen als pull request aan te bieden, dan kun je ze eerst bekijken.
 
-## 7. Live gaan
+## 7. Live
 
-Dat doet Mike, of jij in overleg met Mike, als alle gele `[TODO]`-teksten weg zijn en de Zweedse teksten zijn nagekeken. De stappen staan in [LIVEGANG.md](LIVEGANG.md): de preview-schakelaar uitzetten, het domein demachinedokters.se koppelen en de pagina's aanmelden bij Google.
+De site is live gezet door Mike (24-11-2026). Wat er nog openstaat (contactformulier, allmänna villkor, nakijken door een Zweedse moedertaalspreker) staat in [LIVEGANG.md](LIVEGANG.md) en [TODO.md](TODO.md).
 
 Vragen over de techniek? Laat Mike een Claude-sessie op deze repository starten.

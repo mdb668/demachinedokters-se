@@ -5,10 +5,13 @@ import ContactCard from '../components/ContactCard.astro';
 import Icon from '../components/Icon.astro';
 import Mail from '../components/Mail.astro';
 import { siteOf, pageOf, routes, nlUrl, isTodo, type Lang } from '../lib/i18n';
+import { PREVIEW } from '../../site.config.mjs';
 interface Props { lang: Lang }
 const { lang } = Astro.props;
 const site = await siteOf(lang);
 const p = await pageOf(lang, 'contact');
+// Live zonder Web3Forms-key: geen formulier tonen, alleen de contactgegevens.
+const showForm = PREVIEW || (!!site.formKey && !site.formKey.includes('[TODO'));
 ---
 <Base lang={lang} title={p.seoTitle} description={p.seoDescription} alt={routes.contact} nl={nlUrl('contact')}>
   <section class="page-hero">
@@ -18,8 +21,8 @@ const p = await pageOf(lang, 'contact');
     </div>
   </section>
   <section class="section-sm">
-    <div class="container contact-grid">
-      <div><ContactForm lang={lang} /></div>
+    <div class:list={["container contact-grid", { "no-form": !showForm }]}>
+      {showForm && <div><ContactForm lang={lang} /></div>}
       <aside class="info">
         <ContactCard lang={lang} compact />
         <div class="block"><span class="icon-circle"><Icon name="pin" size={26} /></span><div><h4>{p.labels.address}</h4><p>{site.addressLine1}<br />{site.addressLine2}</p></div></div>
@@ -33,6 +36,7 @@ const p = await pageOf(lang, 'contact');
 </Base>
 <style>
   .contact-grid { display: grid; grid-template-columns: 1.1fr 0.9fr; gap: 56px; align-items: start; }
+  .contact-grid.no-form { grid-template-columns: minmax(0, 640px); }
   .info { display: grid; gap: 22px; }
   .block { display: flex; gap: 16px; align-items: flex-start; }
   .block h4 { margin-bottom: 0.2em; }

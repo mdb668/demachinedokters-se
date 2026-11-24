@@ -1,10 +1,10 @@
-# Sveltia CMS configuratie voor de Zweedse site van De Machinedokters (demachinedokters.se)
+# Sveltia CMS configuratie voor de Zweedse site van De Machinedokters (maskindoktorerna.se)
 # Inloggen: ga naar <site>/admin/ en kies "Sign in with Token" (GitHub personal access token met schrijfrechten op deze repo)
 # of "Work with Local Repository" als je lokaal werkt met `npm run dev`.
 #
 # Alle inhoud staat per taal: 🇸🇪 Zweeds (hoofdtaal, op /) en 🇬🇧 Engels (op /en/).
 # De veldlijsten staan één keer bij de Zweedse collectie (&naam) en worden bij de Engelse hergebruikt (*naam).
-# LET OP bij livegang: site_url, display_url en logo_url hieronder aanpassen naar https://demachinedokters.se
+# Live op https://maskindoktorerna.se (site_url, display_url en logo_url).
 
 backend:
   name: github
@@ -17,9 +17,9 @@ backend:
     uploadMedia: "Afbeelding toegevoegd: {{path}}"
     deleteMedia: "Afbeelding verwijderd: {{path}}"
 
-site_url: https://mdb668.github.io/demachinedokters-se
-display_url: https://mdb668.github.io/demachinedokters-se
-logo_url: https://mdb668.github.io/demachinedokters-se/images/logo-de-machinedokters-donker.png
+site_url: https://maskindoktorerna.se
+display_url: https://maskindoktorerna.se
+logo_url: https://maskindoktorerna.se/images/logo-de-machinedokters-donker.png
 
 media_folder: public/images/uploads
 public_folder: /images/uploads
@@ -66,6 +66,7 @@ x-fields:
     - { name: ctaLabel, label: "Tekst hoofdknop", widget: string }
     - { name: ctaLink, label: "Link hoofdknop", widget: string }
     - { name: serviceArea, label: "Werkgebied (regel in footer en op contact)", widget: string, required: false }
+    - { name: parentCompany, label: "Moederbedrijf (regel in footer en op bedrijfsgegevens, met link naar demachinedokters.nl)", widget: string, required: false }
     - name: contactPerson
       label: "Contactpersoon (blok 'Din kontakt: Freek')"
       widget: object
