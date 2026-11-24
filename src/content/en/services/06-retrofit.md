@@ -11,7 +11,7 @@ slug: "retrofit"
 seoTitle: "Retrofit: modernise ageing machines | De Machinedokters"
 seoDescription: "Retrofit of existing production machines: new PLC controls, drives, sensors and safety. Your machine runs for years again, without buying new."
 ctaTitle: "Old machine that has stopped working?"
-ctaText: "Just get in touch, even with only a photo or a short video. We think along with no obligation and, if needed, come over for one day to repair it."
+ctaText: "Get in touch, even if all you have is a photo or a short video. We give you our view with no obligation and, if needed, come over for one day to repair it."
 faq:
   - question: "Can I get in touch first or send a photo?"
     answer: "Yes, please do. Get in touch even if you do not yet know exactly what is wrong. Feel free to send a photo or video of the machine, the control cabinet or the nameplate."
@@ -33,7 +33,7 @@ relatedCases:
 
 A twenty-year-old machine is often still perfectly sound mechanically. What becomes outdated is the control system: a PLC for which parts are no longer available, an operator panel nobody understands any more, drives that can no longer be regulated. Replacing the machine costs a fortune and a long production stop. A retrofit does not.
 
-In a retrofit we keep what is good and renew what has fallen behind. We replace the controls with modern PLC and HMI technology, fit new servo or variable-frequency drives, add sensors for error prevention and bring safety up to today's standard, including new [CE marking](/en/services/ce-marking-machine-safety/) where required. After that the machine runs stably again, changes over faster and finally gives insight into what it is doing.
+In a retrofit we keep what is good and renew what has fallen behind. We replace the controls with modern PLC and HMI technology, fit new servo or variable-frequency drives, add sensors for error prevention and bring safety up to today's standard, including new [CE marking](/en/services/ce-marking-machine-safety/) where required. After that the machine runs stably again, changes over faster and finally shows you what it is doing.
 
 We plan a retrofit so that production notices as little as possible: preparing and testing away from the line, converting during a planned stop, and starting up straight afterwards with our team alongside. The machine then runs for years again, with the reliability and the data of a new one, for a fraction of the price.
 
@@ -41,7 +41,7 @@ We plan a retrofit so that production notices as little as possible: preparing a
 
 We regularly get the question: *"My machine has stopped working, can you repair it or replace the controls?"* It usually concerns an older machine. Our approach:
 
-1. **Just get in touch.** Even if you do not yet know what is wrong. A photo or video of the machine, the control cabinet or the nameplate is enough to get started. We think along with no obligation. [Contact us](/en/contact/).
+1. **Get in touch.** Even if you do not yet know what is wrong. A photo or video of the machine, the control cabinet or the nameplate is enough to get started. We give you our view with no obligation. [Contact us](/en/contact/).
 2. **One day on site.** We come over and repair the machine.
 3. **If that does not work, we record everything.** We map out what needs to be done.
 4. **A plan and a quotation.** For a targeted repair, new controls or a complete retrofit. You normally receive the plan and quotation within a week of the visit.

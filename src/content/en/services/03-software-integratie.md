@@ -18,12 +18,12 @@ relatedCases:
   - "coca-cola"
 ---
 
-Many factories run machines of different ages and brands, and these do not always talk to each other. De Machinedokters connect stand-alone machines into one network, so that production processes become clearer and faster. We integrate modern software, sensors and controls with existing installations.
+Many factories run machines of different ages and brands, and they do not always talk to each other. We connect stand-alone machines into one network, which makes production easier to follow and faster. We integrate modern software, sensors and controls with existing installations.
 
-With adapted PLC software and by opening up production data, we make visible what is really happening on the shop floor. Clear dashboards give you insight into performance, downtime and the OEE of your factory.
+With adapted PLC software and access to production data, we show what is really happening on the shop floor. Dashboards show the performance, downtime and OEE of your factory.
 
-We also simulate robot cells and new installations in advance. That way reach, cycle time and collisions are known before anything is built into your line.
+We also simulate robot cells and new installations in advance. That way you know the reach, cycle time and any collisions before anything goes into your line.
 
 ![Simulation of two FANUC robots above a conveyor belt.](/images/robotisering/robotsimulatie.jpg)
 
-Through smart software upgrades and improved control we get more out of the hardware that is already there. Stubborn bugs disappear, machines respond faster and different components work together better. Where needed, we replace outdated modules or extend the control system.
+Software upgrades and better control logic get more out of the hardware you already have: stubborn bugs disappear, machines respond faster and components work together better. Where needed, we replace outdated modules or extend the control system.

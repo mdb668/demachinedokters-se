@@ -22,39 +22,39 @@
     "title": "Så gör vi skillnad",
     "items": [
       {
-        "title": "Teknisk skräddarsydd lösning",
-        "text": "Varje fabrik är unik, och varje process kräver sitt eget angreppssätt. De Machinedokters förbättrar befintliga maskiner med smarta tekniska anpassningar, utan dyra utbyten eller standardlösningar.\n\nMed uppgraderingar och smarta modifieringar får vi ut mer kapacitet och driftsäkerhet ur det som redan står på golvet."
+        "title": "Skräddarsydda tekniska lösningar",
+        "text": "Ingen fabrik är den andra lik, och varje process kräver sitt eget angreppssätt. Vi förbättrar befintliga maskiner med tekniska anpassningar i stället för dyra utbyten eller standardlösningar.\n\nMed uppgraderingar och ombyggnader får vi ut mer kapacitet och driftsäkerhet ur det som redan står på golvet."
       },
       {
         "title": "Snabb ROI",
-        "text": "Vi tror inte på långa projekt eller tjocka rapporter. Vi är kända för kreativa lösningar som går snabbt att genomföra: praktiska förbättringar som ger resultat direkt.\n\nVi gör inte problemen större än de är."
+        "text": "Vi tror inte på långa projekt eller tjocka rapporter. Vi är kända för kreativa lösningar som går snabbt att genomföra och ger resultat direkt.\n\nVi gör inte problemen större än de är."
       },
       {
         "title": "Personligt arbetssätt",
-        "text": "Vi står inte vid sidlinjen och talar om hur det ska vara. Vi står i fabriken och arbetar tillsammans med operatörer, tekniker och chefer.\n\nDet ger korta beslutsvägar och lösningar som fungerar i praktiken. Eftersom vi tar med teamet i förändringarna stannar kunskapen på golvet och resultatet blir bestående."
+        "text": "Vi står inte vid sidlinjen och pekar med hela handen. Vi arbetar i fabriken, sida vid sida med operatörer, tekniker och chefer.\n\nDet ger korta beslutsvägar och lösningar som fungerar i praktiken. Eftersom ditt team är med i förändringarna stannar kunskapen på golvet och resultatet håller över tid."
       }
     ]
   },
   "symptoms": {
     "title": "Symptom som De Machinedokters botar",
-    "intro": "Alla fabriker har ibland besvär: maskiner som presterar sämre, produktionslinjer som stannar eller processer som går trögt. De Machinedokters ställer rätt diagnos och ser till att lösningen håller. Typiska besvär där du kallar in oss är till exempel:",
+    "intro": "Alla fabriker drabbas ibland av krämpor: maskiner som presterar sämre, linjer som stannar eller processer som går trögt. Vi ställer rätt diagnos och ser till att behandlingen håller. Några typiska besvär som vi brukar kallas in för:",
     "quote": "\"Envis maskin? Perfekt. Det är vår specialitet.\"",
     "items": [
       {
         "title": "Ineffektiv produktionsprocess",
-        "text": "Maskinerna går under sin kapacitet och outputen per timme är lägre än den borde vara. Ta vår kund Coca-Cola, där vi optimerade burkprocessen. Tack vare våra lösningar går den nya linjen 30 % snabbare!",
+        "text": "Maskinerna går under sin kapacitet och produktionen per timme är lägre än den borde vara. Hos vår kund Coca-Cola optimerade vi burkprocessen, och den nya linjen går nu 30 % snabbare.",
         "image": "/images/fotos/bottellijn.jpg",
         "imageAlt": "Automatiserad produktionslinje med små tomma flaskor på ett transportband i en fabrik."
       },
       {
         "title": "Höga kostnader för stillestånd och underhåll",
-        "text": "Oväntade driftstopp och höga underhållskostnader slår direkt mot resultatet. Varje minut stillestånd är förlorad produktion. Hos Coca-Cola har vi sett till att störningarna minskade med 40 %.",
+        "text": "Oväntade driftstopp och höga underhållskostnader slår direkt mot resultatet. Varje minut stillestånd är förlorad produktion. Hos Coca-Cola minskade störningarna med 40 % efter våra åtgärder.",
         "image": "/images/fotos/transportsysteem.jpg",
         "imageAlt": "Industriellt transportsystem med rullbanor, gula räcken och manöverpaneler i en fabrikshall."
       },
       {
         "title": "Stort beroende av personal",
-        "text": "Bristen på personal blir allt oftare flaskhalsen i ett företag. De Machinedokters skapar smartare och mer automatiserade processer. Ett livsmedelsföretag har vi bland annat hjälpt att automatisera moment, vilket gav 20 % högre förpackningshastighet.",
+        "text": "Personalbristen blir allt oftare flaskhalsen. Vi gör processerna smartare och mer automatiserade. Ett livsmedelsföretag hjälpte vi till exempel att automatisera moment, vilket gav 20 % högre förpackningshastighet.",
         "image": "/images/fotos/rco-robots.jpg",
         "imageAlt": "Tekniker på golvet vid orangea industrirobotar."
       }
@@ -70,7 +70,7 @@
   },
   "about": {
     "title": "Om oss",
-    "text": "Hos De Machinedokters handlar allt om att få saker att gå bättre. Bokstavligen.\nVi är tekniska problemlösare som förbättrar befintliga maskiner och processer med smarta, hållbara anpassningar. Inga tjocka rapporter eller standardlösningar, utan praktiska lösningar som fungerar direkt.\n\nSedan 2018 hjälper vi fabriker att producera effektivare och bygger specialmaskiner. Den erfarenheten har lärt oss att många maskiner inte behöver bytas ut. De behöver bara rätt behandling.",
+    "text": "Hos De Machinedokters handlar allt om att få saker att gå bättre. Bokstavligen.\nVi är tekniska problemlösare som förbättrar befintliga maskiner och processer med smarta, hållbara anpassningar. Du får inga tjocka rapporter eller standardlösningar från oss, bara praktiska förbättringar som fungerar direkt.\n\nSedan 2018 hjälper vi fabriker att producera effektivare, och vi bygger specialmaskiner. Erfarenheten har lärt oss att många maskiner inte behöver bytas ut. De behöver bara rätt behandling.",
     "linkLabel": "Läs mer om oss",
     "link": "/om-oss/"
   }

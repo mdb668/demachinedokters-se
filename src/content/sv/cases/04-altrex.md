@@ -4,7 +4,7 @@ title: "Altrex"
 slug: "altrex"
 subtitle: "Snabbare montering utan avkall på säkerheten"
 intro: "För Altrex gjorde vi monteringen av hushållsstegar snabbare och säkrare, med färre fel."
-summary: "Den manuella monteringen av hushållsstegar gav varierande kvalitet, fysisk belastning och onödig tidsförlust i processen. Det gjorde det svårt att säkra tempo, säkerhet och jämn kvalitet på samma gång.\n\nGenom att automatisera repetitiva moment, förbättra ergonomin och göra arbetsordningen tydligare blev monteringen både snabbare och säkrare. Produktionen ökade, kassationerna i kvalitetskontrollen minskade och arbetet blev jämnare för alla på linjen."
+summary: "Den manuella monteringen av hushållsstegar gav varierande kvalitet, fysisk belastning och onödig tidsförlust i processen. Det var svårt att hålla uppe tempo, säkerhet och jämn kvalitet på samma gång.\n\nVi automatiserade repetitiva moment, förbättrade ergonomin och gjorde arbetsordningen tydligare. Monteringen blev både snabbare och säkrare: produktionen ökade, kassationerna i kvalitetskontrollen minskade och arbetet blev jämnare för alla på linjen."
 image: "/images/klanten/altrex.png"
 imageAlt: "Altrex logotyp"
 imageIsLogo: true
@@ -12,8 +12,8 @@ stats:
   - { value: "Högre", label: "Produktion", icon: "trending-up" }
   - { value: "Färre", label: "QC-kassationer", icon: "check" }
   - { value: "Högre", label: "Säkerhet", icon: "shield" }
-challenge: "Monteringen av hushållsstegar var till stor del manuell. Det ledde till längre genomloppstider, ökad fysisk belastning och kvalitetsförluster vid slutkontrollen. Oacceptabelt i en produktkategori där säkerheten styr allt.\n\nMålet: snabbare produktion, säkrare arbete och färre kassationer i kvalitetskontrollen."
-approach: "Tillsammans med teamet gick vi igenom hela monteringslinjen tekniskt.\n\nVi införde automation för repetitiva moment, förbättrade ergonomin och strukturerade om arbetsordningen. Säkerhetssensorer och funktionella återkopplingsmekanismer ger direkt interaktion mellan operatör och maskin."
+challenge: "Monteringen av hushållsstegar var till stor del manuell. Det ledde till längre genomloppstider, ökad fysisk belastning och kvalitetsförluster vid slutkontrollen. Oacceptabelt för en produkt där säkerheten kommer först.\n\nMålet: snabbare produktion, säkrare arbete och färre kassationer i kvalitetskontrollen."
+approach: "Tillsammans med kundens team gick vi igenom hela monteringslinjen tekniskt.\n\nVi införde automation för repetitiva moment, förbättrade ergonomin och strukturerade om arbetsordningen. Säkerhetssensorer och återkopplingsfunktioner ger ett direkt samspel mellan operatör och maskin."
 results:
   - "Högre produktion per timme"
   - "Färre kassationer i kvalitetskontrollen"

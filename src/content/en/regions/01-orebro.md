@@ -4,7 +4,7 @@ slug: "orebro-county"
 name: "Örebro County"
 intro: "De Machinedokters help manufacturing companies in Örebro County, Sweden, get more out of existing machines and lines: fault analysis, retrofit, robotics, special-purpose machines and CE marking."
 places: "Örebro, Karlskoga, Kumla, Lindesberg and Hallsberg"
-seoTitle: "Machine service & automation in Örebro County | De Machinedokters"
+seoTitle: "Machine service & automation in Örebro | De Machinedokters"
 seoDescription: "Fault analysis, retrofit, robotics, special-purpose machines and CE marking for manufacturing companies in Örebro County, Sweden. Your contact: Freek."
 order: 1
 ---
@@ -22,4 +22,4 @@ Do you have a machine that keeps playing up, a line that does not reach its capa
 
 Freek is your contact. Get in touch with a description of the machine or the problem, preferably with a photo or video.
 
-We are based in Grythyttan in Hällefors municipality, in the heart of Bergslagen, and visit customers throughout Örebro County, including Örebro, Karlskoga, Kumla, Lindesberg and Hallsberg.
+We are based in Grythyttan in Hällefors municipality, in Bergslagen, and visit customers throughout Örebro County, including Örebro, Karlskoga, Kumla, Lindesberg and Hallsberg.

@@ -2,9 +2,9 @@
 review: "sv-native-check-nodig"
 title: "Aluminiumförpackningar"
 slug: "aluminium"
-subtitle: "Smart transport som nyckel till 40 % högre output"
+subtitle: "Smartare transport gav 40 % högre output"
 intro: "En producent inom FMCG hade låg arbetseffektivitet i sina förpacknings- och monteringslinjer."
-summary: "Kombinationen av manuell förpackning av specialorder och automatiserad transport gjorde fortsatt tillväxt och robotisering svår. Golvytan räckte inte för att ta nästa steg.\n\nGenom att lägga transportsystemet under golvet fick vi plats för robotintegration utan att påverka den manuella förpackningslinjen. Linjen blev snabbare och mer flexibel, och specialorderna kunde fortfarande tas om hand."
+summary: "Kombinationen av manuell förpackning av specialorder och automatiserad transport gjorde fortsatt tillväxt och robotisering svår. Golvytan räckte inte för att ta nästa steg.\n\nVi flyttade transportsystemet under golvet och fick då plats att integrera robotar, utan att påverka den manuella förpackningslinjen. Linjen blev snabbare och mer flexibel, och specialorderna kunde fortfarande tas om hand."
 image: "/images/robotisering/blikken-palletiseren.jpg"
 imageAlt: "Två FANUC-robotar staplar lager av aluminiumburkar på en pall."
 imageIsLogo: false
@@ -13,7 +13,7 @@ stats:
   - { value: "2 robotar", label: "Automatisk stapling", icon: "robot-arm" }
   - { value: "Kvar", label: "Manuell specialförpackning", icon: "package" }
 challenge: "En tillverkare av aluminiumburkar förpackade delvis manuellt och delvis automatiskt. Den befintliga infrastrukturen satte stopp för mer automation: truckgången måste vara kvar och en manuell förpackningsmaskin måste finnas tillgänglig för specialkörningar.\n\nFrågan var hur man kunde automatisera utan att störa hela processen."
-approach: "De Machinedokters gjorde om transportsystemet helt och flyttade det till en lösning under golvet. Det gav plats ovanför för robotisering på ena sidan av truckgången, medan den andra sidan fortsatt fungerar för manuell förpackning."
+approach: "De Machinedokters byggde om transportsystemet helt och flyttade det under golvet. Då frigjordes yta ovanför för robotar på ena sidan av truckgången, medan den andra sidan fortfarande används för manuell förpackning."
 results:
   - "40 % högre produktionshastighet på den aktuella linjen"
   - "Manuell förpackning finns kvar för specialorder"

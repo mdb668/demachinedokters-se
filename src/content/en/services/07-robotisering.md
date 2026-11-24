@@ -79,7 +79,7 @@ Duration of a robot project, from first conversation to implementation: **about 
 
 ## What we do not do
 
-We leave large robotic welding lines to others. We have no experience with them, and we would rather say so honestly up front.
+We leave large robotic welding lines to others. We have no experience with them, and we would rather say so up front.
 
 ## Gallery
 

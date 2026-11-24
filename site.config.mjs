@@ -4,14 +4,14 @@
 //   PREVIEW = true   → besloten preview op de standaard GitHub Pages-URL:
 //                      noindex op elke pagina, robots.txt met "Disallow: /",
 //                      een oranje previewbalk bovenaan en alle links onder /demachinedokters-se/.
-//   PREVIEW = false  → live op demachinedokters.se: indexeerbaar, AI-crawlers welkom,
+//   PREVIEW = false  → live op maskindoktorerna.se: indexeerbaar, AI-crawlers welkom,
 //                      sitemap in robots.txt, canonical en hreflang op het eigen domein.
 //
 // Live gaan = deze ene waarde op false zetten (en public/CNAME + DNS regelen, zie LIVEGANG.md).
 // ─────────────────────────────────────────────────────────────────────────────
-export const PREVIEW = true;
+export const PREVIEW = false;
 
-export const LIVE_URL = 'https://demachinedokters.se';
+export const LIVE_URL = 'https://maskindoktorerna.se';
 export const PREVIEW_URL = 'https://mdb668.github.io';
 export const PREVIEW_BASE = '/demachinedokters-se';
 

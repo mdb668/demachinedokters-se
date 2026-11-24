@@ -18,8 +18,8 @@ relatedCases:
   - "voedingsindustrie"
 ---
 
-De Machinedokters analyse where the process gets stuck and make the technical changes that let the whole production line perform better. We look at lead times, bottlenecks and unnecessary handling, and make sure people and machines work together better.
+We find where the process gets stuck and make the technical changes that let the whole production line perform better. We look at lead times, bottlenecks and unnecessary handling, and at how people and machines work together.
 
-We take waste and inefficiency out of the process. We redesign and improve existing machines or process steps so they fit together better. Think of smart changes to the controls, automatic product transfer or the integration of sensors that give real-time feedback. That raises both production speed and reliability.
+We take waste out of the process by redesigning or improving existing machines and process steps so they fit together better. Examples are changes to the controls, automatic product transfer or sensors that give real-time feedback. That raises both production speed and reliability.
 
-We also implement low-cost automation and robotics where it makes sense. That makes your production more flexible, without major investment. You end up with a stable line that delivers more output, with less downtime and less dependence on staffing.
+Where it makes sense, we add low-cost automation and robotics. That makes production more flexible without a major investment. The result is a stable line with more output, less downtime and less dependence on staff.

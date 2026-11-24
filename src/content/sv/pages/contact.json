@@ -5,7 +5,7 @@
   "title": "Kontakta De Machinedokters",
   "intro": "Fyll i formuläret eller hör av dig direkt till Freek. Du får ett personligt svar.",
   "form": {
-    "mailSubject": "Nytt meddelande via demachinedokters.se",
+    "mailSubject": "Nytt meddelande via maskindoktorerna.se",
     "nameLabel": "Namn",
     "companyLabel": "Företag",
     "emailLabel": "E-postadress",

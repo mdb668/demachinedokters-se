@@ -3,7 +3,7 @@ title: "Folding and stacking boxes"
 slug: "dozen-vouwen-stapelen"
 subtitle: "One robot that erects boxes, tapes them and stacks them again once filled"
 intro: "A customer wanted a single robot to pick up flat box blanks, fold them open and tape them shut, and later stack the same boxes again once filled. Including automatic pallet infeed and outfeed."
-summary: "Picking up flat boxes (blanks) and folding them open is exactly the kind of repetitive work a robot can take over, but a blank is floppy and every box has to be folded precisely. With agreements with the box supplier, a specially developed folding tool and one robot for both folding and stacking, we fully automated the process."
+summary: "Picking up flat boxes (blanks) and folding them open is exactly the kind of repetitive work a robot can take over, but a blank is floppy and every box has to be folded precisely. Through agreements with the box supplier, a specially developed folding tool and one robot for both folding and stacking, we fully automated the process."
 image: "/images/robotisering/dozen-vouwen-robot.jpg"
 imageAlt: "Mike from De Machinedokters programming an ABB robot that folds open a box, next to a stack of flat box blanks."
 imageIsLogo: false

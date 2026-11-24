@@ -4,7 +4,7 @@ title: "Maskin för stabiliseringsbalkar ST-01"
 slug: "stabalkmachine"
 subtitle: "Rätt fördelning mellan människa och maskin"
 intro: "En nybyggd maskin som pressar automatiskt och borrar på exakt rätt ställen, så att operatören bara behöver montera. Att ställa om till en annan produkt kräver två skruvar och ett annat recept."
-summary: "För montering av stabiliseringsbalkar byggde vi ST-01: en specialmaskin som tar över precisionsarbetet och låter operatören sköta monteringen. Maskinen pressar delarna på plats, borrar hålen där de behövs och presenterar hålen för operatören för popnitning.\n\nMaskinen är byggd av standardkomponenter med lång support, det finns utrymme i programmet för nya produkter och den är förberedd för mer automation, till exempel med en robot."
+summary: "För montering av stabiliseringsbalkar byggde vi ST-01: en specialmaskin som tar över precisionsarbetet och låter operatören sköta monteringen. Maskinen pressar delarna på plats, borrar hålen där de behövs och presenterar sedan hålen för operatören, som popnitar.\n\nMaskinen är byggd av standardkomponenter med lång support. Programmet har utrymme för nya produkter, och maskinen är förberedd för mer automation, till exempel med en robot."
 image: "/images/cases/stabalkmachine-st01.jpg"
 imageAlt: "Maskinen ST-01: skyddad arbetsplats med ljusridåer, manöverpanel och fyra borrenheter ovanför produkthållarna."
 imageIsLogo: false

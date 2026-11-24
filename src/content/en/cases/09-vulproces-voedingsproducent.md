@@ -2,7 +2,7 @@
 title: "Food producer"
 slug: "vulproces-voedingsproducent"
 subtitle: "3 FTE saved with a reliable filling process"
-intro: "At a food producer in the Netherlands, an extra operator was needed day and night to check packages. A modification to the existing filler has made that a thing of the past."
+intro: "At a food producer in the Netherlands, an extra operator was needed day and night to check packages. A modification to the existing filler made that operator unnecessary."
 summary: "Production of the food itself was well under control, but filling and sealing the packages was not. Because there was no certainty that every package was properly sealed, an extra operator checked every package 24/7. What started as a fix after an incident had gradually become a fixed habit.\n\nWe improved the existing filling method: better timing of the filler and an air blow-off system that keeps the filling nozzle clean. No new machine, no hassle with the line supplier. For less than €10,000, including training and commissioning, the producer now saves 3 FTE."
 image: "/images/fotos/vulmachine-afblaassysteem.jpg"
 imageAlt: "Filling machine with rotary table and air blow-off system during the test phase, with temporary fixings for fine-tuning."

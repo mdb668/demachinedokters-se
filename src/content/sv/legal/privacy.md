@@ -13,11 +13,11 @@ Personuppgiftsansvarig är Factory Freaks (enskild firma, Freek Broers), organis
 
 ## Vilka uppgifter vi behandlar
 
-När du skickar kontaktformuläret behandlar vi de uppgifter du själv lämnar: namn, företag, e-postadress, telefonnummer och ditt meddelande. Vi använder uppgifterna för att svara på din förfrågan.
+När du skickar in kontaktformuläret behandlar vi de uppgifter du själv lämnar: namn, företag, e-postadress, telefonnummer och ditt meddelande. Vi använder uppgifterna för att svara på din förfrågan.
 
 Formuläret skickas via tjänsten Web3Forms, som vidarebefordrar meddelandet till oss per e-post.
 
-Rättslig grund: vi behandlar uppgifterna med stöd av vårt berättigade intresse av att besvara din förfrågan och, om det blir ett uppdrag, för att fullgöra avtalet.
+Rättslig grund: vi behandlar uppgifterna med stöd av vårt berättigade intresse av att besvara din förfrågan. Blir det ett uppdrag behandlar vi dem för att fullgöra avtalet.
 
 Lagringstid: förfrågningar som inte leder till ett uppdrag sparas i högst två år. Uppgifter som ingår i bokföringen sparas i sju år enligt bokföringslagen.
 
@@ -33,6 +33,6 @@ Enligt GDPR har du rätt att begära tillgång till dina personuppgifter, få de
 
 ## Kontakt och klagomål
 
-Kontakta oss om du har frågor om hur vi behandlar dina personuppgifter: info@maskindoktorerna.se
+Har du frågor om hur vi behandlar dina personuppgifter? Kontakta oss på info@maskindoktorerna.se
 
 Du har också rätt att lämna klagomål till tillsynsmyndigheten Integritetsskyddsmyndigheten (IMY), [imy.se](https://www.imy.se).

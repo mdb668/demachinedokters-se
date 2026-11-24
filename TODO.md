@@ -2,7 +2,7 @@
 
 Instructie voor Freek om dit zelf in te vullen: [FREEK.md](FREEK.md).
 
-Actuele lijst per pagina: `npm run build && npm run check -- --todos`. In de preview zijn alle placeholders geel gemarkeerd.
+Actuele lijst per pagina: `npm run build && npm run check -- --todos`. De site is live (maskindoktorerna.se): zichtbare `[TODO …]`-teksten zien bezoekers ook. FAQ- en dienstblokken met een TODO worden automatisch verborgen.
 Invullen kan in het CMS (`/admin/`); waar het veld staat, staat erachter.
 
 ## Op elke pagina (footer, contactblok, mobiele balk)

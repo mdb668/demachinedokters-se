@@ -22,4 +22,4 @@ Do you have a machine that keeps playing up, a line that does not reach its capa
 
 Freek is your contact. Get in touch with a description of the machine or the problem, preferably with a photo or video.
 
-We are based in Grythyttan in Hällefors municipality, in the heart of Bergslagen, and visit customers throughout Värmland, including Karlstad, Arvika, Kristinehamn and Säffle.
+We are based in Grythyttan in Hällefors municipality, in Bergslagen, and visit customers throughout Värmland, including Karlstad, Arvika, Kristinehamn and Säffle.

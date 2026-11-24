@@ -12,23 +12,23 @@ slug: "underhall-felsokning"
 seoTitle: "Felanalys av maskiner och linjer | De Machinedokters"
 seoDescription: "Felanalys för felet som hela tiden kommer tillbaka. Vi hittar den verkliga orsaken i mekanik, el eller styrsystem. Märkesoberoende."
 ctaTitle: "Ett fel som hela tiden kommer tillbaka?"
-ctaText: "Hör av dig och boka en felanalys. Då letar vi upp den verkliga orsaken tillsammans."
+ctaText: "Hör av dig och boka en felanalys, så letar vi upp den verkliga orsaken tillsammans."
 review: "sv-native-check-nodig"
 faq:
   - question: "Vad är en felanalys?"
-    answer: "I en felanalys tar vi inte bara reda på vad som gick sönder, utan framför allt varför. Vi samlar in störningsdata, maskindata och operatörernas erfarenheter, gör kompletterande mätningar där det behövs och ringar in orsaken. Först när orsaken är fastställd väljer vi lösning."
+    answer: "En felanalys handlar framför allt om varför något gick sönder. Vi samlar in störningsdata, maskindata och operatörernas erfarenheter, gör kompletterande mätningar där det behövs och ringar in orsaken. Lösningen väljer vi först när orsaken är fastställd."
   - question: "När behöver du en felanalys?"
-    answer: "När samma fel hela tiden kommer tillbaka, när linjen har många småstopp, när bara en erfaren operatör får igång maskinen eller när tillfälliga lösningar sakta har blivit det normala. Det är tecken på att den verkliga orsaken ännu inte är hittad."
+    answer: "När samma fel kommer tillbaka gång på gång, när linjen har många småstopp, när bara en erfaren operatör får igång maskinen eller när tillfälliga lösningar i det tysta har blivit permanenta. Det tyder på att den verkliga orsaken inte är hittad än."
   - question: "Vad är skillnaden mellan felanalys och akut felavhjälpning?"
-    answer: "Akut felavhjälpning ser till att du producerar igen så snabbt som möjligt. En felanalys ser till att samma fel inte kommer tillbaka. Vi gör båda: först igång igen, sedan fram med orsaken."
+    answer: "Akut felavhjälpning ser till att du kan producera igen så snabbt som möjligt. En felanalys ser till att samma fel inte kommer tillbaka. Vi gör båda: först får vi igång produktionen, sedan letar vi fram orsaken."
   - question: "Analyserar ni även fel i elektriska drivsystem, sensorer och styrsystem?"
-    answer: "Ja. Felen sitter ofta just i gränslandet mellan mekanik, el och styrsystem (PLC). Eftersom vi ser på de områdena tillsammans hittar vi orsaker som faller mellan stolarna hos en enskild mekaniker eller programmerare. Vi arbetar märkesoberoende."
+    answer: "Ja. Ofta sitter felet just i gränslandet mellan mekanik, el och styrsystem (PLC). Vi tittar på alla tre samtidigt och hittar därför orsaker som en enskild mekaniker eller programmerare lätt missar. Vi arbetar märkesoberoende."
   - question: "Hur vet ni att lösningen fungerar?"
-    answer: "Där det går bygger vi först upp lösningen tillfälligt för att testa och finjustera den i praktiken. Först när resultatet är bevisat genomför vi den permanent. Därefter följer vi upp stillestånd och störningar, så att du ser vad det ger."
+    answer: "Där det går provar vi först lösningen i en tillfällig uppställning och finjusterar den i drift. Den permanenta lösningen bygger vi när resultatet är bevisat. Sedan följer vi upp stillestånd och störningar, så att du ser vad den ger."
   - question: "Kan ni göra enbart en felanalys, utan genomförande?"
     answer: "Ja. Då får du en rapport med prioriteringar, risker och förväntad lönsamhet."
   - question: "Samarbetar ni med vår egen underhållsavdelning?"
-    answer: "Ja, det fungerar oftast bäst. Vi tar oss an felen tillsammans och lär din personal hur vi hittar orsaken, utan att tränga undan den interna organisationen. I analysen hämtar vi just in erfarenheten från de operatörer och underhållstekniker som står vid maskinen varje dag. Vill du stärka din underhållsavdelning under en längre tid? Läs om vårt [stöd till underhållsavdelningen](/tjanster/stod-till-underhallsavdelningen/)."
+    answer: "Ja, och oftast fungerar det bäst så. Vi tar oss an felen tillsammans och visar din personal hur vi hittar orsaken. Vi tränger inte undan er egen organisation. I analysen bygger vi just på erfarenheten hos de operatörer och underhållstekniker som står vid maskinen varje dag. Vill du stärka underhållsavdelningen på längre sikt? Läs om vårt [stöd till underhållsavdelningen](/tjanster/stod-till-underhallsavdelningen/)."
   - question: "I vilken region arbetar ni?"
     answer: "Vi arbetar för produktionsföretag i Mellansverige (Örebro län, Värmland och Västmanland)."
 relatedCases:
@@ -37,33 +37,33 @@ relatedCases:
   - "mens-en-industrie"
 ---
 
-Går något fel löser vi det så att det inte kommer tillbaka. Med en felanalys hittar vi den verkliga orsaken. Vi kan både mekanik och styrteknik, så vi åtgärdar felet och förhindrar att det återkommer.
+När något går fel vill vi lösa det så att det inte kommer tillbaka. Med en felanalys hittar vi den verkliga orsaken. Vi kan både mekanik och styrteknik, så vi kan åtgärda felet där det faktiskt sitter.
 
 ## Känner du igen det här?
 
 - Samma fel kommer tillbaka varje vecka, alltid på samma ställe.
 - Linjen har många småstopp som ingen längre registrerar.
 - En erfaren operatör får alltid igång maskinen igen, de andra inte.
-- En tillfällig lösning har obemärkt blivit det normala.
+- En tillfällig lösning har i det tysta blivit permanent.
 
-Då är orsaken ännu inte hittad.
+Då är orsaken inte hittad än.
 
 ## Så genomför vi en felanalys
 
 1. **Samla in.** Störningsloggar, PLC-data och framför allt berättelserna från de operatörer och underhållstekniker som står vid maskinen varje dag.
 2. **Mäta.** Vi läser ut de data som maskinen redan har, eller sätter dit extra sensorer där det behövs: vibrationer, temperatur, strömförbrukning, timing.
 3. **Ringa in orsaken.** Mekanik, el, styrsystem eller handhavande? Ofta sitter felet i gränslandet, och det är just där vi tittar.
-4. **Åtgärda och validera.** Där det går bygger vi först upp lösningen tillfälligt för att testa och finjustera, därefter genomför vi den permanent.
+4. **Åtgärda och validera.** Där det går provar vi först lösningen i en tillfällig uppställning och finjusterar den. Sedan gör vi den permanent.
 5. **Säkra resultatet.** Vi lägger upp underhållet så att felet inte kommer tillbaka och lär din personal att själva känna igen signalerna.
 
 ## Vad vi behöver för en felanalys
 
-Hur en analys går till beror på situationen. Vi vill veta hur linjen går, och vi behöver se felet eller kunna återskapa det. Eller så har det skett ett haveri som vi behöver åtgärda.
+Upplägget beror på situationen. Vi vill veta hur linjen går, och vi behöver se felet eller kunna framkalla det. I andra fall har det redan skett ett haveri som ska åtgärdas.
 
 ## Felanalys av elektriska drivsystem, sensorer och styrsystem
 
-Vi analyserar även fel i elektriska drivsystem, sensorer och styrsystem (PLC). Felen sitter ofta i gränslandet mellan mekanik, el och styrsystem. Eftersom vi ser på de områdena tillsammans hittar vi orsaker som faller mellan stolarna hos en enskild mekaniker eller programmerare. Vi arbetar märkesoberoende.
+Vi analyserar även fel i elektriska drivsystem, sensorer och styrsystem (PLC). Ofta sitter felet i gränslandet mellan mekanik, el och styrsystem. Vi tittar på alla tre samtidigt och hittar därför orsaker som en enskild mekaniker eller programmerare lätt missar. Vi arbetar märkesoberoende.
 
 ## Enbart analys, med rapport
 
-Du kan också låta oss göra enbart analysen, utan genomförande. Då får du en rapport med prioriteringar, risker och förväntad lönsamhet.
+Du kan också beställa enbart analysen, utan genomförande. Då får du en rapport med prioriteringar, risker och förväntad lönsamhet.

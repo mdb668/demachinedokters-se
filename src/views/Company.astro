@@ -3,6 +3,7 @@ import Base from '../layouts/Base.astro';
 import CtaBand from '../components/CtaBand.astro';
 import Mail from '../components/Mail.astro';
 import { siteOf, pageOf, routes, isTodo, type Lang } from '../lib/i18n';
+import { NL_URL } from '../../site.config.mjs';
 interface Props { lang: Lang }
 const { lang } = Astro.props;
 const site = await siteOf(lang);
@@ -26,6 +27,7 @@ const p = await pageOf(lang, 'company');
         <dt>{p.labels.email}</dt><dd><Mail lang={lang} /></dd>
         <dt>{p.labels.phone}</dt><dd>{isTodo(site.phoneLink) ? site.phone : <a href={site.phoneLink}>{site.phone}</a>}</dd>
       </dl>
+      {site.parentCompany && <p class="parent">{site.parentCompany} <a href={NL_URL + '/'} hreflang="nl">demachinedokters.nl</a></p>}
     </div>
   </section>
   <CtaBand lang={lang} />
@@ -34,5 +36,6 @@ const p = await pageOf(lang, 'company');
   dl { display: grid; grid-template-columns: minmax(160px, 240px) 1fr; gap: 12px 24px; margin: 0; }
   dt { font-weight: 500; color: var(--blue); }
   dd { margin: 0; }
+  .parent { margin-top: 32px; }
   @media (max-width: 560px) { dl { grid-template-columns: 1fr; gap: 2px; } dd { margin-bottom: 12px; } }
 </style>

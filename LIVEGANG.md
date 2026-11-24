@@ -1,6 +1,24 @@
-# Livegang demachinedokters.se
+# Livegang maskindoktorerna.se
 
-Zolang `PREVIEW = true` in `site.config.mjs` staat, is dit een besloten preview. Niets hieronder is al gedaan.
+Besluit Mike, 24-11-2026: de site gaat live op **maskindoktorerna.se** (niet demachinedokters.se). In de repo is gedaan: `PREVIEW = false`, `public/CNAME` met `maskindoktorerna.se`, CMS-URL's omgezet, TODO-tekst van de villkor-pagina vervangen door een nette tussentekst, contactformulier verborgen zolang er geen Web3Forms-key is, vermelding van het Nederlandse moederbedrijf (MDB B.V.) in footer en op Företagsuppgifter, schrijfronde over alle teksten.
+
+## Nog te doen door Mike (buiten de repo)
+1. GitHub: Settings → Pages → Custom domain `maskindoktorerna.se`, opslaan; na het certificaat "Enforce HTTPS" aanzetten.
+2. DNS van maskindoktorerna.se zoals in de tabel hieronder (de tabel bij stap 3 geldt nu voor maskindoktorerna.se).
+3. Domein verifiëren in GitHub (account-Settings → Pages → Add a domain).
+
+Let op: zodra de site live gebouwd is, werkt de oude preview-URL (mdb668.github.io/demachinedokters-se/) niet meer goed. Tot de DNS klopt, is de site dus even niet bereikbaar.
+
+## Na livegang nog open
+- Contactformulier: Web3Forms-key aanmaken op info@maskindoktorerna.se en invullen in CMS → Instellingen (beide talen). Dan verschijnt het formulier vanzelf.
+- Mail op @maskindoktorerna.se actief maken (MX, SPF, DKIM, DMARC). Tot die tijd komt mail naar info@ en freek@ niet aan.
+- Allmänna villkor enligt svensk rätt (Zweedse jurist).
+- Zweedse teksten laten nakijken door een moedertaalspreker; daarna `review` leegmaken.
+- demachinedokters.se en demachinedokters.eu eventueel doorverwijzen naar maskindoktorerna.se (zoals bij stap 4).
+
+---
+
+Hieronder de oorspronkelijke checklist. Lees overal **maskindoktorerna.se** waar demachinedokters.se staat.
 
 ## 0. Eenmalig, voor de preview
 1. Repo `mdb668/demachinedokters-se` (public; GitHub Pages op een privé-repo vereist Pro).

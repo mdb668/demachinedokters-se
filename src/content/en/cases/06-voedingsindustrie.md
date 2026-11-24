@@ -2,8 +2,8 @@
 title: "Food industry"
 slug: "voedingsindustrie"
 subtitle: "More efficient packaging with less waste"
-intro: "The existing packaging line was outdated and needed manual intervention to correct errors, resulting in inconsistent packaging and quality standards not being met."
-summary: "The primary packaging line in this plant ran too unstably, so operators often had to adjust and correct things by hand. That caused product loss, variation in quality and far too much packaging waste.\n\nBy making technical optimisations and simplifying error prevention, the line became more stable and predictable. Speed went up, waste went down and process control improved noticeably, without buying new machines."
+intro: "The existing packaging line was outdated and needed manual intervention to correct errors. Packaging was inconsistent and did not meet quality standards."
+summary: "The primary packaging line in this plant ran too unstably, so operators often had to adjust and correct things by hand. That caused product loss, variation in quality and far too much packaging waste.\n\nTechnical improvements and simpler error-proofing made the line more stable and predictable. Speed went up, waste went down and process control improved noticeably, without buying new machines."
 image: "/images/fotos/bottellijn.jpg"
 imageAlt: "Automated production line with small empty bottles on a conveyor."
 imageIsLogo: false

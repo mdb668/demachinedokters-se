@@ -11,7 +11,7 @@
   "logoSubtitle": "Machine service & automation",
   "tagline": "Faster. Better. Forward.",
   "seoTitle": "De Machinedokters | Machine service & automation in Sweden",
-  "seoDescription": "De Machinedokters make production lines more efficient: process optimisation, fault analysis, retrofit, robotics, special-purpose machines and CE marking in central Sweden.",
+  "seoDescription": "More efficient production lines: process optimisation, fault analysis, retrofit, robotics, special-purpose machines and CE marking in central Sweden.",
   "phone": "+46 70 610 05 91",
   "email": "info@maskindoktorerna.se",
   "addressLine1": "Kärvingeborn 11",
@@ -25,11 +25,12 @@
   "ctaLabel": "Book a no-obligation call",
   "ctaLink": "/en/contact/",
   "serviceArea": "Service area: Örebro, Värmland and Västmanland counties, Sweden.",
+  "parentCompany": "De Machinedokters Sweden is part of De Machinedokters in the Netherlands (MDB B.V.).",
   "contactPerson": {
     "heading": "You get a personal reply from Freek",
     "name": "Freek",
     "role": "Co-founder, De Machinedokters",
-    "text": "Co-founder of De Machinedokters. Not a receptionist, but someone who really understands your machine.",
+    "text": "Co-founder of De Machinedokters. You speak directly to someone who understands machines, not to a receptionist.",
     "photo": "/images/team/freek.jpg",
     "photoAlt": "Freek, your contact at De Machinedokters",
     "phone": "+46 70 610 05 91",
@@ -130,7 +131,7 @@
     }
   ],
   "copyright": "All rights reserved.",
-  "benefitsTitle": "This is why you call in De Machinedokters:",
+  "benefitsTitle": "Why companies call in De Machinedokters:",
   "benefits": [
     {
       "label": "More output per hour",
@@ -157,15 +158,15 @@
     },
     {
       "title": "Improvement plan",
-      "text": "You receive an improvement plan with a clearly described ROI."
+      "text": "You get an improvement plan with a clear ROI."
     },
     {
       "title": "Implementation",
-      "text": "The improvement plan is implemented on the shop floor."
+      "text": "We carry out the plan on the shop floor."
     },
     {
       "title": "Training",
-      "text": "Your team is trained to work with the new systems."
+      "text": "We train your team to work with the new systems."
     },
     {
       "title": "Results",

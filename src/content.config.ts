@@ -41,6 +41,7 @@ function forLang(lang: string) {
         ctaLabel: z.string(),
         ctaLink: z.string(),
         serviceArea: z.string().optional(),
+        parentCompany: z.string().optional(),
         contactPerson: z.object({
           heading: z.string(), name: z.string(), role: z.string().optional(), text: z.string().optional(),
           photo: img.optional(), photoAlt: z.string().optional(), phone: z.string().optional(), email: z.string().optional(),

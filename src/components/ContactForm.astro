@@ -1,5 +1,6 @@
 ---
 import { formTarget } from '../lib/form';
+import { PREVIEW } from '../../site.config.mjs';
 import { siteOf, uiOf, pageOf, path, type Lang } from '../lib/i18n';
 interface Props { lang: Lang }
 const { lang } = Astro.props;
@@ -8,11 +9,11 @@ const ui = await uiOf(lang);
 const f = (await pageOf(lang, 'contact')).form;
 const hasKey = !!site.formKey && !site.formKey.includes('[TODO');
 ---
-{!hasKey && <p class="form-msg error show">[TODO FREEK: Web3Forms-nyckel] {ui.formMissingKey}</p>}
-<form class="form contact-form" method="POST" action={path(lang, 'contact')} data-fs={hasKey ? formTarget(site) : undefined} data-blacklist={site.formBlacklist}
+{!hasKey && PREVIEW && <p class="form-msg error show">[TODO FREEK: Web3Forms-nyckel] {ui.formMissingKey}</p>}
+{(hasKey || PREVIEW) && <form class="form contact-form" method="POST" action={path(lang, 'contact')} data-fs={hasKey ? formTarget(site) : undefined} data-blacklist={site.formBlacklist}
   data-ajax-form data-thanks={path(lang, 'thanks')} data-sending={ui.formSending} novalidate>
   <input type="hidden" name="subject" value={f.mailSubject} />
-  <input type="hidden" name="from_name" value="demachinedokters.se" />
+  <input type="hidden" name="from_name" value="maskindoktorerna.se" />
   <input type="hidden" name="language" value={lang} />
   <input type="text" name="botcheck" class="hp" tabindex="-1" autocomplete="off" aria-hidden="true" />
   <div>
@@ -41,7 +42,7 @@ const hasKey = !!site.formKey && !site.formKey.includes('[TODO');
   </div>
   <div class="form-msg success" role="status"><strong>{f.successTitle}</strong><br />{f.successText}</div>
   <div class="form-msg error" role="alert">{f.errorText}</div>
-</form>
+</form>}
 <script>
   document.querySelectorAll<HTMLFormElement>('[data-ajax-form]').forEach((form) => {
     form.addEventListener('submit', async (e) => {

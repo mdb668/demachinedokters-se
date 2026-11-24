@@ -2,6 +2,7 @@
 import Icon from './Icon.astro';
 import Mail from './Mail.astro';
 import { siteOf, uiOf, path, isTodo, type Lang } from '../lib/i18n';
+import { NL_URL } from '../../site.config.mjs';
 interface Props { lang: Lang }
 const { lang } = Astro.props;
 const site = await siteOf(lang);
@@ -41,6 +42,7 @@ const year = new Date().getFullYear();
       </div>
     )}
     {site.serviceArea && <p class="area">{site.serviceArea}</p>}
+    {site.parentCompany && <p class="area">{site.parentCompany} <a href={NL_URL + '/'} hreflang="nl">demachinedokters.nl</a></p>}
     <p class="bottom">
       © {year} <a href={path(lang, 'home')}>{site.siteName}</a>. {site.copyright}
       {site.footerBottom.map((l: any) => <> | <a href={l.href}>{l.label}</a></>)}

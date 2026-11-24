@@ -4,7 +4,7 @@ slug: "vastmanland"
 name: "Västmanland"
 intro: "De Machinedokters help manufacturing companies in Västmanland, Sweden, get more out of existing machines and lines: fault analysis, retrofit, robotics, special-purpose machines and CE marking."
 places: "Västerås, Köping, Sala, Arboga and Fagersta"
-seoTitle: "Machine service & automation in Västmanland | De Machinedokters"
+seoTitle: "Machine service & automation, Västmanland | De Machinedokters"
 seoDescription: "Fault analysis, retrofit, robotics, special-purpose machines and CE marking for manufacturing companies in Västmanland, Sweden. Your contact: Freek."
 order: 3
 ---
@@ -22,4 +22,4 @@ Do you have a machine that keeps playing up, a line that does not reach its capa
 
 Freek is your contact. Get in touch with a description of the machine or the problem, preferably with a photo or video.
 
-We are based in Grythyttan in Hällefors municipality, in the heart of Bergslagen, and visit customers throughout Västmanland, including Västerås, Köping, Sala, Arboga and Fagersta.
+We are based in Grythyttan in Hällefors municipality, in Bergslagen, and visit customers throughout Västmanland, including Västerås, Köping, Sala, Arboga and Fagersta.
