@@ -12,12 +12,12 @@
   "logoSubtitle": "Maskinservice & automation",
   "tagline": "Snabbare. Bättre. Framåt.",
   "seoTitle": "De Machinedokters | Maskinservice & automation i Mellansverige",
-  "seoDescription": "De Machinedokters gör produktionslinjer effektivare: processoptimering, felanalys, retrofit, robotisering, specialmaskiner och CE-märkning i Örebro län, Värmland och Västmanland.",
+  "seoDescription": "Processoptimering, felanalys, retrofit, robotisering, specialmaskiner och CE-märkning för fabriker i Örebro län, Värmland och Västmanland.",
   "phone": "+46 70 610 05 91",
   "email": "info@maskindoktorerna.se",
   "addressLine1": "Kärvingeborn 11",
   "addressLine2": "712 95 Grythyttan",
-  "openingHours": "Vardagar under kontorstid. Besök endast efter överenskommelse.",
+  "openingHours": "Vardagar under kontorstid. Besök bara efter överenskommelse.",
   "legalName": "Factory Freaks (enskild firma, Freek Broers)",
   "orgNumber": "910317-6179",
   "vatNumber": "SE910317617901",
@@ -28,10 +28,10 @@
   "serviceArea": "Verksamhetsområde: Örebro län, Värmland och Västmanland.",
   "parentCompany": "De Machinedokters i Sverige är en del av De Machinedokters i Nederländerna (MDB B.V.).",
   "contactPerson": {
-    "heading": "Du får svar personligen av Freek",
+    "heading": "Freek svarar dig personligen",
     "name": "Freek",
     "role": "Medgrundare, De Machinedokters",
-    "text": "Medgrundare av De Machinedokters. Ingen telefonist, utan någon som verkligen förstår din maskin.",
+    "text": "Medgrundare av De Machinedokters. När du hör av dig får du svar av någon som förstår din maskin, inte av en växel.",
     "photo": "/images/team/freek.jpg",
     "photoAlt": "Freek, din kontakt hos De Machinedokters",
     "phone": "+46 70 610 05 91",
@@ -132,7 +132,7 @@
     }
   ],
   "copyright": "Alla rättigheter förbehållna.",
-  "benefitsTitle": "Därför anlitar du De Machinedokters:",
+  "benefitsTitle": "Därför ska du anlita De Machinedokters:",
   "benefits": [
     {
       "label": "Mer output per timme",
@@ -155,7 +155,7 @@
   "plan": [
     {
       "title": "Analys",
-      "text": "Vi analyserar din situation och sätter konkreta mål tillsammans."
+      "text": "Vi går igenom din situation och sätter konkreta mål tillsammans med dig."
     },
     {
       "title": "Förbättringsplan",
@@ -163,11 +163,11 @@
     },
     {
       "title": "Genomförande",
-      "text": "Förbättringsplanen genomförs ute i produktionen."
+      "text": "Vi genomför förbättringsplanen ute i produktionen."
     },
     {
       "title": "Utbildning",
-      "text": "Ditt team utbildas i att arbeta med de nya systemen."
+      "text": "Vi lär ditt team att arbeta med de nya systemen."
     },
     {
       "title": "Resultat",
