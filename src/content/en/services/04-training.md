@@ -7,7 +7,7 @@ image: "/images/fotos/training.jpg"
 imageAlt: "Training in a classroom with a flip chart."
 order: 4
 slug: "training-support"
-seoTitle: "Training for operators and technicians | De Machinedokters"
+seoTitle: "Training for operators and technicians | Maskindoktorerna"
 seoDescription: "Hands-on training for operators, technicians and engineers, plus support after implementation. Also courses in lean manufacturing and error prevention."
 ctaTitle: "Want your team to understand the line better?"
 ctaText: "We tailor the training to your machines and your people."

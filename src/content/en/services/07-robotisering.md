@@ -9,7 +9,7 @@ image: "/images/robotisering/palletiseercel-fanuc.jpg"
 imageAlt: "Two FANUC palletising robots in a guarded robot cell next to a conveyor."
 order: 7
 slug: "robotics"
-seoTitle: "Robotics and robot automation | De Machinedokters"
+seoTitle: "Robotics and robot automation | Maskindoktorerna"
 seoDescription: "Robots for palletising, stacking and handling, fitted into your existing line. Brand-independent. Cobot palletiser from about SEK 460,000 excl. VAT."
 ctaTitle: "Repetitive work a robot could take over?"
 ctaText: "We look honestly at whether a robot, a cobot or simple automation is the best fit."

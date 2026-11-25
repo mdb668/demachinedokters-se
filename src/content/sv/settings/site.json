@@ -1,6 +1,6 @@
 {
   "review": "sv-native-check-nodig",
-  "siteName": "De Machinedokters",
+  "siteName": "Maskindoktorerna",
   "logo": "/images/logo-maskindoktorerna.png",
   "logoIcon": "/images/logo-icoon.png",
   "logoDark": "/images/logo-maskindoktorerna-donker.png",
@@ -11,7 +11,7 @@
   "socials": [],
   "logoSubtitle": "Maskinservice & automation",
   "tagline": "Snabbare. Bättre. Framåt.",
-  "seoTitle": "De Machinedokters | Maskinservice & automation i Mellansverige",
+  "seoTitle": "Maskindoktorerna | Maskinservice & automation i Mellansverige",
   "seoDescription": "Processoptimering, felanalys, retrofit, robotisering, specialmaskiner och CE-märkning för fabriker i Örebro län, Värmland och Västmanland.",
   "phone": "+46 70 610 05 91",
   "email": "info@maskindoktorerna.se",
@@ -26,14 +26,14 @@
   "ctaLabel": "Boka ett förutsättningslöst samtal",
   "ctaLink": "/kontakt/",
   "serviceArea": "Verksamhetsområde: Örebro län, Värmland och Västmanland.",
-  "parentCompany": "De Machinedokters i Sverige är en del av De Machinedokters i Nederländerna (MDB B.V.).",
+  "parentCompany": "Maskindoktorerna är en del av De Machinedokters i Nederländerna (MDB B.V.).",
   "contactPerson": {
     "heading": "Freek svarar dig personligen",
     "name": "Freek",
-    "role": "Medgrundare, De Machinedokters",
-    "text": "Medgrundare av De Machinedokters. När du hör av dig får du svar av någon som förstår din maskin, inte av en växel.",
+    "role": "Medgrundare, Maskindoktorerna",
+    "text": "Medgrundare av Maskindoktorerna. När du hör av dig får du svar av någon som förstår din maskin, inte av en växel.",
     "photo": "/images/team/freek.jpg",
-    "photoAlt": "Freek, din kontakt hos De Machinedokters",
+    "photoAlt": "Freek, din kontakt hos Maskindoktorerna",
     "phone": "+46 70 610 05 91",
     "email": "freek@maskindoktorerna.se"
   },
@@ -132,7 +132,7 @@
     }
   ],
   "copyright": "Alla rättigheter förbehållna.",
-  "benefitsTitle": "Därför ska du anlita De Machinedokters:",
+  "benefitsTitle": "Därför ska du anlita Maskindoktorerna:",
   "benefits": [
     {
       "label": "Mer output per timme",
@@ -151,7 +151,7 @@
       "icon": "trending-down"
     }
   ],
-  "planTitle": "Så arbetar De Machinedokters",
+  "planTitle": "Så arbetar Maskindoktorerna",
   "plan": [
     {
       "title": "Analys",

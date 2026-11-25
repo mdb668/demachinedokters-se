@@ -20,7 +20,7 @@ results:
   - "Högre leveranssäkerhet gentemot Unilever"
   - "Återbetalningstid under 6 månader"
 closing: "Slut på brandsläckningen. Nu kan organisationen planera i stället för att reagera."
-seoTitle: "Unilever-leverantör: 30 % färre stopp | De Machinedokters"
+seoTitle: "Unilever-leverantör: 30 % färre stopp | Maskindoktorerna"
 seoDescription: "Med datadriven övervakning och prediktiva analyser på en befintlig linje minskade en underleverantör till Unilever sitt oplanerade stillestånd med 30 %."
 order: 3
 published: true

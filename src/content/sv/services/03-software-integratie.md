@@ -8,7 +8,7 @@ image: "/images/fotos/software-dashboard.jpg"
 imageAlt: "Dashboard med produktionsdata bredvid en medarbetare på verkstadsgolvet."
 order: 3
 slug: "mjukvara-systemintegration"
-seoTitle: "Mjukvara och systemintegration | De Machinedokters"
+seoTitle: "Mjukvara och systemintegration | Maskindoktorerna"
 seoDescription: "Få maskiner av olika fabrikat att samverka: PLC-program, sensorer, dashboards och insyn i OEE (TAK). Få ut mer av den hårdvara du redan har."
 ctaTitle: "Maskiner som inte pratar med varandra?"
 ctaText: "Berätta vilka system du vill koppla ihop, så resonerar vi tillsammans om hur det kan lösas."
@@ -19,7 +19,7 @@ relatedCases:
   - "coca-cola"
 ---
 
-I många fabriker står maskiner av olika ålder och fabrikat, och de pratar inte alltid med varandra. De Machinedokters kopplar ihop fristående maskiner i ett nätverk, så att produktionen blir överskådligare och går snabbare. Vi integrerar modern mjukvara, sensorer och styrsystem i befintliga anläggningar.
+I många fabriker står maskiner av olika ålder och fabrikat, och de pratar inte alltid med varandra. Maskindoktorerna kopplar ihop fristående maskiner i ett nätverk, så att produktionen blir överskådligare och går snabbare. Vi integrerar modern mjukvara, sensorer och styrsystem i befintliga anläggningar.
 
 Med anpassade PLC-program och tillgängliga produktionsdata visar vi vad som verkligen händer på verkstadsgolvet. I tydliga dashboards ser du prestanda, stillestånd och OEE (TAK) i din fabrik.
 

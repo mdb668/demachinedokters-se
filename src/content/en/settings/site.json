@@ -1,5 +1,5 @@
 {
-  "siteName": "De Machinedokters",
+  "siteName": "Maskindoktorerna",
   "logo": "/images/logo-maskindoktorerna.png",
   "logoIcon": "/images/logo-icoon.png",
   "logoDark": "/images/logo-maskindoktorerna-donker.png",
@@ -10,7 +10,7 @@
   "socials": [],
   "logoSubtitle": "Machine service & automation",
   "tagline": "Faster. Better. Forward.",
-  "seoTitle": "De Machinedokters | Machine service & automation in Sweden",
+  "seoTitle": "Maskindoktorerna | Machine service & automation in Sweden",
   "seoDescription": "More efficient production lines: process optimisation, fault analysis, retrofit, robotics, special-purpose machines and CE marking in central Sweden.",
   "phone": "+46 70 610 05 91",
   "email": "info@maskindoktorerna.se",
@@ -25,14 +25,14 @@
   "ctaLabel": "Book a no-obligation call",
   "ctaLink": "/en/contact/",
   "serviceArea": "Service area: Örebro, Värmland and Västmanland counties, Sweden.",
-  "parentCompany": "De Machinedokters Sweden is part of De Machinedokters in the Netherlands (MDB B.V.).",
+  "parentCompany": "Maskindoktorerna is part of De Machinedokters in the Netherlands (MDB B.V.).",
   "contactPerson": {
     "heading": "You get a personal reply from Freek",
     "name": "Freek",
-    "role": "Co-founder, De Machinedokters",
-    "text": "Co-founder of De Machinedokters. You speak directly to someone who understands machines, not to a receptionist.",
+    "role": "Co-founder, Maskindoktorerna",
+    "text": "Co-founder of Maskindoktorerna. You speak directly to someone who understands machines, not to a receptionist.",
     "photo": "/images/team/freek.jpg",
-    "photoAlt": "Freek, your contact at De Machinedokters",
+    "photoAlt": "Freek, your contact at Maskindoktorerna",
     "phone": "+46 70 610 05 91",
     "email": "freek@maskindoktorerna.se"
   },
@@ -131,7 +131,7 @@
     }
   ],
   "copyright": "All rights reserved.",
-  "benefitsTitle": "Why companies call in De Machinedokters:",
+  "benefitsTitle": "Why companies call in Maskindoktorerna:",
   "benefits": [
     {
       "label": "More output per hour",
@@ -150,7 +150,7 @@
       "icon": "trending-down"
     }
   ],
-  "planTitle": "How De Machinedokters work",
+  "planTitle": "How Maskindoktorerna works",
   "plan": [
     {
       "title": "Analysis",

@@ -20,7 +20,7 @@ results:
   - "Consistent supply thanks to agreements with the box supplier"
   - "Automatic pallet infeed and outfeed"
 closing: "Part of the solution was a good conversation with the box supplier."
-seoTitle: "Robot folds, tapes and stacks boxes | De Machinedokters"
+seoTitle: "Robot folds, tapes and stacks boxes | Maskindoktorerna"
 seoDescription: "A customer wanted one robot to pick up flat box blanks, fold them open and tape them, and later stack the same boxes again once filled."
 order: 5
 published: true

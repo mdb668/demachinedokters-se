@@ -21,7 +21,7 @@ results:
   - "Pålitligt förslutna förpackningar"
   - "Investering under 10 000 euro, inklusive utbildning och driftsättning"
 closing: "En lösning du inte ser, men som betalar sig varje dag."
-seoTitle: "Livsmedel: 3 heltidstjänster sparade | De Machinedokters"
+seoTitle: "Livsmedel: 3 heltidstjänster sparade | Maskindoktorerna"
 seoDescription: "Bättre timing på fyllaren och ett avblåsningssystem gjorde den extra kontrollen överflödig. Investering under 10 000 euro, 3 heltidstjänster sparade."
 order: 2
 published: true

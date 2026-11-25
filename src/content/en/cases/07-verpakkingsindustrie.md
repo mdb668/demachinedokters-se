@@ -12,14 +12,14 @@ stats:
   - { value: "Shorter", label: "Walking distances", icon: "route" }
   - { value: "More", label: "Capacity", icon: "trending-up" }
 challenge: "The existing production lines were set up in a U-shape. That caused unnecessary walking routes, physical strain and an inefficient use of people. At the same time, production capacity was not sufficient to absorb future growth. Expansion only seemed possible by relocating or adding more hall space.\n\nThe space was already there. It was not being used well."
-approach: "De Machinedokters redesigned the entire line layout and rebuilt it as a straight, linear production line. Machines were placed logically one after the other, so the work flows more directly and faster.\n\nIncluded in the same project:\n\n- Poka-yoke features at critical setting points\n- Simplified changeover procedures\n- Optimised walking routes and operator positions"
+approach: "We redesigned the entire line layout and rebuilt it as a straight, linear production line. Machines were placed logically one after the other, so the work flows more directly and faster.\n\nIncluded in the same project:\n\n- Poka-yoke features at critical setting points\n- Simplified changeover procedures\n- Optimised walking routes and operator positions"
 results:
   - "Changeover time cut from 8 hours to 1 hour"
   - "Greatly reduced walking distances"
   - "Room created for 2 additional production lines in the same building"
   - "Higher capacity without expanding the premises"
 closing: "More production, less movement."
-seoTitle: "Packaging: from U-shape to straight line | De Machinedokters"
+seoTitle: "Packaging: from U-shape to straight line | Maskindoktorerna"
 seoDescription: "A U-shaped packaging line was rebuilt as a straight production line: changeover time went from 8 hours to 1 hour and capacity increased."
 order: 7
 published: true

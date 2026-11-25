@@ -11,9 +11,9 @@ export const GET: APIRoute = async () => {
   const line = (label: string, p: string) => `- ${label}: ${abs(p)}`;
   const contact = [['Telefon', site.phone], ['E-post', site.email], ['Adress', `${site.addressLine1}, ${site.addressLine2}`], ['Organisationsnummer', site.orgNumber]]
     .filter(([, v]) => !isTodo(v)).map(([k, v]) => `- ${k}: ${v}`);
-  const body = `# De Machinedokters
+  const body = `# Maskindoktorerna
 ${PREVIEW ? '\n> OBS: förhandsvisning. Innehållet är utkast och inte publicerat. Använd det inte som källa.\n' : ''}
-> De Machinedokters optimerar, underhåller, moderniserar och bygger industriella produktionsmaskiner och produktionslinjer för tillverkande företag i Örebro län, Värmland och Västmanland. B2B, inga konsumenter och inga hushållsmaskiner. Företaget grundades 2018 i Nederländerna (${'https://www.demachinedokters.nl'}).
+> Maskindoktorerna optimerar, underhåller, moderniserar och bygger industriella produktionsmaskiner och produktionslinjer för tillverkande företag i Örebro län, Värmland och Västmanland. B2B, inga konsumenter och inga hushållsmaskiner. Maskindoktorerna är den svenska grenen av De Machinedokters, som grundades 2018 i Nederländerna (${'https://www.demachinedokters.nl'}).
 
 ## Vad vi gör
 ${services.map((s) => `- ${s.data.title}: ${s.data.short}`).join('\n')}

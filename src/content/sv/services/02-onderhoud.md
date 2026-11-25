@@ -9,7 +9,7 @@ image: "/images/fotos/onderhoud-warning.jpg"
 imageAlt: "Varningsskylt: om du inte planerar in tid för underhåll gör din utrustning det åt dig."
 order: 2
 slug: "underhall-felsokning"
-seoTitle: "Felanalys av maskiner och linjer | De Machinedokters"
+seoTitle: "Felanalys av maskiner och linjer | Maskindoktorerna"
 seoDescription: "Felanalys för felet som hela tiden kommer tillbaka. Vi hittar den verkliga orsaken i mekanik, el eller styrsystem. Märkesoberoende."
 ctaTitle: "Ett fel som hela tiden kommer tillbaka?"
 ctaText: "Hör av dig och boka en felanalys, så letar vi upp den verkliga orsaken tillsammans."

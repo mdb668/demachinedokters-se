@@ -8,7 +8,7 @@ image: "/images/fotos/bottellijn.jpg"
 imageAlt: "Automated production line with bottles on a conveyor."
 order: 6
 slug: "retrofit"
-seoTitle: "Retrofit: modernise ageing machines | De Machinedokters"
+seoTitle: "Retrofit: modernise ageing machines | Maskindoktorerna"
 seoDescription: "Retrofit of existing production machines: new PLC controls, drives, sensors and safety. Your machine runs for years again, without buying new."
 ctaTitle: "Old machine that has stopped working?"
 ctaText: "Get in touch, even if all you have is a photo or a short video. We give you our view with no obligation and, if needed, come over for one day to repair it."

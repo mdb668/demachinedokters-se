@@ -19,7 +19,7 @@ results:
   - "Lower error rate"
   - "Productivity as a result, not as a means of pressure"
 closing: "Here, optimisation is just as much about the people who work with the machines."
-seoTitle: "Technology that supports people | De Machinedokters"
+seoTitle: "Technology that supports people | Maskindoktorerna"
 seoDescription: "New PLC controls, clear operation and fewer hazards gave a sheltered employment company a safer, calmer workplace with fewer errors."
 order: 5
 published: true

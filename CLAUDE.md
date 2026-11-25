@@ -27,6 +27,7 @@ Eén waarde: `PREVIEW` in [site.config.mjs](site.config.mjs).
 
 ## Inhoudsregels
 - Zweedse bestanden hebben `review: "sv-native-check-nodig"` tot een moedertaalspreker ze heeft nagekeken.
+- Merknaam op deze site is **Maskindoktorerna** (Zweeds en Engels, besluit Mike 25-11-2026), geleid door Freek. "De Machinedokters" alleen nog waar het over het Nederlandse moederbedrijf of het Nederlandse team gaat.
 - De Zweedse vestiging is onderdeel van het Nederlandse moederbedrijf: veld `parentCompany` in de instellingen, getoond in de footer en op Företagsuppgifter met een link naar demachinedokters.nl.
 - Niets verzinnen: geen cases, cijfers, klantnamen, reviews, certificeringen, reactietijden of prijzen die niet van Mike of Freek komen. Ontbrekende inhoud = `[TODO FREEK: …]`.
 - Niet op deze site: NEN 3140/1010, een klantlogowand, Nederlandse reviews, vacatures, Reboow, Alphen of Noord-Brabant.

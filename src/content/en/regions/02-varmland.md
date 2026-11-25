@@ -2,14 +2,14 @@
 title: "Machine service & automation in Värmland"
 slug: "varmland"
 name: "Värmland"
-intro: "De Machinedokters help manufacturing companies in Värmland, Sweden, get more out of existing machines and lines: fault analysis, retrofit, robotics, special-purpose machines and CE marking."
+intro: "Maskindoktorerna helps manufacturing companies in Värmland, Sweden, get more out of existing machines and lines: fault analysis, retrofit, robotics, special-purpose machines and CE marking."
 places: "Karlstad, Arvika, Kristinehamn and Säffle"
-seoTitle: "Machine service & automation in Värmland | De Machinedokters"
+seoTitle: "Machine service & automation in Värmland | Maskindoktorerna"
 seoDescription: "Fault analysis, retrofit, robotics, special-purpose machines and CE marking for manufacturing companies in Värmland, Sweden. Your contact: Freek."
 order: 2
 ---
 
-Do you have a machine that keeps playing up, a line that does not reach its capacity or an ageing control system for which spare parts are no longer available? De Machinedokters work on site in your factory in Värmland, together with operators, technicians and the maintenance team.
+Do you have a machine that keeps playing up, a line that does not reach its capacity or an ageing control system for which spare parts are no longer available? Maskindoktorerna works on site in your factory in Värmland, together with operators, technicians and the maintenance team.
 
 ## What we help with
 

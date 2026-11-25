@@ -9,7 +9,7 @@ image: "/images/fotos/transportsysteem.jpg"
 imageAlt: "Specialbyggt transportsystem med rullbanor i en fabrikshall."
 order: 5
 slug: "specialmaskiner"
-seoTitle: "Specialmaskiner på beställning | De Machinedokters"
+seoTitle: "Specialmaskiner på beställning | Maskindoktorerna"
 seoDescription: "Behöver du en specialmaskin? Vi konstruerar, bygger och CE-märker den själva, anpassad efter din produkt och din befintliga linje."
 ctaTitle: "Har du en idé till en maskin?"
 ctaText: "Hör av dig. Vi hjälper dig att bedöma genomförbarhet, investering och återbetalningstid."

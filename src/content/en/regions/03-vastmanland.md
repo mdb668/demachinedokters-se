@@ -2,14 +2,14 @@
 title: "Machine service & automation in Västmanland"
 slug: "vastmanland"
 name: "Västmanland"
-intro: "De Machinedokters help manufacturing companies in Västmanland, Sweden, get more out of existing machines and lines: fault analysis, retrofit, robotics, special-purpose machines and CE marking."
+intro: "Maskindoktorerna helps manufacturing companies in Västmanland, Sweden, get more out of existing machines and lines: fault analysis, retrofit, robotics, special-purpose machines and CE marking."
 places: "Västerås, Köping, Sala, Arboga and Fagersta"
-seoTitle: "Machine service & automation, Västmanland | De Machinedokters"
+seoTitle: "Machine service & automation, Västmanland | Maskindoktorerna"
 seoDescription: "Fault analysis, retrofit, robotics, special-purpose machines and CE marking for manufacturing companies in Västmanland, Sweden. Your contact: Freek."
 order: 3
 ---
 
-Do you have a machine that keeps playing up, a line that does not reach its capacity or an ageing control system for which spare parts are no longer available? De Machinedokters work on site in your factory in Västmanland, together with operators, technicians and the maintenance team.
+Do you have a machine that keeps playing up, a line that does not reach its capacity or an ageing control system for which spare parts are no longer available? Maskindoktorerna works on site in your factory in Västmanland, together with operators, technicians and the maintenance team.
 
 ## What we help with
 

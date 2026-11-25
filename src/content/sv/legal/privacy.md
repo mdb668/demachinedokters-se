@@ -1,8 +1,8 @@
 ---
 review: "sv-native-check-nodig"
 title: "Integritetspolicy"
-intro: "Så behandlar De Machinedokters personuppgifter enligt dataskyddsförordningen (GDPR)."
-seoDescription: "Integritetspolicy för De Machinedokters i Sverige: vilka personuppgifter vi behandlar och vilka rättigheter du har enligt GDPR."
+intro: "Så behandlar Maskindoktorerna personuppgifter enligt dataskyddsförordningen (GDPR)."
+seoDescription: "Integritetspolicy för Maskindoktorerna i Sverige: vilka personuppgifter vi behandlar och vilka rättigheter du har enligt GDPR."
 ---
 
 Den här integritetspolicyn är ett utkast och kompletteras innan sajten publiceras.

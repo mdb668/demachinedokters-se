@@ -8,7 +8,7 @@ image: "/images/fotos/robots-productielijn.jpg"
 imageAlt: "Robots on a production line."
 order: 1
 slug: "process-optimisation-automation"
-seoTitle: "Process optimisation & automation | De Machinedokters"
+seoTitle: "Process optimisation & automation | Maskindoktorerna"
 seoDescription: "Higher OEE from your existing production line: we analyse bottlenecks, improve machines and automate where it pays off. Practical, tailored work."
 ctaTitle: "Is your line not delivering what it should?"
 ctaText: "We look at where it gets stuck and what solving it would be worth."

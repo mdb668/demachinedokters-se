@@ -17,7 +17,7 @@ approach: "Tillsammans med teamet på WVS kartlägger vi processen och genomför
 results:
   - "Resultat kommer snart"
 closing: ""
-seoTitle: "WVS: unika problem, unika lösningar | De Machinedokters"
+seoTitle: "WVS: unika problem, unika lösningar | Maskindoktorerna"
 seoDescription: "Pågående projekt hos WVS: tillsammans med kundens team kartlägger vi processen och genomför tekniska förbättringar steg för steg."
 order: 2
 published: false

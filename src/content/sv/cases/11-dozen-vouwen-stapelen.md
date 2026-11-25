@@ -21,7 +21,7 @@ results:
   - "Jämn tillförsel tack vare överenskommelser med kartongleverantören"
   - "Automatisk till- och bortforsling av pallar"
 closing: "En del av lösningen låg i ett bra samtal med kartongleverantören."
-seoTitle: "Robot viker, tejpar och staplar kartonger | De Machinedokters"
+seoTitle: "Robot viker, tejpar och staplar kartonger | Maskindoktorerna"
 seoDescription: "En kund ville att en robot skulle plocka platta kartongämnen, vika upp och tejpa dem, och senare stapla samma kartonger igen när de är fyllda."
 order: 5
 published: true

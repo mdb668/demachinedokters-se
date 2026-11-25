@@ -8,7 +8,7 @@ image: "/images/fotos/training.jpg"
 imageAlt: "Training in a classroom with a flip chart."
 order: 8
 slug: "maintenance-team-support"
-seoTitle: "Maintenance team support and training | De Machinedokters"
+seoTitle: "Maintenance team support and training | Maskindoktorerna"
 seoDescription: "We work with your maintenance team to solve stubborn faults and train your people, so they can do it themselves afterwards. Any brand."
 ctaTitle: "No time in your maintenance team to find the real cause?"
 ctaText: "We discuss which faults you want rid of and what your maintenance team should be able to do itself afterwards."

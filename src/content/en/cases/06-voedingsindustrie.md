@@ -12,14 +12,14 @@ stats:
   - { value: "-25%", label: "Waste", icon: "trending-down" }
   - { value: "Better", label: "Process control", icon: "eye" }
 challenge: "A food manufacturer was struggling with an unstable primary packaging process. Manual corrections, inconsistencies and increased packaging waste weighed heavily on costs and quality. The line ran continuously, but not well.\n\nThe aim was more stability and less waste, without large-scale replacement."
-approach: "De Machinedokters carried out a technical and process optimisation of the existing packaging line. Through mechanical improvements, smarter process logic and simple error-proofing, the line became more stable and consistent.\n\nOperators were involved in the improvement project and gained direct insight into performance and quality deviations."
+approach: "We carried out a technical and process optimisation of the existing packaging line. Through mechanical improvements, smarter process logic and simple error-proofing, the line became more stable and consistent.\n\nOperators were involved in the improvement project and gained direct insight into performance and quality deviations."
 results:
   - "25% less packaging waste"
   - "20% higher packaging speed"
   - "Better process control"
   - "Lower operating costs"
 closing: "The same line, more stable and with less waste."
-seoTitle: "Food industry: packaging with less waste | De Machinedokters"
+seoTitle: "Food industry: packaging with less waste | Maskindoktorerna"
 seoDescription: "An existing packaging line in the food industry achieved 20% higher speed and 25% less waste, without new machines. Here is how we did it."
 order: 6
 published: true
