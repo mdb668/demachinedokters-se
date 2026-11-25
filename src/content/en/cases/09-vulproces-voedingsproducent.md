@@ -20,7 +20,7 @@ results:
   - "Reliably sealed packages"
   - "Investment under €10,000, including training and commissioning"
 closing: "A solution you do not notice, but one that pays for itself every day."
-seoTitle: "Food producer: 3 FTE saved on filling | De Machinedokters"
+seoTitle: "Food producer: 3 FTE saved on filling | Maskindoktorerna"
 seoDescription: "Better filler timing and an air blow-off system made the extra inspection operator unnecessary. Investment under €10,000, 3 FTE saved."
 order: 2
 published: true

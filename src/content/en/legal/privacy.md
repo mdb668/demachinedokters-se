@@ -1,7 +1,7 @@
 ---
 title: "Privacy policy"
-intro: "How De Machinedokters process personal data under the General Data Protection Regulation (GDPR)."
-seoDescription: "Privacy policy of De Machinedokters in Sweden: which personal data we process and your rights under the GDPR."
+intro: "How Maskindoktorerna processes personal data under the General Data Protection Regulation (GDPR)."
+seoDescription: "Privacy policy of Maskindoktorerna in Sweden: which personal data we process and your rights under the GDPR."
 ---
 
 This privacy policy is a draft and will be completed before the site is published.

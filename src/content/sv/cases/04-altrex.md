@@ -20,7 +20,7 @@ results:
   - "Bättre ergonomi och säkerhet"
   - "Stabilare produktionsprocess"
 closing: "Snabbare arbete utan avkall på säkerheten."
-seoTitle: "Altrex: snabbare och säkrare montering | De Machinedokters"
+seoTitle: "Altrex: snabbare och säkrare montering | Maskindoktorerna"
 seoDescription: "Så gjorde vi monteringen av hushållsstegar hos Altrex snabbare och säkrare: automation av repetitiva moment, bättre ergonomi och färre QC-kassationer."
 order: 4
 published: true

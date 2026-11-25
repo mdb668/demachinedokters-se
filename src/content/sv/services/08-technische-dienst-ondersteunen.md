@@ -8,7 +8,7 @@ image: "/images/fotos/training.jpg"
 imageAlt: "Utbildning i ett klassrum med blädderblock."
 order: 8
 slug: "stod-till-underhallsavdelningen"
-seoTitle: "Stöd till underhållsavdelningen | De Machinedokters"
+seoTitle: "Stöd till underhållsavdelningen | Maskindoktorerna"
 seoDescription: "Tillsammans med din underhållsavdelning löser vi envisa fel och utbildar din personal, så att de sedan klarar det själva. Märkesoberoende."
 ctaTitle: "Hinner underhållsavdelningen inte leta upp den verkliga orsaken?"
 ctaText: "Vi går igenom vilka fel du vill bli av med och vad din underhållsavdelning ska klara själv efteråt."

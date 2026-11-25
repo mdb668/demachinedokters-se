@@ -7,7 +7,7 @@ image: "/images/fotos/training.jpg"
 imageAlt: "Utbildning i ett klassrum med blädderblock."
 order: 4
 slug: "utbildning-support"
-seoTitle: "Utbildning för operatörer och tekniker | De Machinedokters"
+seoTitle: "Utbildning för operatörer och tekniker | Maskindoktorerna"
 seoDescription: "Praktiska utbildningar för operatörer, tekniker och ingenjörer, och support efter införandet. Även kurser i lean produktion och felförebyggande."
 ctaTitle: "Vill du att ditt team ska förstå linjen bättre?"
 ctaText: "Vi anpassar utbildningen efter dina maskiner och din personal."
@@ -18,7 +18,7 @@ relatedCases:
   - "verpakkingsindustrie"
 ---
 
-En förbättring gör nytta först när alla kan arbeta med den. Därför ser De Machinedokters till att ditt team förstår och behärskar de nya systemen. Vi ger stöd under och efter införandet, så att övergången går smidigt och förbättringarna sitter kvar. Samtidigt växer kunskapen på verkstadsgolvet.
+En förbättring gör nytta först när alla kan arbeta med den. Därför ser Maskindoktorerna till att ditt team förstår och behärskar de nya systemen. Vi ger stöd under och efter införandet, så att övergången går smidigt och förbättringarna sitter kvar. Samtidigt växer kunskapen på verkstadsgolvet.
 
 Vi håller praktiska utbildningar för operatörer, tekniker och ingenjörer om hur de nya processerna och förbättringarna fungerar. Efteråt vet de hur de förebygger störningar, sköter underhållet smartare och arbetar med förändringarna.
 

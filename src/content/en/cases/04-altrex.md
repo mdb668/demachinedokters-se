@@ -19,7 +19,7 @@ results:
   - "Improved ergonomics and safety"
   - "More stable production process"
 closing: "Working faster without compromising on safety."
-seoTitle: "Altrex: faster, safer assembly of steps | De Machinedokters"
+seoTitle: "Altrex: faster, safer assembly of steps | Maskindoktorerna"
 seoDescription: "How we made assembly of household steps at Altrex faster and safer: automating repetitive tasks, better ergonomics and fewer QC rejects."
 order: 4
 published: true

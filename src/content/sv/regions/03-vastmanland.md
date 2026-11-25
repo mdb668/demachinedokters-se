@@ -3,14 +3,14 @@ review: "sv-native-check-nodig"
 title: "Maskinservice & automation i Västmanland"
 slug: "vastmanland"
 name: "Västmanland"
-intro: "De Machinedokters hjälper tillverkande företag i Västmanland att få befintliga maskiner och linjer att gå bättre: felanalys, retrofit, robotisering, specialmaskiner och CE-märkning."
+intro: "Maskindoktorerna hjälper tillverkande företag i Västmanland att få befintliga maskiner och linjer att gå bättre: felanalys, retrofit, robotisering, specialmaskiner och CE-märkning."
 places: "Västerås, Köping, Sala, Arboga och Fagersta"
-seoTitle: "Maskinservice & automation i Västmanland | De Machinedokters"
+seoTitle: "Maskinservice & automation i Västmanland | Maskindoktorerna"
 seoDescription: "Felanalys, retrofit, robotisering, specialmaskiner och CE-märkning för tillverkande företag i Västmanland. Din kontakt: Freek."
 order: 3
 ---
 
-Har du en maskin som krånglar, en linje som inte når sin kapacitet eller en äldre styrning som det inte längre finns reservdelar till? De Machinedokters kommer ut till din fabrik i Västmanland och arbetar på plats tillsammans med operatörer, tekniker och underhållsavdelningen.
+Har du en maskin som krånglar, en linje som inte når sin kapacitet eller en äldre styrning som det inte längre finns reservdelar till? Maskindoktorerna kommer ut till din fabrik i Västmanland och arbetar på plats tillsammans med operatörer, tekniker och underhållsavdelningen.
 
 ## Det här hjälper vi till med
 

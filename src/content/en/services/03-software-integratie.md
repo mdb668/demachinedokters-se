@@ -8,7 +8,7 @@ image: "/images/fotos/software-dashboard.jpg"
 imageAlt: "Dashboard with production data next to an employee on the shop floor."
 order: 3
 slug: "software-system-integration"
-seoTitle: "Software and system integration | De Machinedokters"
+seoTitle: "Software and system integration | Maskindoktorerna"
 seoDescription: "Getting machines of different brands to work together: PLC software, sensors, dashboards and OEE insight. More from the hardware you already have."
 ctaTitle: "Machines that do not talk to each other?"
 ctaText: "Tell us which systems you want to connect and we will think it through with you."

@@ -8,7 +8,7 @@ image: "/images/fotos/bottellijn.jpg"
 imageAlt: "Automatiserad produktionslinje med flaskor på transportband."
 order: 6
 slug: "retrofit"
-seoTitle: "Retrofit: modernisera äldre maskiner | De Machinedokters"
+seoTitle: "Retrofit: modernisera äldre maskiner | Maskindoktorerna"
 seoDescription: "Retrofit av befintliga produktionsmaskiner: nytt PLC-styrsystem, drivsystem, givare och säkerhet. Maskinen håller i många år till, utan nyinvestering."
 ctaTitle: "Har du en gammal maskin som slutat fungera?"
 ctaText: "Hör av dig, även om du bara har ett foto eller en film. Vi bollar gärna idéer utan förpliktelser och kommer vid behov ut en dag och reparerar maskinen."

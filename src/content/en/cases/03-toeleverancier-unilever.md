@@ -19,7 +19,7 @@ results:
   - "Higher delivery reliability towards Unilever"
   - "Payback period under 6 months"
 closing: "No more firefighting. The organisation now works predictably."
-seoTitle: "Unilever supplier: 30% less downtime | De Machinedokters"
+seoTitle: "Unilever supplier: 30% less downtime | Maskindoktorerna"
 seoDescription: "Data-driven monitoring and predictive analytics on an existing line cut unplanned downtime by 30% for a packaging supplier to Unilever."
 order: 3
 published: true

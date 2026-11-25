@@ -1,9 +1,9 @@
 {
   "review": "sv-native-check-nodig",
-  "seoTitle": "Kontakt | De Machinedokters",
-  "seoDescription": "Kontakta De Machinedokters. Fyll i formuläret eller hör av dig direkt till Freek, din kontakt i Sverige.",
-  "title": "Kontakta De Machinedokters",
-  "intro": "Fyll i formuläret eller hör av dig direkt till Freek. Du får ett personligt svar.",
+  "seoTitle": "Kontakt | Maskindoktorerna",
+  "seoDescription": "Kontakta Maskindoktorerna. Hör av dig direkt till Freek, som leder verksamheten i Sverige.",
+  "title": "Kontakta Maskindoktorerna",
+  "intro": "Hör av dig direkt till Freek. Du får ett personligt svar.",
   "form": {
     "mailSubject": "Nytt meddelande via maskindoktorerna.se",
     "nameLabel": "Namn",

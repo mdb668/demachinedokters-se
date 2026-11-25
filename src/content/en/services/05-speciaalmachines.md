@@ -9,7 +9,7 @@ image: "/images/fotos/transportsysteem.jpg"
 imageAlt: "Custom-built conveyor system with roller conveyors in a factory hall."
 order: 5
 slug: "special-purpose-machines"
-seoTitle: "Special-purpose machines, built to order | De Machinedokters"
+seoTitle: "Special-purpose machines, built to order | Maskindoktorerna"
 seoDescription: "Need a custom machine? We design, build and CE mark it ourselves, tailored to your product and connected to your existing line."
 ctaTitle: "Got an idea for a machine?"
 ctaText: "Talk it through with us. We help you weigh up feasibility, investment and payback time."

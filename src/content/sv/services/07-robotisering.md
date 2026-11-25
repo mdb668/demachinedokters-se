@@ -9,7 +9,7 @@ image: "/images/robotisering/palletiseercel-fanuc.jpg"
 imageAlt: "Två FANUC-palleteringsrobotar i en avskärmad robotcell bredvid ett transportband."
 order: 7
 slug: "robotisering"
-seoTitle: "Robotisering och robotautomation | De Machinedokters"
+seoTitle: "Robotisering och robotautomation | Maskindoktorerna"
 seoDescription: "Robotar för palletering, stapling och hantering, inpassade i din befintliga linje. Fabrikatsoberoende. Cobotpalleterare från cirka 460 000 kr exkl. moms."
 ctaTitle: "Repetitivt arbete som en robot kan ta över?"
 ctaText: "Vi bedömer ärligt om en robot, en cobot eller en enkel automatisering passar bäst."

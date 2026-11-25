@@ -13,14 +13,14 @@ stats:
   - { value: "+2 h", label: "Extra produktionstid", icon: "trending-up" }
   - { value: "Högre", label: "Linjetillgänglighet", icon: "activity" }
 challenge: "På flera burklinjer i Nederländerna tog ett formatbyte i genomsnitt tre timmar. Det innebar återkommande produktionsförluster och onödig press på planeringen. Linjerna behövde bli mer flexibla, utan att ge avkall på driftsäkerhet eller kvalitet."
-approach: "De Machinedokters konstruerade om de befintliga maskinerna mekaniskt så att de kan ställas om snabbare, utan att göra dem mer komplicerade.\n\nVi förenklade kritiska inställningspunkter och hanterade de mekaniska toleranserna smartare, så att antalet nödvändiga moment minskade kraftigt.\n\nLösningen passar direkt på de befintliga installationerna och kräver varken nya linjer eller onödig elektronik."
+approach: "Vi konstruerade om de befintliga maskinerna mekaniskt så att de kan ställas om snabbare, utan att göra dem mer komplicerade.\n\nVi förenklade kritiska inställningspunkter och hanterade de mekaniska toleranserna smartare, så att antalet nödvändiga moment minskade kraftigt.\n\nLösningen passar direkt på de befintliga installationerna och kräver varken nya linjer eller onödig elektronik."
 results:
   - "Omställningstiden minskad från 3 timmar till 1 timme"
   - "2 timmar extra produktionstid per omställning"
   - "Varaktigt högre linjetillgänglighet"
   - "Bättre utnyttjande av befintlig produktionskapacitet"
 closing: "Mer produktion, mindre stillestånd."
-seoTitle: "Coca-Cola: 66 % kortare omställning | De Machinedokters"
+seoTitle: "Coca-Cola: 66 % kortare omställning | Maskindoktorerna"
 seoDescription: "Så kortade vi omställningstiden på Coca-Colas höghastighetslinjer för burkar från tre timmar till en, med mekanisk ombyggnad av befintliga maskiner."
 order: 1
 published: true

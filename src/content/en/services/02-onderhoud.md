@@ -9,7 +9,7 @@ image: "/images/fotos/onderhoud-warning.jpg"
 imageAlt: "Warning sign: if you do not schedule time for maintenance, your equipment will schedule it for you."
 order: 2
 slug: "maintenance-fault-analysis"
-seoTitle: "Fault analysis for machines and lines | De Machinedokters"
+seoTitle: "Fault analysis for machines and lines | Maskindoktorerna"
 seoDescription: "A fault that keeps coming back? We find the real cause in the mechanics, electrics or controls, on any brand of machine."
 ctaTitle: "A fault that keeps coming back?"
 ctaText: "Get in touch to schedule a fault analysis, and we will track down the real cause together."

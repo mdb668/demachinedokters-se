@@ -22,7 +22,7 @@ results:
   - "CE marked, conformity assessment carried out by us"
   - "Prepared for further automation, for example with a robot"
 closing: "Just enough technology to let people and machine both do what they are good at."
-seoTitle: "ST-01 stabiliser bar machine | De Machinedokters"
+seoTitle: "ST-01 stabiliser bar machine | Maskindoktorerna"
 seoDescription: "The ST-01 presses and drills automatically while the operator assembles. Product change with two screws and a recipe, CE marked and robot-ready."
 order: 4
 published: true

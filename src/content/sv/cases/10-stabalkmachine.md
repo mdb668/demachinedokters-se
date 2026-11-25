@@ -23,7 +23,7 @@ results:
   - "CE-märkt, bedömningen av överensstämmelse gjord av oss"
   - "Förberedd för mer automation, till exempel med en robot"
 closing: "Precis lagom mycket teknik för att både människa och maskin ska få göra det de är bra på."
-seoTitle: "Specialmaskin ST-01: människa och maskin | De Machinedokters"
+seoTitle: "Specialmaskin ST-01: människa och maskin | Maskindoktorerna"
 seoDescription: "ST-01 pressar och borrar automatiskt, operatören monterar. Produktbyte med två skruvar och ett recept, CE-märkt och förberedd för robot."
 order: 4
 published: true

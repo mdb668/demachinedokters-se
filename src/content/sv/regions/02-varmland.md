@@ -3,14 +3,14 @@ review: "sv-native-check-nodig"
 title: "Maskinservice & automation i Värmland"
 slug: "varmland"
 name: "Värmland"
-intro: "De Machinedokters hjälper tillverkande företag i Värmland att få befintliga maskiner och linjer att gå bättre: felanalys, retrofit, robotisering, specialmaskiner och CE-märkning."
+intro: "Maskindoktorerna hjälper tillverkande företag i Värmland att få befintliga maskiner och linjer att gå bättre: felanalys, retrofit, robotisering, specialmaskiner och CE-märkning."
 places: "Karlstad, Arvika, Kristinehamn och Säffle"
-seoTitle: "Maskinservice & automation i Värmland | De Machinedokters"
+seoTitle: "Maskinservice & automation i Värmland | Maskindoktorerna"
 seoDescription: "Felanalys, retrofit, robotisering, specialmaskiner och CE-märkning för tillverkande företag i Värmland. Din kontakt: Freek."
 order: 2
 ---
 
-Har du en maskin som krånglar, en linje som inte når sin kapacitet eller en äldre styrning som det inte längre finns reservdelar till? De Machinedokters kommer ut till din fabrik i Värmland och arbetar på plats tillsammans med operatörer, tekniker och underhållsavdelningen.
+Har du en maskin som krånglar, en linje som inte når sin kapacitet eller en äldre styrning som det inte längre finns reservdelar till? Maskindoktorerna kommer ut till din fabrik i Värmland och arbetar på plats tillsammans med operatörer, tekniker och underhållsavdelningen.
 
 ## Det här hjälper vi till med
 

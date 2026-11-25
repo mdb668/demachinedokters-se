@@ -16,7 +16,7 @@ approach: "Together with the WVS team, we are mapping the process and making tec
 results:
   - "Results coming soon"
 closing: ""
-seoTitle: "WVS: unique problems, unique solutions | De Machinedokters"
+seoTitle: "WVS: unique problems, unique solutions | Maskindoktorerna"
 seoDescription: "An ongoing project at WVS: together with the client's team we are mapping the process and making technical improvements step by step."
 order: 2
 published: false
